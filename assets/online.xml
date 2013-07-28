@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <head>
+    <version>1.1.0</version>
+    <title>default stream</title>
+  </head>
+  <body>
+      <media id="000" version="1" title="NTV LIVE" image="" guide="NTV LIVE">
+          <ref href="rtmp://ntv-live.cdn.ngenix.net/live/livestream01" width="384" height="288" bitrate="755" />
+      </media>
+    <media id="001" version="1" title="ATV" image="" guide="ATV">
+        <ref href="mms://yayin.canlitv.com/atv" width="384" height="288" bitrate="755" />
+    </media>
+    <media id="002" version="18" title="SHOWTV" image=""  guide="SHOWTV">
+        <ref href="mms://yayin.canlitv.com/showtv" width="640" height="480" bitrate="1044" />
+    </media>
+    <media id="003" version="15" title="KanalD1" image=""  guide="KanalD1" desc="KanalD1" >
+        <ref href="rtmp://live.dtv.cubecdn.net/kdmobil/KanalD1" width="320" height="240" bitrate="264" />
+    </media>
+    <media id="004" version="19" title="Live Stream" image=""  guide="Live Stream" 
+        desc="Live Stream">
+        <ref href="rtsp://92.60.231.48:1935/live/livestream" width="640" height="480" bitrate="632" />
+    </media>
+    <media id="005" version="24" title="Fox TV" image=""  guide="Fox TV" desc="Fox TV" >
+        <ref href="http://canlitv.com/asx/foxtv.asx" width="320" height="240" bitrate="548" />
+    </media>
+
+    <media id="301" version = "1" title="A-PAC" image="" guide="A-PAC" desc ="Australia's Public Affairs Channel">
+        <ref href="rtsp://bptvlive.ngcdn.telstra.com/online-chief-apac_1" width="320" height="240" bitrate="548"></ref>
+    </media>
+  </body>
+  <categories>
+        <category id="01" version="9" name="Turkey" >
+            <item>000</item>
+                <item>001</item>
+                <item>002</item>
+                <item>003</item>
+                <item>004</item>
+                <item>005</item>
+        </category>
+        <category id="02" version="39" name="China" >
+        </category>
+        <category id="03" version="36" name="Australia" >
+            <item>301</item>
+        </category>
+  </categories>
+</list>

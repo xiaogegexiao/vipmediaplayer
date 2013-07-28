@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/LLTitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/IVSwitcher"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/vip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/LLTitleBar"
+        android:background="@color/menugray" >
+
+        <com.mx.vipmediaplayer.ui.MenuListView
+            android:id="@+id/menulist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:divider="@color/black"
+            android:dividerHeight="1dp">
+        </com.mx.vipmediaplayer.ui.MenuListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/LLTitleBar"
+        android:background="@color/contentgray" >
+        <com.mx.vipmediaplayer.ui.ContentGridView
+            android:id="@+id/contentgrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.mx.vipmediaplayer.ui.ContentGridView>
+        <com.mx.vipmediaplayer.ui.ContentListView
+            android:id="@+id/contentlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.mx.vipmediaplayer.ui.ContentListView>
+    </RelativeLayout>
+
+</RelativeLayout>

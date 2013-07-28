@@ -1,0 +1,72 @@
+package com.mx.vipmediaplayer;
+
+
+import java.util.Map.Entry;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.SharedPreferences;
+
+
+/**
+ * Preference Storage system class
+ * 
+ * @author Xiao Mei
+ * @weibo http://weibo.com/u/1675796095
+ * @email tss_chs@126.com
+ * 
+ */
+public class VipPreference {
+
+    private static final String PREFERENCE_NAME = "preference.db";
+
+    private SharedPreferences mPreference;
+
+    public VipPreference(Context ctx) {
+        mPreference = ctx.getApplicationContext().getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE);
+    }
+
+    public boolean putStringAndCommit(String key, String value) {
+        return mPreference.edit().putString(key, value).commit();
+    }
+
+    public boolean putIntAndCommit(String key, int value) {
+        return mPreference.edit().putInt(key, value).commit();
+    }
+
+    public boolean putBooleanAndCommit(String key, boolean value) {
+        return mPreference.edit().putBoolean(key, value).commit();
+    }
+
+    public boolean putIntAndCommit(ContentValues values) {
+        SharedPreferences.Editor editor = mPreference.edit();
+        for (Entry<String, Object> value : values.valueSet()) {
+            editor.putString(value.getKey(), value.getValue().toString());
+        }
+        return editor.commit();
+    }
+
+    public String getString(String key) {
+        return getString(key, "");
+    }
+
+    public String getString(String key, String defValue) {
+        return mPreference.getString(key, defValue);
+    }
+
+    public int getInt(String key) {
+        return getInt(key, -1);
+    }
+
+    public int getInt(String key, int defValue) {
+        return mPreference.getInt(key, defValue);
+    }
+
+    public boolean getBoolean(String key) {
+        return getBoolean(key, false);
+    }
+
+    public boolean getBoolean(String key, boolean defValue) {
+        return mPreference.getBoolean(key, defValue);
+    }
+}
