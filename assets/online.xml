@@ -6,7 +6,8 @@
   </head>
   <body>
       <media id="000" version="1" title="NTV LIVE" image="" guide="NTV LIVE">
-          <ref href="rtmp://ntv-live.cdn.ngenix.net/live/livestream01" width="384" height="288" bitrate="755" />
+          <ref href="rtsp://122.192.35.80:554/live/tv31" width="384" height="288" bitrate="755" />
+<!--           <ref href="rtmp://ntv-live.cdn.ngenix.net/live/livestream01" width="384" height="288" bitrate="755" /> -->
       </media>
     <media id="001" version="1" title="ATV" image="" guide="ATV">
         <ref href="mms://yayin.canlitv.com/atv" width="384" height="288" bitrate="755" />

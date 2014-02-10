@@ -1,0 +1,1996 @@
+com.j256.ormlite.android.AndroidCompiledStatement -> com.a.a.a.a:
+    com.j256.ormlite.logger.Logger logger -> a
+    java.lang.String sql -> b
+    android.database.sqlite.SQLiteDatabase db -> c
+    com.j256.ormlite.stmt.StatementBuilder$StatementType type -> d
+    java.lang.String[] NO_STRING_ARGS -> e
+    android.database.Cursor cursor -> f
+    java.util.List args -> g
+    java.lang.Integer max -> h
+    com.j256.ormlite.support.DatabaseResults runQuery(com.j256.ormlite.dao.ObjectCache) -> a
+    int runExecute() -> a
+    void close() -> b
+    void setObject(int,java.lang.Object,com.j256.ormlite.field.SqlType) -> a
+    void setMaxRows(int) -> a
+    android.database.Cursor getCursor() -> c
+    java.lang.String toString() -> toString
+    void isInPrep() -> d
+    int execSql(java.lang.String,java.lang.String) -> a
+com.j256.ormlite.android.AndroidCompiledStatement$1 -> com.a.a.a.b:
+    int[] $SwitchMap$com$j256$ormlite$field$SqlType -> a
+com.j256.ormlite.android.AndroidConnectionSource -> com.a.a.a.c:
+    com.j256.ormlite.logger.Logger logger -> a
+    android.database.sqlite.SQLiteOpenHelper helper -> b
+    android.database.sqlite.SQLiteDatabase sqliteDatabase -> c
+    com.j256.ormlite.android.AndroidDatabaseConnection connection -> d
+    boolean isOpen -> e
+    com.j256.ormlite.db.DatabaseType databaseType -> f
+    com.j256.ormlite.support.DatabaseConnection getReadOnlyConnection() -> a
+    com.j256.ormlite.support.DatabaseConnection getReadWriteConnection() -> b
+    boolean saveSpecialConnection(com.j256.ormlite.support.DatabaseConnection) -> a
+    void clearSpecialConnection(com.j256.ormlite.support.DatabaseConnection) -> b
+    void close() -> c
+    com.j256.ormlite.db.DatabaseType getDatabaseType() -> d
+    java.lang.String toString() -> toString
+com.j256.ormlite.android.AndroidDatabaseConnection -> com.a.a.a.d:
+    com.j256.ormlite.logger.Logger logger -> b
+    android.database.sqlite.SQLiteDatabase db -> c
+    com.j256.ormlite.support.CompiledStatement compileStatement$7505a227(java.lang.String,com.j256.ormlite.stmt.StatementBuilder$StatementType) -> a
+    com.j256.ormlite.support.CompiledStatement compileStatement$74b6de7e(java.lang.String,com.j256.ormlite.stmt.StatementBuilder$StatementType,com.j256.ormlite.field.FieldType[]) -> a
+    int insert(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],com.j256.ormlite.support.GeneratedKeyHolder) -> a
+    int delete(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[]) -> a
+    java.lang.Object queryForOne$24323db(java.lang.String,java.lang.Object[],com.j256.ormlite.stmt.GenericRowMapper,com.j256.ormlite.dao.ObjectCache) -> a
+    int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],java.lang.String) -> a
+    void bindArgs(android.database.sqlite.SQLiteStatement,java.lang.Object[],com.j256.ormlite.field.FieldType[]) -> a
+    java.lang.String toString() -> toString
+com.j256.ormlite.android.AndroidDatabaseConnection$1 -> com.a.a.a.e:
+    int[] $SwitchMap$com$j256$ormlite$field$SqlType -> a
+com.j256.ormlite.android.AndroidDatabaseResults -> com.a.a.a.f:
+    android.database.Cursor cursor -> a
+    java.lang.String[] columnNames -> b
+    java.util.Map columnNameMap -> c
+    com.j256.ormlite.dao.ObjectCache objectCache -> d
+    com.j256.ormlite.db.DatabaseType databaseType -> e
+    int getColumnCount() -> a
+    boolean first() -> b
+    boolean next() -> c
+    int findColumn(java.lang.String) -> a
+    java.lang.String getString(int) -> a
+    boolean getBoolean(int) -> b
+    char getChar(int) -> c
+    byte getByte(int) -> d
+    byte[] getBytes(int) -> e
+    short getShort(int) -> f
+    int getInt(int) -> g
+    long getLong(int) -> h
+    float getFloat(int) -> i
+    double getDouble(int) -> j
+    java.sql.Timestamp getTimestamp$49d1f431() -> d
+    java.math.BigDecimal getBigDecimal$76f1efd4() -> e
+    boolean wasNull(int) -> k
+    com.j256.ormlite.dao.ObjectCache getObjectCache() -> f
+    java.lang.String toString() -> toString
+    int lookupColumn(java.lang.String) -> b
+com.j256.ormlite.android.DatabaseTableConfigUtil -> com.a.a.a.g:
+    java.lang.Class annotationFactoryClazz -> a
+    java.lang.reflect.Field elementsField -> b
+    java.lang.Class annotationMemberClazz -> c
+    java.lang.reflect.Field nameField -> d
+    java.lang.reflect.Field valueField -> e
+    int workedC -> f
+    int[] configFieldNums -> g
+    com.j256.ormlite.table.DatabaseTableConfig fromClass(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+    int[] lookupClasses() -> a
+    com.j256.ormlite.field.DatabaseFieldConfig configFromField(com.j256.ormlite.db.DatabaseType,java.lang.String,java.lang.reflect.Field) -> a
+    java.lang.String valueIfNotBlank(java.lang.String) -> a
+com.j256.ormlite.android.DatabaseTableConfigUtil$DatabaseFieldSample -> com.a.a.a.h:
+    java.lang.String field -> a
+com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper -> com.a.a.a.a.a:
+    com.j256.ormlite.logger.Logger logger -> a
+    com.j256.ormlite.android.AndroidConnectionSource connectionSource -> b
+    boolean isOpen -> c
+    void onCreate$39896c6b(com.j256.ormlite.support.ConnectionSource) -> a
+    void onUpgrade$311a1f5(android.database.sqlite.SQLiteDatabase,com.j256.ormlite.support.ConnectionSource) -> a
+    com.j256.ormlite.support.ConnectionSource getConnectionSource() -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void close() -> close
+    com.j256.ormlite.dao.Dao getDao(java.lang.Class) -> a
+    java.lang.String toString() -> toString
+com.j256.ormlite.dao.BaseDaoImpl -> com.a.a.b.a:
+    boolean initialized -> a
+    com.j256.ormlite.stmt.StatementExecutor statementExecutor -> b
+    com.j256.ormlite.db.DatabaseType databaseType -> c
+    java.lang.Class dataClass -> d
+    com.j256.ormlite.table.DatabaseTableConfig tableConfig -> e
+    com.j256.ormlite.table.TableInfo tableInfo -> f
+    com.j256.ormlite.support.ConnectionSource connectionSource -> g
+    com.j256.ormlite.dao.CloseableIterator lastIterator -> h
+    java.lang.ThreadLocal daoConfigLevelLocal -> i
+    void initialize() -> g
+    com.j256.ormlite.stmt.QueryBuilder queryBuilder() -> a
+    java.util.List query$4f085612(com.j256.ormlite.stmt.PreparedStmt) -> a
+    java.util.List queryForFieldValues(java.util.Map) -> a
+    int create(java.lang.Object) -> a
+    int delete(java.lang.Object) -> b
+    com.j256.ormlite.dao.CloseableIterator iterator() -> b
+    com.j256.ormlite.dao.CloseableIterator closeableIterator() -> c
+    com.j256.ormlite.dao.CloseableIterator iterator(int) -> a
+    com.j256.ormlite.dao.CloseableIterator iterator$7ffd9508(com.j256.ormlite.stmt.PreparedStmt) -> b
+    java.lang.Class getDataClass() -> d
+    com.j256.ormlite.dao.ObjectCache getObjectFactory$4836a68b() -> e
+    com.j256.ormlite.table.TableInfo getTableInfo() -> f
+    com.j256.ormlite.dao.Dao createDao(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+    com.j256.ormlite.dao.Dao createDao(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig) -> a
+    void checkForInitialized() -> h
+    com.j256.ormlite.dao.CloseableIterator createIterator(int) -> b
+    com.j256.ormlite.dao.CloseableIterator createIterator$46cb65d9(com.j256.ormlite.stmt.PreparedStmt,int) -> a
+    java.util.Iterator iterator() -> iterator
+com.j256.ormlite.dao.BaseDaoImpl$1 -> com.a.a.b.b:
+    java.lang.Object initialValue() -> initialValue
+com.j256.ormlite.dao.BaseDaoImpl$4 -> com.a.a.b.c:
+    java.util.Iterator iterator() -> iterator
+com.j256.ormlite.dao.BaseDaoImpl$5 -> com.a.a.b.d:
+    java.util.Iterator iterator() -> iterator
+com.j256.ormlite.dao.BaseDaoImpl$DaoConfigArray -> com.a.a.b.e:
+    com.j256.ormlite.dao.BaseDaoImpl[] daoArray -> a
+    int daoArrayC -> b
+    void addDao(com.j256.ormlite.dao.BaseDaoImpl) -> a
+    int size() -> a
+    com.j256.ormlite.dao.BaseDaoImpl get(int) -> a
+    void clear() -> b
+com.j256.ormlite.dao.BaseForeignCollection -> com.a.a.b.f:
+    com.j256.ormlite.dao.Dao dao -> a
+    java.lang.String columnName -> b
+    java.lang.Object parentId -> c
+    com.j256.ormlite.stmt.PreparedStmt preparedQuery$7f05bc14 -> d
+    java.lang.String orderColumn -> e
+    java.lang.Object parent -> f
+    boolean add(java.lang.Object) -> add
+    boolean addAll(java.util.Collection) -> addAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    void clear() -> clear
+    com.j256.ormlite.stmt.PreparedStmt getPreparedQuery$7d6773b3() -> a
+com.j256.ormlite.dao.CloseableIterable -> com.a.a.b.g:
+    com.j256.ormlite.dao.CloseableIterator closeableIterator() -> c
+com.j256.ormlite.dao.CloseableIterator -> com.a.a.b.h:
+    void close() -> a
+    void moveToNext() -> b
+com.j256.ormlite.dao.Dao -> com.a.a.b.i:
+    java.util.List queryForFieldValues(java.util.Map) -> a
+    com.j256.ormlite.stmt.QueryBuilder queryBuilder() -> a
+    java.util.List query$4f085612(com.j256.ormlite.stmt.PreparedStmt) -> a
+    int create(java.lang.Object) -> a
+    int delete(java.lang.Object) -> b
+    com.j256.ormlite.dao.CloseableIterator iterator$7ffd9508(com.j256.ormlite.stmt.PreparedStmt) -> b
+    java.lang.Class getDataClass() -> d
+    com.j256.ormlite.dao.ObjectCache getObjectFactory$4836a68b() -> e
+com.j256.ormlite.dao.DaoManager -> com.a.a.b.j:
+    java.util.Map configMap -> a
+    java.util.Map classMap -> b
+    java.util.Map tableConfigMap -> c
+    com.j256.ormlite.logger.Logger logger -> d
+    com.j256.ormlite.dao.Dao createDao(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+    com.j256.ormlite.dao.Dao createDao(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig) -> a
+    void registerDao(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.dao.Dao) -> a
+    void unregisterDao(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.dao.Dao) -> b
+    void addDaoToClassMap(com.j256.ormlite.dao.DaoManager$ClassConnectionSource,com.j256.ormlite.dao.Dao) -> a
+    void addDaoToTableMap(com.j256.ormlite.dao.DaoManager$TableConfigConnectionSource,com.j256.ormlite.dao.Dao) -> a
+    com.j256.ormlite.dao.Dao lookupDao(com.j256.ormlite.dao.DaoManager$ClassConnectionSource) -> a
+    java.lang.reflect.Constructor findConstructor(java.lang.Class,java.lang.Object[]) -> a
+    com.j256.ormlite.dao.Dao doCreateDao(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig) -> b
+com.j256.ormlite.dao.DaoManager$ClassConnectionSource -> com.a.a.b.k:
+    com.j256.ormlite.support.ConnectionSource connectionSource -> a
+    java.lang.Class clazz -> b
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.j256.ormlite.dao.DaoManager$TableConfigConnectionSource -> com.a.a.b.l:
+    com.j256.ormlite.support.ConnectionSource connectionSource -> a
+    com.j256.ormlite.table.DatabaseTableConfig tableConfig -> b
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.j256.ormlite.dao.EagerForeignCollection -> com.a.a.b.m:
+    java.util.List results -> b
+    com.j256.ormlite.dao.CloseableIterator closeableIterator() -> c
+    com.j256.ormlite.dao.CloseableIterator iteratorThrow() -> b
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    boolean containsAll(java.util.Collection) -> containsAll
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+    boolean add(java.lang.Object) -> add
+    boolean addAll(java.util.Collection) -> addAll
+    boolean remove(java.lang.Object) -> remove
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    void clear() -> clear
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.util.Iterator iterator() -> iterator
+    java.util.List access$000(com.j256.ormlite.dao.EagerForeignCollection) -> a
+com.j256.ormlite.dao.EagerForeignCollection$1 -> com.a.a.b.n:
+    int offset -> a
+    com.j256.ormlite.dao.EagerForeignCollection this$0 -> b
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    void remove() -> remove
+    void close() -> a
+    void moveToNext() -> b
+com.j256.ormlite.dao.ForeignCollection -> com.a.a.b.o:
+com.j256.ormlite.dao.LazyForeignCollection -> com.a.a.b.p:
+    com.j256.ormlite.dao.CloseableIterator lastIterator -> b
+    com.j256.ormlite.dao.CloseableIterator closeableIterator() -> c
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    boolean containsAll(java.util.Collection) -> containsAll
+    boolean remove(java.lang.Object) -> remove
+    boolean removeAll(java.util.Collection) -> removeAll
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.util.Iterator iterator() -> iterator
+com.j256.ormlite.dao.ObjectCache -> com.a.a.b.q:
+    java.lang.Object get$37cab292() -> a
+    java.lang.Object createObject() -> b
+com.j256.ormlite.db.BaseDatabaseType -> com.a.a.c.a:
+    java.lang.String DEFAULT_SEQUENCE_SUFFIX -> a
+    void appendColumnArg(java.lang.String,java.lang.StringBuilder,com.j256.ormlite.field.FieldType,java.util.List,java.util.List,java.util.List,java.util.List) -> a
+    void appendStringType(java.lang.StringBuilder,int) -> a
+    void appendDateType(java.lang.StringBuilder,int) -> b
+    void appendBooleanType(java.lang.StringBuilder,int) -> c
+    void appendLongType$78e9e60c(com.j256.ormlite.field.FieldType,java.lang.StringBuilder) -> a
+    void configureGeneratedId$573c7791(java.lang.StringBuilder,com.j256.ormlite.field.FieldType) -> a
+    void addPrimaryKeySql$77be7223(com.j256.ormlite.field.FieldType[],java.util.List) -> a
+    boolean generatedIdSqlAtEnd() -> a
+    void addUniqueComboSql$77be7223(com.j256.ormlite.field.FieldType[],java.util.List) -> b
+    void appendEscapedWord(java.lang.StringBuilder,java.lang.String) -> a
+    void appendEscapedEntityName(java.lang.StringBuilder,java.lang.String) -> b
+    com.j256.ormlite.field.FieldConverter getFieldConverter(com.j256.ormlite.field.DataPersister) -> a
+    boolean isVarcharFieldWidthSupported() -> b
+    boolean isCreateTableReturnsZero() -> c
+    boolean isCreateIfNotExistsSupported() -> d
+    boolean isCreateIndexIfNotExistsSupported() -> e
+    com.j256.ormlite.table.DatabaseTableConfig extractDatabaseTableConfig(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+com.j256.ormlite.db.BaseDatabaseType$1 -> com.a.a.c.b:
+    int[] $SwitchMap$com$j256$ormlite$field$SqlType -> a
+com.j256.ormlite.db.BaseDatabaseType$BooleanNumberFieldConverter -> com.a.a.c.c:
+    com.j256.ormlite.field.SqlType getSqlType() -> a
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+com.j256.ormlite.db.BaseSqliteDatabaseType -> com.a.a.c.d:
+    com.j256.ormlite.field.FieldConverter booleanConverter -> a
+    void appendLongType$78e9e60c(com.j256.ormlite.field.FieldType,java.lang.StringBuilder) -> a
+    void configureGeneratedId$573c7791(java.lang.StringBuilder,com.j256.ormlite.field.FieldType) -> a
+    boolean generatedIdSqlAtEnd() -> a
+    boolean isVarcharFieldWidthSupported() -> b
+    boolean isCreateTableReturnsZero() -> c
+    boolean isCreateIfNotExistsSupported() -> d
+    com.j256.ormlite.field.FieldConverter getFieldConverter(com.j256.ormlite.field.DataPersister) -> a
+com.j256.ormlite.db.BaseSqliteDatabaseType$1 -> com.a.a.c.e:
+    int[] $SwitchMap$com$j256$ormlite$field$SqlType -> a
+com.j256.ormlite.db.DatabaseType -> com.a.a.c.f:
+    void appendColumnArg(java.lang.String,java.lang.StringBuilder,com.j256.ormlite.field.FieldType,java.util.List,java.util.List,java.util.List,java.util.List) -> a
+    void addPrimaryKeySql$77be7223(com.j256.ormlite.field.FieldType[],java.util.List) -> a
+    void addUniqueComboSql$77be7223(com.j256.ormlite.field.FieldType[],java.util.List) -> b
+    void appendEscapedEntityName(java.lang.StringBuilder,java.lang.String) -> b
+    void appendEscapedWord(java.lang.StringBuilder,java.lang.String) -> a
+    com.j256.ormlite.field.FieldConverter getFieldConverter(com.j256.ormlite.field.DataPersister) -> a
+    boolean isCreateTableReturnsZero() -> c
+    boolean isCreateIfNotExistsSupported() -> d
+    boolean isCreateIndexIfNotExistsSupported() -> e
+    java.lang.String getDatabaseName() -> f
+    com.j256.ormlite.table.DatabaseTableConfig extractDatabaseTableConfig(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+com.j256.ormlite.db.SqliteAndroidDatabaseType -> com.a.a.c.g:
+    java.lang.String getDatabaseName() -> f
+    void appendDateType(java.lang.StringBuilder,int) -> b
+    void appendBooleanType(java.lang.StringBuilder,int) -> c
+    com.j256.ormlite.field.FieldConverter getFieldConverter(com.j256.ormlite.field.DataPersister) -> a
+    com.j256.ormlite.table.DatabaseTableConfig extractDatabaseTableConfig(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+com.j256.ormlite.db.SqliteAndroidDatabaseType$1 -> com.a.a.c.h:
+    int[] $SwitchMap$com$j256$ormlite$field$SqlType -> a
+com.j256.ormlite.field.BaseFieldConverter -> com.a.a.d.a:
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    java.lang.Object resultToJava(com.j256.ormlite.field.FieldType,com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    boolean isStreamType() -> b
+com.j256.ormlite.field.DataPersister -> com.a.a.d.b:
+    java.lang.Class[] getAssociatedClasses() -> c
+    java.lang.String[] getAssociatedClassNames() -> d
+    java.lang.Object makeConfigObject(com.j256.ormlite.field.FieldType) -> a
+    java.lang.Object convertIdNumber(java.lang.Number) -> a
+    boolean isValidGeneratedType() -> e
+    boolean isValidForField(java.lang.reflect.Field) -> a
+    boolean isEscapedDefaultValue() -> f
+    boolean isEscapedValue() -> g
+    boolean isPrimitive() -> h
+    boolean isComparable() -> i
+    boolean isAppropriateId() -> j
+    boolean isArgumentHolderRequired() -> k
+    boolean isSelfGeneratedId() -> l
+    java.lang.Object generateId() -> m
+    int getDefaultWidth() -> n
+    boolean isValidForVersion() -> o
+    java.lang.Object moveToNextValue(java.lang.Object) -> a
+com.j256.ormlite.field.DataPersisterManager -> com.a.a.d.c:
+    com.j256.ormlite.field.DataPersister DEFAULT_ENUM_PERSISTER -> a
+    java.util.Map builtInMap -> b
+    java.util.List registeredPersisters -> c
+    com.j256.ormlite.field.DataPersister lookupForField(java.lang.reflect.Field) -> a
+com.j256.ormlite.field.DataType -> com.a.a.d.d:
+    com.j256.ormlite.field.DataType STRING -> d
+    com.j256.ormlite.field.DataType LONG_STRING -> e
+    com.j256.ormlite.field.DataType STRING_BYTES -> f
+    com.j256.ormlite.field.DataType BOOLEAN -> g
+    com.j256.ormlite.field.DataType BOOLEAN_OBJ -> h
+    com.j256.ormlite.field.DataType DATE -> i
+    com.j256.ormlite.field.DataType DATE_LONG -> j
+    com.j256.ormlite.field.DataType DATE_STRING -> k
+    com.j256.ormlite.field.DataType CHAR -> l
+    com.j256.ormlite.field.DataType CHAR_OBJ -> m
+    com.j256.ormlite.field.DataType BYTE -> n
+    com.j256.ormlite.field.DataType BYTE_ARRAY -> o
+    com.j256.ormlite.field.DataType BYTE_OBJ -> p
+    com.j256.ormlite.field.DataType SHORT -> q
+    com.j256.ormlite.field.DataType SHORT_OBJ -> r
+    com.j256.ormlite.field.DataType INTEGER -> s
+    com.j256.ormlite.field.DataType INTEGER_OBJ -> t
+    com.j256.ormlite.field.DataType LONG -> u
+    com.j256.ormlite.field.DataType LONG_OBJ -> v
+    com.j256.ormlite.field.DataType FLOAT -> w
+    com.j256.ormlite.field.DataType FLOAT_OBJ -> x
+    com.j256.ormlite.field.DataType DOUBLE -> y
+    com.j256.ormlite.field.DataType DOUBLE_OBJ -> z
+    com.j256.ormlite.field.DataType SERIALIZABLE -> A
+    com.j256.ormlite.field.DataType ENUM_STRING -> a
+    com.j256.ormlite.field.DataType ENUM_INTEGER -> b
+    com.j256.ormlite.field.DataType UUID -> B
+    com.j256.ormlite.field.DataType BIG_INTEGER -> C
+    com.j256.ormlite.field.DataType BIG_DECIMAL -> D
+    com.j256.ormlite.field.DataType BIG_DECIMAL_NUMERIC -> E
+    com.j256.ormlite.field.DataType DATE_TIME -> F
+    com.j256.ormlite.field.DataType SQL_DATE -> G
+    com.j256.ormlite.field.DataType TIME_STAMP -> H
+    com.j256.ormlite.field.DataType UNKNOWN -> c
+    com.j256.ormlite.field.DataPersister dataPersister -> I
+    com.j256.ormlite.field.DataType[] $VALUES -> J
+    com.j256.ormlite.field.DataType[] values() -> a
+    com.j256.ormlite.field.DataPersister getDataPersister() -> b
+com.j256.ormlite.field.DatabaseField -> com.a.a.d.e:
+    java.lang.String columnName() -> a
+    com.j256.ormlite.field.DataType dataType() -> b
+    java.lang.String defaultValue() -> c
+    int width() -> d
+    boolean canBeNull() -> e
+    boolean id() -> f
+    boolean generatedId() -> g
+    java.lang.String generatedIdSequence() -> h
+    boolean foreign() -> i
+    boolean useGetSet() -> j
+    java.lang.String unknownEnumName() -> k
+    boolean throwIfNull() -> l
+    boolean persisted() -> m
+    java.lang.String format() -> n
+    boolean unique() -> o
+    boolean uniqueCombo() -> p
+    boolean index() -> q
+    boolean uniqueIndex() -> r
+    java.lang.String indexName() -> s
+    java.lang.String uniqueIndexName() -> t
+    boolean foreignAutoRefresh() -> u
+    int maxForeignAutoRefreshLevel() -> v
+    java.lang.Class persisterClass() -> w
+    boolean allowGeneratedIdInsert() -> x
+    java.lang.String columnDefinition() -> y
+    boolean foreignAutoCreate() -> z
+    boolean version() -> A
+    java.lang.String foreignColumnName() -> B
+com.j256.ormlite.field.DatabaseFieldConfig -> com.a.a.d.f:
+    java.lang.Class DEFAULT_PERSISTER_CLASS -> a
+    com.j256.ormlite.field.DataType DEFAULT_DATA_TYPE -> b
+    java.lang.String fieldName -> c
+    java.lang.String columnName -> d
+    com.j256.ormlite.field.DataType dataType -> e
+    com.j256.ormlite.field.DataPersister dataPersister -> f
+    java.lang.String defaultValue -> g
+    int width -> h
+    boolean canBeNull -> i
+    boolean id -> j
+    boolean generatedId -> k
+    java.lang.String generatedIdSequence -> l
+    boolean foreign -> m
+    boolean useGetSet -> n
+    java.lang.Enum unknownEnumValue -> o
+    boolean throwIfNull -> p
+    boolean persisted -> q
+    java.lang.String format -> r
+    boolean unique -> s
+    boolean uniqueCombo -> t
+    boolean index -> u
+    java.lang.String indexName -> v
+    boolean uniqueIndex -> w
+    java.lang.String uniqueIndexName -> x
+    boolean foreignAutoRefresh -> y
+    int maxForeignAutoRefreshLevel -> z
+    java.lang.Class persisterClass -> A
+    boolean allowGeneratedIdInsert -> B
+    java.lang.String columnDefinition -> C
+    boolean foreignAutoCreate -> D
+    boolean version -> E
+    java.lang.String foreignColumnName -> F
+    boolean foreignCollection -> G
+    boolean foreignCollectionEager -> H
+    int foreignCollectionMaxEagerLevel -> I
+    java.lang.String foreignCollectionOrderColumnName -> J
+    java.lang.String foreignCollectionForeignFieldName -> K
+    java.lang.String getFieldName() -> a
+    void setFieldName(java.lang.String) -> a
+    java.lang.String getColumnName() -> b
+    void setColumnName(java.lang.String) -> b
+    void setDataType(com.j256.ormlite.field.DataType) -> a
+    com.j256.ormlite.field.DataPersister getDataPersister() -> c
+    void setDataPersister(com.j256.ormlite.field.DataPersister) -> a
+    java.lang.String getDefaultValue() -> d
+    void setDefaultValue(java.lang.String) -> c
+    int getWidth() -> e
+    void setWidth(int) -> a
+    boolean isCanBeNull() -> f
+    void setCanBeNull(boolean) -> a
+    boolean isId() -> g
+    void setId(boolean) -> b
+    boolean isGeneratedId() -> h
+    void setGeneratedId(boolean) -> c
+    java.lang.String getGeneratedIdSequence() -> i
+    void setGeneratedIdSequence(java.lang.String) -> d
+    boolean isForeign() -> j
+    void setForeign(boolean) -> d
+    com.j256.ormlite.table.DatabaseTableConfig getForeignTableConfig() -> k
+    boolean isUseGetSet() -> l
+    void setUseGetSet(boolean) -> e
+    java.lang.Enum getUnknownEnumValue() -> m
+    void setUnknownEnumValue(java.lang.Enum) -> a
+    boolean isThrowIfNull() -> n
+    void setThrowIfNull(boolean) -> f
+    boolean isPersisted() -> o
+    void setPersisted(boolean) -> g
+    java.lang.String getFormat() -> p
+    void setFormat(java.lang.String) -> e
+    boolean isUnique() -> q
+    void setUnique(boolean) -> h
+    boolean isUniqueCombo() -> r
+    void setUniqueCombo(boolean) -> i
+    void setIndex(boolean) -> j
+    java.lang.String getIndexName(java.lang.String) -> f
+    void setIndexName(java.lang.String) -> g
+    void setUniqueIndex(boolean) -> k
+    java.lang.String getUniqueIndexName(java.lang.String) -> h
+    void setUniqueIndexName(java.lang.String) -> i
+    void setForeignAutoRefresh(boolean) -> l
+    boolean isForeignAutoRefresh() -> s
+    int getMaxForeignAutoRefreshLevel() -> t
+    void setMaxForeignAutoRefreshLevel(int) -> b
+    boolean isForeignCollection() -> u
+    void setForeignCollection(boolean) -> m
+    boolean isForeignCollectionEager() -> v
+    void setForeignCollectionEager(boolean) -> n
+    int getForeignCollectionMaxEagerLevel() -> w
+    void setForeignCollectionColumnName(java.lang.String) -> j
+    java.lang.String getForeignCollectionOrderColumnName() -> x
+    java.lang.String getForeignCollectionForeignFieldName() -> y
+    java.lang.Class getPersisterClass() -> z
+    void setPersisterClass(java.lang.Class) -> a
+    boolean isAllowGeneratedIdInsert() -> A
+    void setAllowGeneratedIdInsert(boolean) -> o
+    java.lang.String getColumnDefinition() -> B
+    void setColumnDefinition(java.lang.String) -> k
+    boolean isForeignAutoCreate() -> C
+    void setForeignAutoCreate(boolean) -> p
+    boolean isVersion() -> D
+    void setVersion(boolean) -> q
+    java.lang.String getForeignColumnName() -> E
+    void setForeignColumnName(java.lang.String) -> l
+    com.j256.ormlite.field.DatabaseFieldConfig fromField(com.j256.ormlite.db.DatabaseType,java.lang.String,java.lang.reflect.Field) -> a
+    java.lang.reflect.Method findGetMethod(java.lang.reflect.Field,boolean) -> a
+    java.lang.reflect.Method findSetMethod(java.lang.reflect.Field,boolean) -> b
+    void postProcess() -> F
+    java.lang.Enum findMatchingEnumVal(java.lang.reflect.Field,java.lang.String) -> a
+    java.lang.String findIndexName(java.lang.String) -> m
+    java.lang.String valueIfNotBlank(java.lang.String) -> n
+    java.lang.String methodFromField(java.lang.reflect.Field,java.lang.String) -> b
+com.j256.ormlite.field.FieldConverter -> com.a.a.d.g:
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object resultToJava(com.j256.ormlite.field.FieldType,com.j256.ormlite.support.DatabaseResults,int) -> a
+    com.j256.ormlite.field.SqlType getSqlType() -> a
+    boolean isStreamType() -> b
+com.j256.ormlite.field.FieldType -> com.a.a.d.h:
+    com.j256.ormlite.support.ConnectionSource connectionSource -> a
+    java.lang.String tableName -> b
+    java.lang.reflect.Field field -> c
+    java.lang.String columnName -> d
+    com.j256.ormlite.field.DatabaseFieldConfig fieldConfig -> e
+    boolean isId -> f
+    boolean isGeneratedId -> g
+    java.lang.String generatedIdSequence -> h
+    java.lang.reflect.Method fieldGetMethod -> i
+    java.lang.reflect.Method fieldSetMethod -> j
+    com.j256.ormlite.field.DataPersister dataPersister -> k
+    java.lang.Object defaultValue -> l
+    java.lang.Object dataTypeConfigObj -> m
+    com.j256.ormlite.field.FieldConverter fieldConverter -> n
+    com.j256.ormlite.field.FieldType foreignIdField -> o
+    java.lang.reflect.Constructor foreignConstructor -> p
+    com.j256.ormlite.field.FieldType foreignFieldType -> q
+    com.j256.ormlite.dao.Dao foreignDao -> r
+    com.j256.ormlite.stmt.mapped.MappedQueryForId mappedQueryForId -> s
+    java.lang.ThreadLocal threadLevelCounters -> t
+    void configDaoInformation(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+    java.lang.reflect.Field getField() -> a
+    java.lang.String getFieldName() -> b
+    java.lang.Class getType() -> c
+    java.lang.String getColumnName() -> d
+    com.j256.ormlite.field.DataPersister getDataPersister() -> e
+    java.lang.Object getDataTypeConfigObj() -> f
+    com.j256.ormlite.field.SqlType getSqlType() -> g
+    java.lang.Object getDefaultValue() -> h
+    int getWidth() -> i
+    boolean isCanBeNull() -> j
+    boolean isId() -> k
+    boolean isGeneratedId() -> l
+    boolean isGeneratedIdSequence() -> m
+    java.lang.String getGeneratedIdSequence() -> n
+    boolean isForeign() -> o
+    void assignField(java.lang.Object,java.lang.Object,boolean,com.j256.ormlite.dao.ObjectCache) -> a
+    java.lang.Object assignIdValue(java.lang.Object,java.lang.Number,com.j256.ormlite.dao.ObjectCache) -> a
+    java.lang.Object extractRawJavaFieldValue(java.lang.Object) -> a
+    java.lang.Object extractJavaFieldValue(java.lang.Object) -> b
+    java.lang.Object extractJavaFieldToSqlArgValue(java.lang.Object) -> c
+    java.lang.Object convertJavaFieldToSqlArgValue(java.lang.Object) -> d
+    java.lang.Object moveToNextValue(java.lang.Object) -> e
+    com.j256.ormlite.field.FieldType getForeignIdField() -> p
+    boolean isEscapedValue() -> q
+    java.lang.Enum getUnknownEnumVal() -> r
+    java.lang.String getFormat() -> s
+    boolean isUnique() -> t
+    boolean isUniqueCombo() -> u
+    java.lang.String getIndexName() -> v
+    java.lang.String getUniqueIndexName() -> w
+    boolean isEscapedDefaultValue() -> x
+    boolean isComparable() -> y
+    boolean isArgumentHolderRequired() -> z
+    boolean isForeignCollection() -> A
+    com.j256.ormlite.dao.BaseForeignCollection buildForeignCollection(java.lang.Object,java.lang.Object,boolean) -> a
+    java.lang.Object resultToJava(com.j256.ormlite.support.DatabaseResults,java.util.Map) -> a
+    boolean isSelfGeneratedId() -> B
+    boolean isAllowGeneratedIdInsert() -> C
+    java.lang.String getColumnDefinition() -> D
+    boolean isForeignAutoCreate() -> E
+    boolean isVersion() -> F
+    java.lang.Object generateId() -> G
+    java.lang.Object getFieldValueIfNotDefault(java.lang.Object) -> f
+    boolean isObjectsFieldValueDefault(java.lang.Object) -> g
+    int createWithForeignDao(java.lang.Object) -> h
+    com.j256.ormlite.field.FieldType createFieldType(com.j256.ormlite.support.ConnectionSource,java.lang.String,java.lang.reflect.Field,java.lang.Class) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    boolean isFieldValueDefault(java.lang.Object) -> i
+    com.j256.ormlite.field.FieldType findForeignFieldType(java.lang.Class,java.lang.Class,com.j256.ormlite.dao.BaseDaoImpl) -> a
+    void assignDataType(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.field.DataPersister) -> a
+com.j256.ormlite.field.FieldType$1 -> com.a.a.d.i:
+    java.lang.Object initialValue() -> initialValue
+com.j256.ormlite.field.FieldType$LevelCounters -> com.a.a.d.j:
+    int autoRefreshLevel -> a
+    int autoRefreshLevelMax -> b
+    int foreignCollectionLevel -> c
+    int foreignCollectionLevelMax -> d
+com.j256.ormlite.field.ForeignCollectionField -> com.a.a.d.k:
+    boolean eager() -> a
+    int maxEagerForeignCollectionLevel() -> b
+    int maxEagerLevel() -> c
+    java.lang.String columnName() -> d
+    java.lang.String orderColumnName() -> e
+    java.lang.String foreignColumnName() -> f
+    java.lang.String foreignFieldName() -> g
+com.j256.ormlite.field.SqlType -> com.a.a.d.l:
+    com.j256.ormlite.field.SqlType STRING -> a
+    com.j256.ormlite.field.SqlType LONG_STRING -> b
+    com.j256.ormlite.field.SqlType DATE -> c
+    com.j256.ormlite.field.SqlType BOOLEAN -> d
+    com.j256.ormlite.field.SqlType CHAR -> e
+    com.j256.ormlite.field.SqlType BYTE -> f
+    com.j256.ormlite.field.SqlType BYTE_ARRAY -> g
+    com.j256.ormlite.field.SqlType SHORT -> h
+    com.j256.ormlite.field.SqlType INTEGER -> i
+    com.j256.ormlite.field.SqlType LONG -> j
+    com.j256.ormlite.field.SqlType FLOAT -> k
+    com.j256.ormlite.field.SqlType DOUBLE -> l
+    com.j256.ormlite.field.SqlType SERIALIZABLE -> m
+    com.j256.ormlite.field.SqlType BLOB -> n
+    com.j256.ormlite.field.SqlType BIG_DECIMAL -> o
+    com.j256.ormlite.field.SqlType UNKNOWN -> p
+    com.j256.ormlite.field.SqlType[] $VALUES -> q
+    com.j256.ormlite.field.SqlType[] values() -> a
+com.j256.ormlite.field.types.BaseDataType -> com.a.a.d.a.a:
+    com.j256.ormlite.field.SqlType sqlType -> a
+    java.lang.Class[] classes -> b
+    boolean isValidForField(java.lang.reflect.Field) -> a
+    java.lang.Object makeConfigObject(com.j256.ormlite.field.FieldType) -> a
+    com.j256.ormlite.field.SqlType getSqlType() -> a
+    java.lang.Class[] getAssociatedClasses() -> c
+    java.lang.String[] getAssociatedClassNames() -> d
+    java.lang.Object convertIdNumber(java.lang.Number) -> a
+    boolean isValidGeneratedType() -> e
+    boolean isEscapedDefaultValue() -> f
+    boolean isEscapedValue() -> g
+    boolean isPrimitive() -> h
+    boolean isComparable() -> i
+    boolean isAppropriateId() -> j
+    boolean isArgumentHolderRequired() -> k
+    boolean isSelfGeneratedId() -> l
+    java.lang.Object generateId() -> m
+    int getDefaultWidth() -> n
+    boolean isValidForVersion() -> o
+    java.lang.Object moveToNextValue(java.lang.Object) -> a
+com.j256.ormlite.field.types.BaseDateType -> com.a.a.d.a.b:
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig convertDateStringConfig(com.j256.ormlite.field.FieldType,com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig) -> a
+    java.util.Date parseDateString(com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig,java.lang.String) -> a
+    boolean isValidForVersion() -> o
+    java.lang.Object moveToNextValue(java.lang.Object) -> a
+    boolean isValidForField(java.lang.reflect.Field) -> a
+com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig -> com.a.a.d.a.c:
+    java.lang.ThreadLocal threadLocal -> b
+    java.lang.String dateFormatStr -> a
+    java.text.DateFormat getDateFormat() -> a
+    java.lang.String toString() -> toString
+com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig$1 -> com.a.a.d.a.d:
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig this$0 -> a
+    java.lang.Object initialValue() -> initialValue
+com.j256.ormlite.field.types.BaseEnumType -> com.a.a.d.a.e:
+    java.lang.Enum enumVal(com.j256.ormlite.field.FieldType,java.lang.Object,java.lang.Enum,java.lang.Enum) -> a
+    boolean isValidForField(java.lang.reflect.Field) -> a
+com.j256.ormlite.field.types.BigDecimalNumericType -> com.a.a.d.a.f:
+    com.j256.ormlite.field.types.BigDecimalNumericType singleTon -> a
+    com.j256.ormlite.field.types.BigDecimalNumericType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isAppropriateId() -> j
+    boolean isEscapedValue() -> g
+com.j256.ormlite.field.types.BigDecimalStringType -> com.a.a.d.a.g:
+    int DEFAULT_WIDTH -> a
+    com.j256.ormlite.field.types.BigDecimalStringType singleTon -> b
+    com.j256.ormlite.field.types.BigDecimalStringType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    int getDefaultWidth() -> n
+    boolean isAppropriateId() -> j
+com.j256.ormlite.field.types.BigIntegerType -> com.a.a.d.a.h:
+    int DEFAULT_WIDTH -> a
+    com.j256.ormlite.field.types.BigIntegerType singleTon -> b
+    com.j256.ormlite.field.types.BigIntegerType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    int getDefaultWidth() -> n
+    boolean isAppropriateId() -> j
+com.j256.ormlite.field.types.BooleanObjectType -> com.a.a.d.a.i:
+    com.j256.ormlite.field.types.BooleanObjectType singleTon -> a
+    com.j256.ormlite.field.types.BooleanObjectType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isEscapedValue() -> g
+    boolean isAppropriateId() -> j
+com.j256.ormlite.field.types.BooleanType -> com.a.a.d.a.j:
+    com.j256.ormlite.field.types.BooleanType singleTon -> a
+    com.j256.ormlite.field.types.BooleanType getSingleton() -> q
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.ByteArrayType -> com.a.a.d.a.k:
+    com.j256.ormlite.field.types.ByteArrayType singleTon -> a
+    com.j256.ormlite.field.types.ByteArrayType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isAppropriateId() -> j
+    boolean isArgumentHolderRequired() -> k
+com.j256.ormlite.field.types.ByteObjectType -> com.a.a.d.a.l:
+    com.j256.ormlite.field.types.ByteObjectType singleTon -> a
+    com.j256.ormlite.field.types.ByteObjectType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isEscapedValue() -> g
+com.j256.ormlite.field.types.ByteType -> com.a.a.d.a.m:
+    com.j256.ormlite.field.types.ByteType singleTon -> a
+    com.j256.ormlite.field.types.ByteType getSingleton() -> q
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.CharType -> com.a.a.d.a.n:
+    com.j256.ormlite.field.types.CharType singleTon -> a
+    com.j256.ormlite.field.types.CharType getSingleton() -> p
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.CharacterObjectType -> com.a.a.d.a.o:
+    com.j256.ormlite.field.types.CharacterObjectType singleTon -> a
+    com.j256.ormlite.field.types.CharacterObjectType getSingleton() -> q
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+com.j256.ormlite.field.types.DateLongType -> com.a.a.d.a.p:
+    com.j256.ormlite.field.types.DateLongType singleTon -> a
+    com.j256.ormlite.field.types.DateLongType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isEscapedValue() -> g
+com.j256.ormlite.field.types.DateStringType -> com.a.a.d.a.q:
+    int DEFAULT_WIDTH -> a
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig defaultDateFormatConfig -> b
+    com.j256.ormlite.field.types.DateStringType singleTon -> c
+    com.j256.ormlite.field.types.DateStringType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    java.lang.Object makeConfigObject(com.j256.ormlite.field.FieldType) -> a
+    int getDefaultWidth() -> n
+com.j256.ormlite.field.types.DateTimeType -> com.a.a.d.a.r:
+    com.j256.ormlite.field.types.DateTimeType singleTon -> a
+    java.lang.Class dateTimeClass -> b
+    java.lang.reflect.Method getMillisMethod -> c
+    java.lang.reflect.Constructor millisConstructor -> d
+    java.lang.String[] associatedClassNames -> e
+    com.j256.ormlite.field.types.DateTimeType getSingleton() -> p
+    java.lang.String[] getAssociatedClassNames() -> d
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    boolean isEscapedValue() -> g
+    boolean isAppropriateId() -> j
+    java.lang.Class getDateTimeClass() -> q
+com.j256.ormlite.field.types.DateType -> com.a.a.d.a.s:
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig defaultDateFormatConfig -> a
+    com.j256.ormlite.field.types.DateType singleTon -> b
+    com.j256.ormlite.field.types.DateType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isArgumentHolderRequired() -> k
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig getDefaultDateFormatConfig() -> q
+com.j256.ormlite.field.types.DoubleObjectType -> com.a.a.d.a.t:
+    com.j256.ormlite.field.types.DoubleObjectType singleTon -> a
+    com.j256.ormlite.field.types.DoubleObjectType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isEscapedValue() -> g
+com.j256.ormlite.field.types.DoubleType -> com.a.a.d.a.u:
+    com.j256.ormlite.field.types.DoubleType singleTon -> a
+    com.j256.ormlite.field.types.DoubleType getSingleton() -> q
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.EnumIntegerType -> com.a.a.d.a.v:
+    com.j256.ormlite.field.types.EnumIntegerType singleTon -> a
+    com.j256.ormlite.field.types.EnumIntegerType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isEscapedValue() -> g
+    java.lang.Object makeConfigObject(com.j256.ormlite.field.FieldType) -> a
+com.j256.ormlite.field.types.EnumStringType -> com.a.a.d.a.w:
+    int DEFAULT_WIDTH -> a
+    com.j256.ormlite.field.types.EnumStringType singleTon -> b
+    com.j256.ormlite.field.types.EnumStringType getSingleton() -> p
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    java.lang.Object makeConfigObject(com.j256.ormlite.field.FieldType) -> a
+    int getDefaultWidth() -> n
+com.j256.ormlite.field.types.FloatObjectType -> com.a.a.d.a.x:
+    com.j256.ormlite.field.types.FloatObjectType singleTon -> a
+    com.j256.ormlite.field.types.FloatObjectType getSingleton() -> p
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    boolean isEscapedValue() -> g
+com.j256.ormlite.field.types.FloatType -> com.a.a.d.a.y:
+    com.j256.ormlite.field.types.FloatType singleTon -> a
+    com.j256.ormlite.field.types.FloatType getSingleton() -> q
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.IntType -> com.a.a.d.a.z:
+    com.j256.ormlite.field.types.IntType singleTon -> a
+    com.j256.ormlite.field.types.IntType getSingleton() -> p
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.IntegerObjectType -> com.a.a.d.a.A:
+    com.j256.ormlite.field.types.IntegerObjectType singleTon -> a
+    com.j256.ormlite.field.types.IntegerObjectType getSingleton() -> q
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object convertIdNumber(java.lang.Number) -> a
+    boolean isEscapedValue() -> g
+    boolean isValidGeneratedType() -> e
+    boolean isValidForVersion() -> o
+    java.lang.Object moveToNextValue(java.lang.Object) -> a
+com.j256.ormlite.field.types.LongObjectType -> com.a.a.d.a.B:
+    com.j256.ormlite.field.types.LongObjectType singleTon -> a
+    com.j256.ormlite.field.types.LongObjectType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object convertIdNumber(java.lang.Number) -> a
+    boolean isEscapedValue() -> g
+    boolean isValidGeneratedType() -> e
+    boolean isValidForVersion() -> o
+    java.lang.Object moveToNextValue(java.lang.Object) -> a
+com.j256.ormlite.field.types.LongStringType -> com.a.a.d.a.C:
+    com.j256.ormlite.field.types.LongStringType singleTon -> a
+    com.j256.ormlite.field.types.LongStringType getSingleton() -> p
+    boolean isAppropriateId() -> j
+    int getDefaultWidth() -> n
+com.j256.ormlite.field.types.LongType -> com.a.a.d.a.D:
+    com.j256.ormlite.field.types.LongType singleTon -> a
+    com.j256.ormlite.field.types.LongType getSingleton() -> q
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.SerializableType -> com.a.a.d.a.E:
+    com.j256.ormlite.field.types.SerializableType singleTon -> a
+    com.j256.ormlite.field.types.SerializableType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isValidForField(java.lang.reflect.Field) -> a
+    boolean isStreamType() -> b
+    boolean isComparable() -> i
+    boolean isAppropriateId() -> j
+    boolean isArgumentHolderRequired() -> k
+com.j256.ormlite.field.types.ShortObjectType -> com.a.a.d.a.F:
+    com.j256.ormlite.field.types.ShortObjectType singleTon -> a
+    com.j256.ormlite.field.types.ShortObjectType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isEscapedValue() -> g
+    boolean isValidForVersion() -> o
+    java.lang.Object moveToNextValue(java.lang.Object) -> a
+com.j256.ormlite.field.types.ShortType -> com.a.a.d.a.G:
+    com.j256.ormlite.field.types.ShortType singleTon -> a
+    com.j256.ormlite.field.types.ShortType getSingleton() -> q
+    boolean isPrimitive() -> h
+com.j256.ormlite.field.types.SqlDateType -> com.a.a.d.a.H:
+    com.j256.ormlite.field.types.SqlDateType singleTon -> a
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig sqlDateFormatConfig -> b
+    com.j256.ormlite.field.types.SqlDateType getSingleton() -> r
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig getDefaultDateFormatConfig() -> q
+    boolean isValidForField(java.lang.reflect.Field) -> a
+com.j256.ormlite.field.types.StringBytesType -> com.a.a.d.a.I:
+    com.j256.ormlite.field.types.StringBytesType singleTon -> a
+    com.j256.ormlite.field.types.StringBytesType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isAppropriateId() -> j
+    boolean isArgumentHolderRequired() -> k
+    java.lang.String getCharsetName(com.j256.ormlite.field.FieldType) -> b
+com.j256.ormlite.field.types.StringType -> com.a.a.d.a.J:
+    int DEFAULT_WIDTH -> a
+    com.j256.ormlite.field.types.StringType singleTon -> b
+    com.j256.ormlite.field.types.StringType getSingleton() -> q
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    int getDefaultWidth() -> n
+com.j256.ormlite.field.types.TimeStampType -> com.a.a.d.a.K:
+    com.j256.ormlite.field.types.TimeStampType singleTon -> a
+    com.j256.ormlite.field.types.TimeStampType getSingleton() -> r
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isValidForField(java.lang.reflect.Field) -> a
+com.j256.ormlite.field.types.UuidType -> com.a.a.d.a.L:
+    int DEFAULT_WIDTH -> a
+    com.j256.ormlite.field.types.UuidType singleTon -> b
+    com.j256.ormlite.field.types.UuidType getSingleton() -> p
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int) -> a
+    java.lang.Object javaToSqlArg(com.j256.ormlite.field.FieldType,java.lang.Object) -> a
+    boolean isValidGeneratedType() -> e
+    boolean isSelfGeneratedId() -> l
+    java.lang.Object generateId() -> m
+    int getDefaultWidth() -> n
+com.j256.ormlite.field.types.VoidType -> com.a.a.d.a.M:
+    java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String) -> a
+    java.lang.Object resultToSqlArg$6e4db97a(com.j256.ormlite.support.DatabaseResults,int) -> a
+    boolean isValidForField(java.lang.reflect.Field) -> a
+com.j256.ormlite.logger.LocalLog -> com.a.a.e.a:
+    com.j256.ormlite.logger.Log$Level DEFAULT_LEVEL -> a
+    java.lang.ThreadLocal dateFormatThreadLocal -> b
+    java.io.PrintStream printStream -> c
+    java.util.List classLevels -> d
+    java.lang.String className -> e
+    com.j256.ormlite.logger.Log$Level level -> f
+    boolean isLevelEnabled(com.j256.ormlite.logger.Log$Level) -> a
+    void log(com.j256.ormlite.logger.Log$Level,java.lang.String) -> a
+    void log(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Throwable) -> a
+    java.util.List configureClassLevels(java.io.InputStream) -> a
+    void printMessage(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Throwable) -> b
+com.j256.ormlite.logger.LocalLog$1 -> com.a.a.e.b:
+    java.lang.Object initialValue() -> initialValue
+com.j256.ormlite.logger.LocalLog$PatternLevel -> com.a.a.e.c:
+    java.util.regex.Pattern pattern -> a
+    com.j256.ormlite.logger.Log$Level level -> b
+com.j256.ormlite.logger.Log -> com.a.a.e.d:
+    boolean isLevelEnabled(com.j256.ormlite.logger.Log$Level) -> a
+    void log(com.j256.ormlite.logger.Log$Level,java.lang.String) -> a
+    void log(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Throwable) -> a
+com.j256.ormlite.logger.Log$Level -> com.a.a.e.e:
+    com.j256.ormlite.logger.Log$Level TRACE -> a
+    com.j256.ormlite.logger.Log$Level DEBUG -> b
+    com.j256.ormlite.logger.Log$Level INFO -> c
+    com.j256.ormlite.logger.Log$Level WARNING -> d
+    com.j256.ormlite.logger.Log$Level ERROR -> e
+    com.j256.ormlite.logger.Log$Level FATAL -> f
+    int level -> g
+    com.j256.ormlite.logger.Log$Level valueOf(java.lang.String) -> a
+    boolean isEnabled(com.j256.ormlite.logger.Log$Level) -> a
+com.j256.ormlite.logger.Logger -> com.a.a.e.f:
+    int ARG_STRING_LENGTH -> a
+    java.lang.Object UNKNOWN_ARG -> b
+    com.j256.ormlite.logger.Log log -> c
+    boolean isLevelEnabled(com.j256.ormlite.logger.Log$Level) -> a
+    void trace(java.lang.String,java.lang.Object) -> a
+    void trace(java.lang.String,java.lang.Object,java.lang.Object) -> a
+    void trace(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object) -> a
+    void debug(java.lang.String,java.lang.Object) -> b
+    void debug(java.lang.String,java.lang.Object,java.lang.Object) -> b
+    void debug(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object) -> b
+    void debug(java.lang.String,java.lang.Object[]) -> a
+    void info(java.lang.String,java.lang.Object) -> c
+    void info(java.lang.String,java.lang.Object,java.lang.Object) -> c
+    void info(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object) -> c
+    void warn(java.lang.Throwable,java.lang.String) -> a
+    void error(java.lang.String) -> a
+    void error(java.lang.String,java.lang.Object) -> d
+    void error(java.lang.String,java.lang.Object,java.lang.Object) -> d
+    void error(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object) -> d
+    void error(java.lang.String,java.lang.Object[]) -> b
+    void error(java.lang.Throwable,java.lang.String,java.lang.Object) -> a
+    void innerLog(com.j256.ormlite.logger.Log$Level,java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object[]) -> a
+    void appendArg(java.lang.StringBuilder,java.lang.Object) -> a
+com.j256.ormlite.logger.LoggerFactory -> com.a.a.e.g:
+    com.j256.ormlite.logger.LoggerFactory$LogType logType -> a
+    com.j256.ormlite.logger.Logger getLogger(java.lang.Class) -> a
+    com.j256.ormlite.field.DatabaseFieldConfig createFieldConfig(com.j256.ormlite.db.DatabaseType,java.lang.reflect.Field) -> a
+    java.lang.String getEntityName(java.lang.Class) -> b
+    java.sql.SQLException create(java.lang.String,java.lang.Throwable) -> a
+    java.util.ArrayList getAllCategory(android.content.Context) -> a
+    java.util.ArrayList getVideos(android.content.Context,java.lang.String) -> a
+    int dipToPX(android.content.Context,int) -> a
+    boolean isEmpty(java.lang.String) -> a
+    int getVersionCode(android.content.Context) -> b
+    java.lang.String getPath(java.lang.String) -> b
+    void closeStream(java.io.Closeable) -> a
+    void i(java.lang.String,java.lang.Object[]) -> a
+    void d(java.lang.String,java.lang.Object[]) -> b
+    void e(java.lang.String,java.lang.Object[]) -> c
+    void e(java.lang.String,java.lang.Throwable) -> b
+    int convertToInt(java.lang.String) -> c
+    java.lang.String generateTime(long) -> a
+com.j256.ormlite.logger.LoggerFactory$LogType -> com.a.a.e.h:
+    com.j256.ormlite.logger.LoggerFactory$LogType ANDROID -> b
+    com.j256.ormlite.logger.LoggerFactory$LogType COMMONS_LOGGING -> c
+    com.j256.ormlite.logger.LoggerFactory$LogType LOG4J -> d
+    com.j256.ormlite.logger.LoggerFactory$LogType LOCAL -> a
+    java.lang.String detectClassName -> e
+    java.lang.String logClassName -> f
+    com.j256.ormlite.logger.LoggerFactory$LogType[] $VALUES -> g
+    com.j256.ormlite.logger.LoggerFactory$LogType[] values() -> a
+    com.j256.ormlite.logger.Log createLog(java.lang.String) -> a
+    com.j256.ormlite.logger.Log createLogFromClassName(java.lang.String) -> b
+    boolean isAvailable() -> b
+    boolean isAvailableTestClass() -> c
+com.j256.ormlite.logger.LoggerFactory$LogType$1 -> com.a.a.e.i:
+    com.j256.ormlite.logger.Log createLog(java.lang.String) -> a
+    boolean isAvailable() -> b
+com.j256.ormlite.misc.VersionUtils -> com.a.a.f.a:
+    com.j256.ormlite.logger.Logger logger -> a
+    void checkCoreVersusAndroidVersions() -> a
+    java.lang.String getVersionFromFile(java.lang.String) -> a
+    com.j256.ormlite.logger.Logger getLogger() -> b
+com.j256.ormlite.stmt.ArgumentHolder -> com.a.a.g.a:
+    void setMetaInfo(java.lang.String,com.j256.ormlite.field.FieldType) -> a
+    void setValue(java.lang.Object) -> a
+    java.lang.Object getSqlArgValue() -> a
+    com.j256.ormlite.field.SqlType getSqlType() -> b
+    com.j256.ormlite.field.FieldType getFieldType() -> c
+com.j256.ormlite.stmt.BaseArgumentHolder -> com.a.a.g.b:
+    java.lang.String columnName -> a
+    com.j256.ormlite.field.FieldType fieldType -> b
+    com.j256.ormlite.field.SqlType sqlType -> c
+    java.lang.Object getValue() -> d
+    boolean isValueSet() -> e
+    void setMetaInfo(java.lang.String,com.j256.ormlite.field.FieldType) -> a
+    java.lang.Object getSqlArgValue() -> a
+    com.j256.ormlite.field.FieldType getFieldType() -> c
+    com.j256.ormlite.field.SqlType getSqlType() -> b
+    java.lang.String toString() -> toString
+com.j256.ormlite.stmt.GenericRowMapper -> com.a.a.g.c:
+    java.lang.Object mapRow(com.j256.ormlite.support.DatabaseResults) -> a
+com.j256.ormlite.stmt.PreparedStmt -> com.a.a.g.d:
+    com.j256.ormlite.support.CompiledStatement compile(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.StatementBuilder$StatementType,int) -> a
+    java.lang.String getStatement() -> a
+com.j256.ormlite.stmt.QueryBuilder -> com.a.a.g.e:
+    com.j256.ormlite.field.FieldType idField -> e
+    com.j256.ormlite.field.FieldType[] resultFieldTypes -> f
+    boolean distinct -> g
+    boolean selectIdColumn -> h
+    java.util.List selectColumnList -> i
+    java.util.List selectRawList -> j
+    java.util.List orderByList -> k
+    java.lang.String orderByRaw -> l
+    java.util.List groupByList -> m
+    java.lang.String groupByRaw -> n
+    boolean isInnerQuery -> o
+    boolean countOf -> p
+    java.lang.String having -> q
+    java.lang.Long limit -> r
+    java.lang.Long offset -> s
+    com.j256.ormlite.stmt.PreparedStmt prepare$7d6773b3() -> a
+    com.j256.ormlite.stmt.QueryBuilder orderBy(java.lang.String,boolean) -> a
+    java.util.List query() -> b
+    void appendStatementStart$724304b9(java.lang.StringBuilder) -> a
+    com.j256.ormlite.field.FieldType[] getResultFieldTypes() -> c
+    void appendStatementEnd(java.lang.StringBuilder) -> b
+com.j256.ormlite.stmt.SelectArg -> com.a.a.g.f:
+    boolean hasBeenSet -> a
+    java.lang.Object value -> b
+    java.lang.Object getValue() -> d
+    void setValue(java.lang.Object) -> a
+    boolean isValueSet() -> e
+com.j256.ormlite.stmt.SelectIterator -> com.a.a.g.g:
+    com.j256.ormlite.logger.Logger logger -> a
+    java.lang.Class dataClass -> b
+    com.j256.ormlite.dao.Dao classDao -> c
+    com.j256.ormlite.support.ConnectionSource connectionSource -> d
+    com.j256.ormlite.support.DatabaseConnection connection -> e
+    com.j256.ormlite.support.CompiledStatement compiledStmt -> f
+    com.j256.ormlite.support.DatabaseResults results -> g
+    com.j256.ormlite.stmt.GenericRowMapper rowMapper -> h
+    java.lang.String statement -> i
+    boolean first -> j
+    boolean closed -> k
+    boolean alreadyMoved -> l
+    java.lang.Object last -> m
+    int rowC -> n
+    boolean hasNextThrow() -> c
+    boolean hasNext() -> hasNext
+    java.lang.Object nextThrow() -> d
+    java.lang.Object next() -> next
+    void remove() -> remove
+    void close() -> a
+    void moveToNext() -> b
+    void closeNoThrow() -> e
+com.j256.ormlite.stmt.StatementBuilder -> com.a.a.g.h:
+    com.j256.ormlite.logger.Logger logger -> e
+    com.j256.ormlite.table.TableInfo tableInfo -> a
+    com.j256.ormlite.db.DatabaseType databaseType -> b
+    com.j256.ormlite.dao.Dao dao -> c
+    com.j256.ormlite.stmt.StatementBuilder$StatementType type -> d
+    com.j256.ormlite.stmt.Where where -> f
+    com.j256.ormlite.stmt.Where where() -> d
+    com.j256.ormlite.stmt.mapped.MappedPreparedStmt prepareStatement(java.lang.Long) -> a
+    void appendStatementStart$724304b9(java.lang.StringBuilder) -> a
+    com.j256.ormlite.field.FieldType[] getResultFieldTypes() -> c
+    void appendStatementEnd(java.lang.StringBuilder) -> b
+    com.j256.ormlite.field.FieldType verifyColumnName(java.lang.String) -> a
+com.j256.ormlite.stmt.StatementBuilder$StatementType -> com.a.a.g.i:
+    com.j256.ormlite.stmt.StatementBuilder$StatementType SELECT -> a
+    com.j256.ormlite.stmt.StatementBuilder$StatementType SELECT_LONG -> b
+    com.j256.ormlite.stmt.StatementBuilder$StatementType SELECT_RAW -> c
+    com.j256.ormlite.stmt.StatementBuilder$StatementType UPDATE -> e
+    com.j256.ormlite.stmt.StatementBuilder$StatementType DELETE -> f
+    com.j256.ormlite.stmt.StatementBuilder$StatementType EXECUTE -> d
+    boolean okForStatementBuilder -> g
+    boolean okForQuery -> h
+    boolean okForExecute -> i
+    boolean isOkForStatementBuilder() -> a
+    boolean isOkForQuery() -> b
+    boolean isOkForExecute() -> c
+com.j256.ormlite.stmt.StatementExecutor -> com.a.a.g.j:
+    com.j256.ormlite.logger.Logger logger -> a
+    com.j256.ormlite.db.DatabaseType databaseType -> b
+    com.j256.ormlite.table.TableInfo tableInfo -> c
+    com.j256.ormlite.dao.Dao dao -> d
+    com.j256.ormlite.stmt.PreparedStmt preparedQueryForAll$7f05bc14 -> e
+    com.j256.ormlite.stmt.mapped.MappedCreate mappedInsert -> f
+    com.j256.ormlite.stmt.mapped.MappedDelete mappedDelete -> g
+    java.util.List query(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.stmt.PreparedStmt,com.j256.ormlite.dao.ObjectCache) -> a
+    com.j256.ormlite.stmt.SelectIterator buildIterator(com.j256.ormlite.dao.BaseDaoImpl,com.j256.ormlite.support.ConnectionSource,int,com.j256.ormlite.dao.ObjectCache) -> a
+    com.j256.ormlite.stmt.SelectIterator buildIterator(com.j256.ormlite.dao.BaseDaoImpl,com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.stmt.PreparedStmt,com.j256.ormlite.dao.ObjectCache,int) -> a
+    int create(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache) -> a
+    int delete(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache) -> b
+    java.lang.Object mapRow(com.j256.ormlite.support.DatabaseResults) -> a
+com.j256.ormlite.stmt.Where -> com.a.a.g.k:
+    com.j256.ormlite.table.TableInfo tableInfo -> a
+    com.j256.ormlite.stmt.StatementBuilder statementBuilder -> b
+    com.j256.ormlite.field.FieldType idFieldType -> c
+    com.j256.ormlite.db.DatabaseType databaseType -> d
+    com.j256.ormlite.stmt.query.Clause[] clauseStack -> e
+    int clauseStackLevel -> f
+    io.vov.vitamio.LibsChecker needsFuture$1a95da77 -> g
+    com.j256.ormlite.stmt.Where and(int) -> a
+    com.j256.ormlite.stmt.Where eq(java.lang.String,java.lang.Object) -> a
+    com.j256.ormlite.stmt.PreparedStmt prepare$7d6773b3() -> a
+    void appendSql(java.lang.StringBuilder,java.util.List) -> a
+    java.lang.String toString() -> toString
+    void addClause(com.j256.ormlite.stmt.query.Clause) -> a
+    com.j256.ormlite.stmt.query.Clause peek() -> b
+com.j256.ormlite.stmt.mapped.BaseMappedQuery -> com.a.a.g.a.a:
+    com.j256.ormlite.field.FieldType[] resultsFieldTypes -> g
+    java.util.Map columnPositions -> h
+    java.lang.Object parent -> i
+    java.lang.Object parentId -> j
+    java.lang.Object mapRow(com.j256.ormlite.support.DatabaseResults) -> a
+    void setParentInformation(java.lang.Object,java.lang.Object) -> a
+com.j256.ormlite.stmt.mapped.BaseMappedStatement -> com.a.a.g.a.b:
+    com.j256.ormlite.logger.Logger logger -> a
+    com.j256.ormlite.table.TableInfo tableInfo -> b
+    java.lang.Class clazz -> c
+    com.j256.ormlite.field.FieldType idField -> d
+    java.lang.String statement -> e
+    com.j256.ormlite.field.FieldType[] argFieldTypes -> f
+    java.lang.Object[] getFieldObjects(java.lang.Object) -> a
+    java.lang.Object convertIdToFieldObject(java.lang.Object) -> b
+    void appendWhereFieldEq(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.field.FieldType,java.lang.StringBuilder,java.util.List) -> a
+    void appendTableName(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.lang.String,java.lang.String) -> a
+    void appendFieldColumnName(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,com.j256.ormlite.field.FieldType,java.util.List) -> a
+    java.lang.String toString() -> toString
+com.j256.ormlite.stmt.mapped.MappedCreate -> com.a.a.g.a.c:
+    java.lang.String queryNextSequenceStmt -> g
+    java.lang.String dataClassName -> h
+    int versionFieldTypeIndex -> i
+    int insert(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache) -> a
+    com.j256.ormlite.stmt.mapped.MappedCreate build(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.table.TableInfo) -> a
+    boolean foreignCollectionsAreAssigned(com.j256.ormlite.field.FieldType[],java.lang.Object) -> a
+    boolean isFieldCreatable(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.field.FieldType) -> a
+    void assignIdValue(java.lang.Object,java.lang.Number,java.lang.String,com.j256.ormlite.dao.ObjectCache) -> a
+com.j256.ormlite.stmt.mapped.MappedCreate$1 -> com.a.a.g.a.d:
+    java.lang.Number key -> a
+    java.lang.Number getKey() -> a
+    void addKey(java.lang.Number) -> a
+com.j256.ormlite.stmt.mapped.MappedDelete -> com.a.a.g.a.e:
+    com.j256.ormlite.stmt.mapped.MappedDelete build(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.table.TableInfo) -> a
+    int delete(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache) -> a
+com.j256.ormlite.stmt.mapped.MappedPreparedStmt -> com.a.a.g.a.f:
+    com.j256.ormlite.stmt.ArgumentHolder[] argHolders -> g
+    java.lang.Long limit -> h
+    com.j256.ormlite.stmt.StatementBuilder$StatementType type -> i
+    com.j256.ormlite.support.CompiledStatement compile(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.StatementBuilder$StatementType,int) -> a
+    java.lang.String getStatement() -> a
+    com.j256.ormlite.support.CompiledStatement compileStatement$22905f4e(com.j256.ormlite.support.CompiledStatement) -> a
+com.j256.ormlite.stmt.mapped.MappedQueryForId -> com.a.a.g.a.g:
+    java.lang.String label -> g
+    java.lang.Object execute(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache) -> a
+    com.j256.ormlite.stmt.mapped.MappedQueryForId build(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.table.TableInfo,com.j256.ormlite.field.FieldType) -> a
+    void logArgs(java.lang.Object[]) -> a
+com.j256.ormlite.stmt.query.BaseComparison -> com.a.a.g.b.a:
+    java.lang.String columnName -> a
+    com.j256.ormlite.field.FieldType fieldType -> b
+    java.lang.Object value -> c
+    void appendOperation(java.lang.StringBuilder) -> a
+    void appendSql(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List) -> a
+    void appendValue(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List) -> b
+    void appendArgOrValue(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.field.FieldType,java.lang.StringBuilder,java.util.List,java.lang.Object) -> a
+    java.lang.String toString() -> toString
+com.j256.ormlite.stmt.query.Clause -> com.a.a.g.b.b:
+    void appendSql(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List) -> a
+com.j256.ormlite.stmt.query.OrderBy -> com.a.a.g.b.c:
+    java.lang.String columnName -> a
+    boolean ascending -> b
+    java.lang.String getColumnName() -> a
+    boolean isAscending() -> b
+com.j256.ormlite.stmt.query.SimpleComparison -> com.a.a.g.b.d:
+    java.lang.String operation -> a
+    void appendOperation(java.lang.StringBuilder) -> a
+    java.lang.String toString() -> toString
+    void appendValue(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List) -> b
+    void appendSql(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List) -> a
+com.j256.ormlite.support.BaseConnectionSource -> com.a.a.h.a:
+    java.lang.ThreadLocal specialConnection -> a
+    com.j256.ormlite.support.DatabaseConnection getSpecialConnection() -> e
+    com.j256.ormlite.support.DatabaseConnection getSavedConnection() -> f
+    boolean saveSpecial(com.j256.ormlite.support.DatabaseConnection) -> c
+    boolean clearSpecial(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.logger.Logger) -> a
+com.j256.ormlite.support.BaseConnectionSource$NestedConnection -> com.a.a.h.b:
+    com.j256.ormlite.support.DatabaseConnection connection -> a
+    int nestedC -> b
+    void increment() -> a
+    int decrementAndGet() -> b
+com.j256.ormlite.support.CompiledStatement -> com.a.a.h.c:
+    com.j256.ormlite.support.DatabaseResults runQuery(com.j256.ormlite.dao.ObjectCache) -> a
+    int runExecute() -> a
+    void close() -> b
+    void setObject(int,java.lang.Object,com.j256.ormlite.field.SqlType) -> a
+    void setMaxRows(int) -> a
+com.j256.ormlite.support.ConnectionSource -> com.a.a.h.d:
+    com.j256.ormlite.support.DatabaseConnection getReadOnlyConnection() -> a
+    com.j256.ormlite.support.DatabaseConnection getReadWriteConnection() -> b
+    boolean saveSpecialConnection(com.j256.ormlite.support.DatabaseConnection) -> a
+    void clearSpecialConnection(com.j256.ormlite.support.DatabaseConnection) -> b
+    com.j256.ormlite.support.DatabaseConnection getSpecialConnection() -> e
+    com.j256.ormlite.db.DatabaseType getDatabaseType() -> d
+com.j256.ormlite.support.DatabaseConnection -> com.a.a.h.e:
+    java.lang.Object MORE_THAN_ONE -> a
+    com.j256.ormlite.support.CompiledStatement compileStatement$7505a227(java.lang.String,com.j256.ormlite.stmt.StatementBuilder$StatementType) -> a
+    com.j256.ormlite.support.CompiledStatement compileStatement$74b6de7e(java.lang.String,com.j256.ormlite.stmt.StatementBuilder$StatementType,com.j256.ormlite.field.FieldType[]) -> a
+    int insert(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[],com.j256.ormlite.support.GeneratedKeyHolder) -> a
+    int delete(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[]) -> a
+    java.lang.Object queryForOne$24323db(java.lang.String,java.lang.Object[],com.j256.ormlite.stmt.GenericRowMapper,com.j256.ormlite.dao.ObjectCache) -> a
+com.j256.ormlite.support.DatabaseResults -> com.a.a.h.f:
+    int getColumnCount() -> a
+    boolean first() -> b
+    boolean next() -> c
+    int findColumn(java.lang.String) -> a
+    java.lang.String getString(int) -> a
+    boolean getBoolean(int) -> b
+    char getChar(int) -> c
+    byte getByte(int) -> d
+    byte[] getBytes(int) -> e
+    short getShort(int) -> f
+    int getInt(int) -> g
+    long getLong(int) -> h
+    float getFloat(int) -> i
+    double getDouble(int) -> j
+    java.sql.Timestamp getTimestamp$49d1f431() -> d
+    java.math.BigDecimal getBigDecimal$76f1efd4() -> e
+    boolean wasNull(int) -> k
+    com.j256.ormlite.dao.ObjectCache getObjectCache() -> f
+com.j256.ormlite.support.GeneratedKeyHolder -> com.a.a.h.g:
+    void addKey(java.lang.Number) -> a
+com.j256.ormlite.table.DatabaseTable -> com.a.a.i.a:
+    java.lang.String tableName() -> a
+    java.lang.Class daoClass() -> b
+com.j256.ormlite.table.DatabaseTableConfig -> com.a.a.i.b:
+    java.lang.Class dataClass -> a
+    java.lang.String tableName -> b
+    java.util.List fieldConfigs -> c
+    com.j256.ormlite.field.FieldType[] fieldTypes -> d
+    java.lang.reflect.Constructor constructor -> e
+    java.lang.Class getDataClass() -> a
+    java.lang.String getTableName() -> b
+    void extractFieldTypes(com.j256.ormlite.support.ConnectionSource) -> a
+    com.j256.ormlite.field.FieldType[] getFieldTypes$18f56eef() -> c
+    java.lang.reflect.Constructor getConstructor() -> d
+    com.j256.ormlite.table.DatabaseTableConfig fromClass(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+    java.lang.String extractTableName(java.lang.Class) -> a
+    java.lang.reflect.Constructor findNoArgConstructor(java.lang.Class) -> b
+    com.j256.ormlite.field.FieldType[] extractFieldTypes(com.j256.ormlite.support.ConnectionSource,java.lang.Class,java.lang.String) -> a
+    com.j256.ormlite.field.FieldType[] convertFieldConfigs(com.j256.ormlite.support.ConnectionSource,java.lang.String,java.util.List) -> a
+com.j256.ormlite.table.TableInfo -> com.a.a.i.c:
+    com.j256.ormlite.field.FieldType[] NO_FOREIGN_COLLECTIONS -> a
+    com.j256.ormlite.dao.Dao dao -> b
+    java.lang.Class dataClass -> c
+    java.lang.String tableName -> d
+    com.j256.ormlite.field.FieldType[] fieldTypes -> e
+    com.j256.ormlite.field.FieldType[] foreignCollections -> f
+    com.j256.ormlite.field.FieldType idField -> g
+    java.lang.reflect.Constructor constructor -> h
+    boolean foreignAutoCreate -> i
+    java.util.Map fieldNameMap -> j
+    java.lang.Class getDataClass() -> a
+    java.lang.String getTableName() -> b
+    com.j256.ormlite.field.FieldType[] getFieldTypes() -> c
+    com.j256.ormlite.field.FieldType getFieldTypeByColumnName(java.lang.String) -> a
+    com.j256.ormlite.field.FieldType getIdField() -> d
+    java.lang.reflect.Constructor getConstructor() -> e
+    java.lang.Object createObject() -> f
+    java.lang.Object createObject(java.lang.reflect.Constructor,com.j256.ormlite.dao.Dao) -> a
+    boolean isForeignAutoCreate() -> g
+    com.j256.ormlite.field.FieldType[] getForeignCollections() -> h
+com.j256.ormlite.table.TableUtils -> com.a.a.i.d:
+    com.j256.ormlite.logger.Logger logger -> a
+    com.j256.ormlite.field.FieldType[] noFieldTypes -> b
+    int createTable(com.j256.ormlite.support.ConnectionSource,java.lang.Class) -> a
+    int dropTable(com.j256.ormlite.support.ConnectionSource,java.lang.Class,boolean) -> a
+    int doDropTable(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.TableInfo,boolean) -> a
+    void addDropIndexStatements(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.table.TableInfo,java.util.List) -> a
+    void addCreateTableStatements(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.table.TableInfo,java.util.List,java.util.List,boolean) -> a
+    void addCreateIndexStatements(com.j256.ormlite.db.DatabaseType,com.j256.ormlite.table.TableInfo,java.util.List,boolean,boolean) -> a
+    int doCreateTable(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.TableInfo,boolean) -> a
+    int doStatements(com.j256.ormlite.support.DatabaseConnection,java.lang.String,java.util.Collection,boolean,boolean,boolean) -> a
+    int doCreateTestQueries$11e61780(com.j256.ormlite.support.DatabaseConnection,java.util.List) -> a
+com.mx.vipmediaplayer.Logger -> com.mx.vipmediaplayer.a:
+    boolean isLog -> a
+    void d(java.lang.String) -> a
+    void e(java.lang.Throwable) -> a
+    void i(java.lang.String) -> b
+    void e(java.lang.String) -> c
+com.mx.vipmediaplayer.VIPMediaPlayerApplication -> com.mx.vipmediaplayer.VIPMediaPlayerApplication:
+    com.mx.vipmediaplayer.VIPMediaPlayerApplication mApplication -> b
+    java.lang.String VIPPLAYER_CACHE_BASE -> c
+    java.lang.String VIPPLAYER_VIDEO_THUMB -> a
+    void onCreate() -> onCreate
+    android.content.Context getContext() -> a
+com.mx.vipmediaplayer.VIPPlayerActivity -> com.mx.vipmediaplayer.VIPPlayerActivity:
+    java.lang.Object writelock -> a
+    java.util.List videoList -> b
+    java.util.List audioList -> c
+    int screenWidth -> d
+    int leftEdgeForContent -> e
+    int rightEdgeForContent -> f
+    int menuPadding -> g
+    android.widget.ImageView mVIPSwitcher -> h
+    android.view.View content -> i
+    android.view.View menu -> j
+    com.mx.vipmediaplayer.ui.MenuListView menuListView -> k
+    com.mx.vipmediaplayer.ui.ContentGridView contentGridView -> l
+    com.mx.vipmediaplayer.ui.ContentListView contentListView -> m
+    android.widget.RelativeLayout$LayoutParams contentParams -> n
+    android.widget.RelativeLayout$LayoutParams menuParams -> o
+    float xDown -> p
+    float xOldMove -> q
+    float xMove -> r
+    boolean mDirection -> s
+    float xUp -> t
+    boolean isMenuVisible -> u
+    boolean isContentMoving -> v
+    android.view.VelocityTracker mVelocityTracker -> w
+    com.mx.vipmediaplayer.services.MediaScanService mMediaScanService -> x
+    android.content.ServiceConnection mMediaScanServiceConnection -> y
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    void scrollToMenu() -> d
+    void scrollToContent() -> e
+    void onClick(android.view.View) -> onClick
+    void onPlaylistClicked() -> a
+    void onLocalVideoClicked() -> b
+    void onLocalAudioClicked() -> c
+    void update(int,com.mx.vipmediaplayer.model.VIPMedia,int) -> a
+    void onDestroy() -> onDestroy
+    com.mx.vipmediaplayer.services.MediaScanService access$0(com.mx.vipmediaplayer.VIPPlayerActivity) -> a
+    void access$1(com.mx.vipmediaplayer.VIPPlayerActivity,com.mx.vipmediaplayer.services.MediaScanService) -> a
+    void access$2(com.mx.vipmediaplayer.VIPPlayerActivity,boolean) -> a
+    android.widget.RelativeLayout$LayoutParams access$3(com.mx.vipmediaplayer.VIPPlayerActivity) -> b
+    int access$4(com.mx.vipmediaplayer.VIPPlayerActivity) -> c
+    int access$5(com.mx.vipmediaplayer.VIPPlayerActivity) -> d
+    void access$6(com.mx.vipmediaplayer.VIPPlayerActivity,long) -> a
+    void access$7(com.mx.vipmediaplayer.VIPPlayerActivity,boolean) -> b
+    android.view.View access$8(com.mx.vipmediaplayer.VIPPlayerActivity) -> e
+    java.lang.Object access$9(com.mx.vipmediaplayer.VIPPlayerActivity) -> f
+    java.util.List access$10(com.mx.vipmediaplayer.VIPPlayerActivity) -> g
+    java.util.List access$11(com.mx.vipmediaplayer.VIPPlayerActivity) -> h
+    com.mx.vipmediaplayer.ui.ContentGridView access$12(com.mx.vipmediaplayer.VIPPlayerActivity) -> i
+com.mx.vipmediaplayer.VIPPlayerActivity$1 -> com.mx.vipmediaplayer.b:
+com.mx.vipmediaplayer.VIPPlayerActivity$2 -> com.mx.vipmediaplayer.c:
+    com.mx.vipmediaplayer.VIPPlayerActivity this$0 -> a
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+com.mx.vipmediaplayer.VIPPlayerActivity$ContentScrollTask -> com.mx.vipmediaplayer.d:
+    com.mx.vipmediaplayer.VIPPlayerActivity this$0 -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+com.mx.vipmediaplayer.VIPPlayerActivity$DataTask -> com.mx.vipmediaplayer.e:
+    com.mx.vipmediaplayer.VIPPlayerActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Void doInBackground$10299ca() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.mx.vipmediaplayer.VipPreference -> com.mx.vipmediaplayer.f:
+    android.content.SharedPreferences mPreference -> a
+    boolean putBooleanAndCommit(java.lang.String,boolean) -> a
+    boolean getBoolean(java.lang.String,boolean) -> b
+com.mx.vipmediaplayer.database.DatabaseHelper -> com.mx.vipmediaplayer.a.a:
+    int create(java.lang.Object) -> a
+    boolean exists(java.lang.Object,java.util.Map) -> a
+com.mx.vipmediaplayer.database.SqliteHelperOrm -> com.mx.vipmediaplayer.a.b:
+    void onCreate$39896c6b(com.j256.ormlite.support.ConnectionSource) -> a
+    void onUpgrade$311a1f5(android.database.sqlite.SQLiteDatabase,com.j256.ormlite.support.ConnectionSource) -> a
+com.mx.vipmediaplayer.model.OnlineVideo -> com.mx.vipmediaplayer.b.a:
+    java.lang.String id -> a
+    java.lang.String title -> b
+    int iconId -> c
+    java.lang.String url -> d
+    java.util.ArrayList backup_url -> e
+com.mx.vipmediaplayer.model.VIPMedia -> com.mx.vipmediaplayer.b.b:
+    java.lang.String title -> a
+    java.lang.String title_key -> b
+    java.lang.String path -> c
+    long last_access_time -> d
+    long last_modify_time -> e
+    java.lang.String thumb_path -> f
+    int width -> g
+    int height -> h
+    int filetype -> i
+    java.lang.String mime_type -> j
+com.mx.vipmediaplayer.model.VIPMediaBitmap -> com.mx.vipmediaplayer.b.c:
+    android.graphics.Bitmap img -> a
+    com.mx.vipmediaplayer.model.VIPMedia vipmedia -> b
+    android.graphics.Bitmap getImg() -> a
+    com.mx.vipmediaplayer.model.VIPMedia getVipmedia() -> b
+    int getImgSize() -> c
+    boolean equals(java.lang.Object) -> equals
+com.mx.vipmediaplayer.services.MediaScanService -> com.mx.vipmediaplayer.services.MediaScanService:
+    java.util.ArrayList observers -> a
+    java.util.concurrent.ConcurrentHashMap mScanMap -> b
+    int mServiceStatus -> c
+    com.mx.vipmediaplayer.database.DatabaseHelper mDbHelper -> d
+    java.util.Map mDbWhere -> e
+    int scanfiletype -> f
+    android.os.Handler mHandler -> g
+    com.mx.vipmediaplayer.services.MediaScanService$MediaScanServiceBinder mBinder -> h
+    void onCreate() -> onCreate
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void run() -> run
+    void eachAllMedias(java.io.File) -> a
+    void save(com.mx.vipmediaplayer.model.VIPMedia) -> b
+    void extractThumbnail(com.mx.vipmediaplayer.model.VIPMedia) -> a
+    void notifyObservers(int,com.mx.vipmediaplayer.model.VIPMedia) -> a
+    void addObserver(com.mx.vipmediaplayer.services.MediaScanService$IMediaScanObserver) -> a
+    void deleteObserver(com.mx.vipmediaplayer.services.MediaScanService$IMediaScanObserver) -> b
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    java.util.ArrayList access$0(com.mx.vipmediaplayer.services.MediaScanService) -> a
+    int access$1(com.mx.vipmediaplayer.services.MediaScanService) -> b
+com.mx.vipmediaplayer.services.MediaScanService$1 -> com.mx.vipmediaplayer.services.a:
+    com.mx.vipmediaplayer.services.MediaScanService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.mx.vipmediaplayer.services.MediaScanService$IMediaScanObserver -> com.mx.vipmediaplayer.services.b:
+    void update(int,com.mx.vipmediaplayer.model.VIPMedia,int) -> a
+com.mx.vipmediaplayer.services.MediaScanService$MediaScanServiceBinder -> com.mx.vipmediaplayer.services.c:
+    com.mx.vipmediaplayer.services.MediaScanService this$0 -> a
+    com.mx.vipmediaplayer.services.MediaScanService getService() -> a
+com.mx.vipmediaplayer.ui.ContentGridView -> com.mx.vipmediaplayer.ui.ContentGridView:
+    java.util.List mList -> a
+    android.view.LayoutInflater mInflater -> b
+    android.content.Context context -> c
+    int filetype -> d
+    int horizontalspacing -> e
+    int columnwidth -> f
+    android.app.Activity activity -> g
+    android.os.Handler mHandler -> h
+    android.widget.BaseAdapter mAdapter -> i
+    android.os.Handler mMethodHandler -> j
+    void setActivity(android.app.Activity) -> a
+    android.os.Handler getHandler() -> getHandler
+    void setList(java.util.List) -> a
+    void initView(android.content.Context) -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    android.widget.BaseAdapter access$0(com.mx.vipmediaplayer.ui.ContentGridView) -> a
+    int access$1(com.mx.vipmediaplayer.ui.ContentGridView) -> b
+    java.util.List access$2(com.mx.vipmediaplayer.ui.ContentGridView) -> c
+    android.view.LayoutInflater access$3(com.mx.vipmediaplayer.ui.ContentGridView) -> d
+    android.os.Handler access$4(com.mx.vipmediaplayer.ui.ContentGridView) -> e
+com.mx.vipmediaplayer.ui.ContentGridView$1 -> com.mx.vipmediaplayer.ui.a:
+    com.mx.vipmediaplayer.ui.ContentGridView this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.mx.vipmediaplayer.ui.ContentGridView$2 -> com.mx.vipmediaplayer.ui.b:
+    com.mx.vipmediaplayer.ui.ContentGridView this$0 -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    long getItemId(int) -> getItemId
+    java.lang.Object getItem(int) -> getItem
+    int getCount() -> getCount
+    com.mx.vipmediaplayer.ui.ContentGridView access$0(com.mx.vipmediaplayer.ui.ContentGridView$2) -> a
+com.mx.vipmediaplayer.ui.ContentGridView$2$1 -> com.mx.vipmediaplayer.ui.c:
+    com.mx.vipmediaplayer.ui.ContentGridView$2 this$1 -> a
+    android.view.View val$cv -> b
+    void process(java.lang.Object) -> a
+com.mx.vipmediaplayer.ui.ContentGridView$3 -> com.mx.vipmediaplayer.ui.d:
+    void handleMessage(android.os.Message) -> handleMessage
+com.mx.vipmediaplayer.ui.ContentListView -> com.mx.vipmediaplayer.ui.ContentListView:
+    java.util.List mList -> a
+    android.app.Activity activity -> b
+    android.view.LayoutInflater mInflater -> c
+    int level -> d
+    java.util.ArrayList root -> e
+    java.util.ArrayList tvs -> f
+    java.util.ArrayList videos -> g
+    com.mx.vipmediaplayer.ui.ContentListView$OnOnlineVideoClickListener mOnlineVideoClickListener -> h
+    com.mx.vipmediaplayer.ui.ContentListView$DataAdapter mAdapter -> i
+    void setActivity(android.app.Activity) -> a
+    void setOnlineVideoClickListener(com.mx.vipmediaplayer.ui.ContentListView$OnOnlineVideoClickListener) -> a
+    void initView(android.content.Context) -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    android.view.LayoutInflater access$0(com.mx.vipmediaplayer.ui.ContentListView) -> a
+com.mx.vipmediaplayer.ui.ContentListView$DataAdapter -> com.mx.vipmediaplayer.ui.e:
+    java.util.List datalist -> a
+    com.mx.vipmediaplayer.ui.ContentListView this$0 -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void replace(java.util.ArrayList) -> a
+com.mx.vipmediaplayer.ui.ContentListView$OnOnlineVideoClickListener -> com.mx.vipmediaplayer.ui.f:
+com.mx.vipmediaplayer.ui.MenuListView -> com.mx.vipmediaplayer.ui.MenuListView:
+    com.mx.vipmediaplayer.ui.MenuListView$MenuItem[] datalist -> a
+    com.mx.vipmediaplayer.ui.MenuListView$OnMenuClickListener mMenuClickListenr -> b
+    android.view.LayoutInflater mInflator -> c
+    android.widget.BaseAdapter mAdapter -> d
+    void onMeasure(int,int) -> onMeasure
+    void initViews(android.content.Context) -> a
+    void setOnMenuClickListener(com.mx.vipmediaplayer.ui.MenuListView$OnMenuClickListener) -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    android.view.LayoutInflater access$0(com.mx.vipmediaplayer.ui.MenuListView) -> a
+com.mx.vipmediaplayer.ui.MenuListView$1 -> com.mx.vipmediaplayer.ui.g:
+    com.mx.vipmediaplayer.ui.MenuListView this$0 -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    long getItemId(int) -> getItemId
+    java.lang.Object getItem(int) -> getItem
+    int getCount() -> getCount
+com.mx.vipmediaplayer.ui.MenuListView$MenuItem -> com.mx.vipmediaplayer.ui.h:
+    int iconResId -> a
+    int textId -> b
+com.mx.vipmediaplayer.ui.MenuListView$OnMenuClickListener -> com.mx.vipmediaplayer.ui.i:
+    void onPlaylistClicked() -> a
+    void onLocalVideoClicked() -> b
+    void onLocalAudioClicked() -> c
+com.mx.vipmediaplayer.ui.VideoPlayerActivity -> com.mx.vipmediaplayer.ui.VideoPlayerActivity:
+    java.lang.String mPath -> a
+    java.lang.String mTitle -> b
+    io.vov.vitamio.widget.VideoView mVideoView -> c
+    android.view.View mVolumeBrightnessLayout -> d
+    android.widget.ImageView mOperationBg -> e
+    android.widget.ImageView mOperationPercent -> f
+    android.media.AudioManager mAudioManager -> g
+    int mMaxVolume -> h
+    int mVolume -> i
+    float mBrightness -> j
+    int mLayout -> k
+    android.view.GestureDetector mGestureDetector -> l
+    io.vov.vitamio.widget.MediaController mMediaController -> m
+    android.view.View mLoadingView -> n
+    android.os.Handler mDismissHandler -> o
+    boolean needResume -> p
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onCompletion$25bb49d6() -> a
+    boolean onInfo(io.vov.vitamio.MediaPlayer,int,int) -> a
+    android.view.View access$0(com.mx.vipmediaplayer.ui.VideoPlayerActivity) -> a
+    int access$1(com.mx.vipmediaplayer.ui.VideoPlayerActivity) -> b
+    void access$2(com.mx.vipmediaplayer.ui.VideoPlayerActivity,int) -> a
+    io.vov.vitamio.widget.VideoView access$3(com.mx.vipmediaplayer.ui.VideoPlayerActivity) -> c
+    void access$4(com.mx.vipmediaplayer.ui.VideoPlayerActivity,float) -> a
+    void access$5(com.mx.vipmediaplayer.ui.VideoPlayerActivity,float) -> b
+com.mx.vipmediaplayer.ui.VideoPlayerActivity$1 -> com.mx.vipmediaplayer.ui.j:
+    com.mx.vipmediaplayer.ui.VideoPlayerActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.mx.vipmediaplayer.ui.VideoPlayerActivity$MyGestureListener -> com.mx.vipmediaplayer.ui.k:
+    com.mx.vipmediaplayer.ui.VideoPlayerActivity this$0 -> a
+    boolean onDoubleTap(android.view.MotionEvent) -> onDoubleTap
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+com.mx.vipmediaplayer.util.FileUtils -> com.mx.vipmediaplayer.c.a:
+    java.lang.String[] VIDEO_EXTENSIONS -> a
+    java.lang.String[] AUDIO_EXTENSIONS -> b
+    java.util.HashSet mHashVideo -> c
+    java.util.HashSet mHashAudio -> d
+    java.util.HashMap mMimeType -> e
+    boolean isVideo(java.lang.String) -> a
+    boolean isVideo(java.io.File) -> a
+    boolean isAudio(java.io.File) -> b
+    boolean isAudio(java.lang.String) -> b
+    java.lang.String getFileExtension(java.io.File) -> c
+    java.lang.String getUrlExtension(java.lang.String) -> e
+    boolean createIfNoExists(java.lang.String) -> c
+    java.lang.String getMimeType(java.lang.String) -> d
+    java.util.List getAllSortFiles(int) -> a
+com.mx.vipmediaplayer.util.ImageBuffer -> com.mx.vipmediaplayer.c.b:
+    java.io.File bufferFolder -> a
+    java.util.List bufferImgs -> b
+    int curBufferSize -> c
+    java.util.List memoryImgs -> d
+    int curMemorySize -> e
+    java.lang.Object readLock -> f
+    java.util.regex.Pattern FileNamePattern -> g
+    void initBuffer() -> a
+    void addThumBitmap(com.mx.vipmediaplayer.model.VIPMediaBitmap) -> a
+    android.graphics.Bitmap readImg(com.mx.vipmediaplayer.model.VIPMedia) -> a
+    void deleteFileFromBuffer(java.lang.String) -> a
+com.mx.vipmediaplayer.util.ImageBuffer$1 -> com.mx.vipmediaplayer.c.c:
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.mx.vipmediaplayer.util.ImageBuffer$FileTimeComparator -> com.mx.vipmediaplayer.c.d:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.mx.vipmediaplayer.util.ImageLoadUtils -> com.mx.vipmediaplayer.c.e:
+    java.util.concurrent.ThreadPoolExecutor threadPool -> a
+    void readBitmapAsync(com.mx.vipmediaplayer.model.VIPMedia,com.mx.vipmediaplayer.util.MethodHandler) -> a
+    android.graphics.Bitmap readImg(com.mx.vipmediaplayer.model.VIPMedia) -> a
+com.mx.vipmediaplayer.util.ImageLoadUtils$LoadImgThread -> com.mx.vipmediaplayer.c.f:
+    com.mx.vipmediaplayer.model.VIPMedia media -> a
+    com.mx.vipmediaplayer.util.MethodHandler handler -> b
+    void run() -> run
+com.mx.vipmediaplayer.util.MethodHandler -> com.mx.vipmediaplayer.c.g:
+    void process(java.lang.Object) -> a
+com.mx.vipmediaplayer.util.PinyinUtils -> com.mx.vipmediaplayer.c.h:
+    net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat spellFormat -> a
+    java.lang.String chineneToSpell(java.lang.String) -> a
+io.vov.utils.CPU -> io.vov.a.a:
+    java.util.Map cpuinfo -> a
+    int cachedFeature -> b
+    java.lang.String cachedFeatureString -> c
+    int getFeature() -> a
+    int getCachedFeature() -> b
+io.vov.vitamio.LibsChecker -> io.vov.vitamio.a:
+    com.j256.ormlite.stmt.query.Clause first -> a
+    com.j256.ormlite.stmt.query.Clause second -> b
+    com.j256.ormlite.stmt.query.Clause[] others -> c
+    int startOthersAt -> d
+    java.lang.String operation -> e
+    boolean checkVitamioLibs(android.app.Activity) -> a
+    void appendSql(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List) -> a
+    android.graphics.Bitmap createVideoThumbnail(android.content.Context,java.lang.String,int) -> a
+    android.graphics.Bitmap extractThumbnail(android.graphics.Bitmap,int,int,int) -> a
+io.vov.vitamio.MediaMetadataRetriever -> io.vov.vitamio.b:
+    boolean NATIVE_LIB_LOADED -> a
+    android.content.res.AssetFileDescriptor mFD -> b
+    void setDataSource(java.lang.String) -> a
+    android.graphics.Bitmap getFrameAtTime(long) -> a
+    void _release() -> b
+    void release() -> a
+    boolean loadFFmpeg_native(java.lang.String) -> b
+    void native_init() -> c
+    void native_finalize() -> d
+    void finalize() -> finalize
+io.vov.vitamio.MediaPlayer -> io.vov.vitamio.c:
+    java.util.concurrent.atomic.AtomicBoolean NATIVE_LIB_LOADED -> a
+    java.util.concurrent.atomic.AtomicBoolean NATIVE_OMX_LOADED -> b
+    java.lang.Object NATIVE_LOCK -> c
+    android.view.SurfaceHolder mSurfaceHolder -> d
+    io.vov.vitamio.MediaPlayer$EventHandler mEventHandler -> e
+    android.os.PowerManager$WakeLock mWakeLock -> f
+    boolean mScreenOnWhilePlaying -> g
+    boolean mStayAwake -> h
+    android.content.res.AssetFileDescriptor mFD -> i
+    io.vov.vitamio.MediaPlayer$OnPreparedListener mOnPreparedListener -> j
+    io.vov.vitamio.MediaPlayer$OnCompletionListener mOnCompletionListener -> k
+    io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener mOnBufferingUpdateListener -> l
+    io.vov.vitamio.MediaPlayer$OnSeekCompleteListener mOnSeekCompleteListener -> m
+    io.vov.vitamio.MediaPlayer$OnVideoSizeChangedListener mOnVideoSizeChangedListener -> n
+    io.vov.vitamio.MediaPlayer$OnErrorListener mOnErrorListener -> o
+    io.vov.vitamio.MediaPlayer$OnInfoListener mOnInfoListener -> p
+    io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener mOnSubtitleUpdateListener -> q
+    void _setVideoSurface() -> m
+    void setDisplay(android.view.SurfaceHolder) -> a
+    void setDataSource(android.content.Context,android.net.Uri) -> a
+    void setDataSource(java.lang.String) -> a
+    void setDataSource(java.io.FileDescriptor) -> a
+    void prepareAsync() -> a
+    void start() -> b
+    void _start() -> n
+    void stop() -> c
+    void _stop() -> o
+    void pause() -> d
+    void _pause() -> p
+    void setScreenOnWhilePlaying(boolean) -> a
+    void stayAwake(boolean) -> b
+    void updateSurfaceScreenOn() -> q
+    int getVideoWidth() -> e
+    int getVideoHeight() -> f
+    boolean isPlaying() -> g
+    void seekTo(long) -> a
+    long getCurrentPosition() -> h
+    long getDuration() -> i
+    void release() -> j
+    void _release() -> r
+    void reset() -> k
+    void _reset() -> s
+    void closeFD() -> t
+    void native_init(java.lang.String) -> b
+    void native_finalize() -> u
+    void finalize() -> finalize
+    void setOnPreparedListener(io.vov.vitamio.MediaPlayer$OnPreparedListener) -> a
+    void setOnCompletionListener(io.vov.vitamio.MediaPlayer$OnCompletionListener) -> a
+    void setOnBufferingUpdateListener(io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener) -> a
+    void setOnSeekCompleteListener(io.vov.vitamio.MediaPlayer$OnSeekCompleteListener) -> a
+    void setOnVideoSizeChangedListener(io.vov.vitamio.MediaPlayer$OnVideoSizeChangedListener) -> a
+    void setOnErrorListener(io.vov.vitamio.MediaPlayer$OnErrorListener) -> a
+    void setOnInfoListener(io.vov.vitamio.MediaPlayer$OnInfoListener) -> a
+    void setOnSubtitleUpdateListener(io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener) -> a
+    float getVideoAspectRatio() -> l
+    boolean loadVAO_native(java.lang.String) -> c
+    boolean loadVVO_native(java.lang.String) -> d
+    void unloadOMX_native() -> v
+    boolean loadFFmpeg_native(java.lang.String) -> e
+    io.vov.vitamio.MediaPlayer$OnPreparedListener access$0(io.vov.vitamio.MediaPlayer) -> a
+    io.vov.vitamio.MediaPlayer$OnCompletionListener access$1(io.vov.vitamio.MediaPlayer) -> b
+    void access$2(io.vov.vitamio.MediaPlayer,boolean) -> a
+    io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener access$3(io.vov.vitamio.MediaPlayer) -> c
+    io.vov.vitamio.MediaPlayer$OnSeekCompleteListener access$4(io.vov.vitamio.MediaPlayer) -> d
+    io.vov.vitamio.MediaPlayer$OnVideoSizeChangedListener access$5(io.vov.vitamio.MediaPlayer) -> e
+    io.vov.vitamio.MediaPlayer$OnErrorListener access$6(io.vov.vitamio.MediaPlayer) -> f
+    io.vov.vitamio.MediaPlayer$OnInfoListener access$7(io.vov.vitamio.MediaPlayer) -> g
+    io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener access$8(io.vov.vitamio.MediaPlayer) -> h
+io.vov.vitamio.MediaPlayer$EventHandler -> io.vov.vitamio.d:
+    io.vov.vitamio.MediaPlayer mMediaPlayer -> a
+    android.os.Bundle mData -> b
+    io.vov.vitamio.MediaPlayer this$0 -> c
+    void handleMessage(android.os.Message) -> handleMessage
+io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener -> io.vov.vitamio.e:
+    void onBufferingUpdate(io.vov.vitamio.MediaPlayer,int) -> a
+io.vov.vitamio.MediaPlayer$OnCompletionListener -> io.vov.vitamio.f:
+    void onCompletion$25bb49d6() -> a
+io.vov.vitamio.MediaPlayer$OnErrorListener -> io.vov.vitamio.g:
+    boolean onError$5be17346(int,int) -> a
+io.vov.vitamio.MediaPlayer$OnInfoListener -> io.vov.vitamio.h:
+    boolean onInfo(io.vov.vitamio.MediaPlayer,int,int) -> a
+io.vov.vitamio.MediaPlayer$OnPreparedListener -> io.vov.vitamio.i:
+    void onPrepared(io.vov.vitamio.MediaPlayer) -> a
+io.vov.vitamio.MediaPlayer$OnSeekCompleteListener -> io.vov.vitamio.j:
+    void onSeekComplete(io.vov.vitamio.MediaPlayer) -> a
+io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener -> io.vov.vitamio.k:
+    void onSubtitleUpdate(java.lang.String) -> a
+    void onSubtitleUpdate(byte[],int,int) -> a
+io.vov.vitamio.MediaPlayer$OnVideoSizeChangedListener -> io.vov.vitamio.l:
+    void onVideoSizeChanged(io.vov.vitamio.MediaPlayer,int,int) -> a
+io.vov.vitamio.Vitamio -> io.vov.vitamio.m:
+    java.lang.String vitamioPackage -> a
+    java.lang.String vitamioLibraryPath -> b
+    java.lang.String[] LIBS_CODECS -> c
+    java.lang.String[] LIBS_PLAYER -> d
+    java.lang.String[] LIBS_SCANNER -> e
+    java.lang.String[] LIBS_AV -> f
+    int vitamioType -> g
+    boolean initialize(android.content.Context) -> a
+    boolean isInitialized(android.content.Context) -> b
+    java.lang.String getVitamioPackage() -> a
+    java.lang.String getLibraryPath() -> b
+    java.util.List getRequiredLibs() -> c
+    boolean extractLibs(android.content.Context,int) -> a
+    java.lang.String copyCompressedLib(android.content.Context,int,java.lang.String) -> a
+    boolean native_initializeLibs(java.lang.String,java.lang.String,java.lang.String) -> a
+io.vov.vitamio.activity.InitActivity -> io.vov.vitamio.activity.InitActivity:
+    android.app.ProgressDialog mPD -> a
+    android.os.Handler uiHandler -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.ProgressDialog access$0(io.vov.vitamio.activity.InitActivity) -> a
+    void access$1(io.vov.vitamio.activity.InitActivity,android.app.ProgressDialog) -> a
+    android.os.Handler access$2(io.vov.vitamio.activity.InitActivity) -> b
+io.vov.vitamio.activity.InitActivity$1 -> io.vov.vitamio.activity.a:
+    io.vov.vitamio.activity.InitActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+io.vov.vitamio.activity.InitActivity$2 -> io.vov.vitamio.activity.b:
+    io.vov.vitamio.activity.InitActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+io.vov.vitamio.widget.MediaController -> io.vov.vitamio.widget.a:
+    io.vov.vitamio.widget.MediaController$MediaPlayerControl mPlayer -> a
+    android.content.Context mContext -> b
+    android.widget.PopupWindow mWindow -> c
+    int mAnimStyle -> d
+    android.view.View mAnchor -> e
+    android.view.View mRoot -> f
+    android.widget.ProgressBar mProgress -> g
+    android.widget.TextView mEndTime -> h
+    android.widget.TextView mCurrentTime -> i
+    android.widget.TextView mFileName -> j
+    java.lang.String mTitle -> k
+    long mDuration -> l
+    boolean mShowing -> m
+    boolean mDragging -> n
+    boolean mInstantSeeking -> o
+    boolean mFromXml -> p
+    android.widget.ImageButton mPauseButton -> q
+    android.media.AudioManager mAM -> r
+    android.os.Handler mHandler -> s
+    android.view.View$OnClickListener mPauseListener -> t
+    android.widget.SeekBar$OnSeekBarChangeListener mSeekListener -> u
+    void onFinishInflate() -> onFinishInflate
+    void setAnchorView(android.view.View) -> a
+    void initControllerView(android.view.View) -> b
+    void setMediaPlayer(io.vov.vitamio.widget.MediaController$MediaPlayerControl) -> a
+    void show() -> a
+    void setFileName(java.lang.String) -> a
+    void disableUnsupportedButtons() -> d
+    void show(int) -> a
+    boolean isShowing() -> b
+    void hide() -> c
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onTrackballEvent(android.view.MotionEvent) -> onTrackballEvent
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    void updatePausePlay() -> e
+    void doPauseResume() -> f
+    void setEnabled(boolean) -> setEnabled
+    long access$0(io.vov.vitamio.widget.MediaController) -> a
+    boolean access$1(io.vov.vitamio.widget.MediaController) -> b
+    boolean access$2(io.vov.vitamio.widget.MediaController) -> c
+    void access$3(io.vov.vitamio.widget.MediaController) -> d
+    void access$4(io.vov.vitamio.widget.MediaController) -> e
+    void access$5(io.vov.vitamio.widget.MediaController,boolean) -> a
+    android.os.Handler access$6(io.vov.vitamio.widget.MediaController) -> f
+    boolean access$7(io.vov.vitamio.widget.MediaController) -> g
+    android.media.AudioManager access$8(io.vov.vitamio.widget.MediaController) -> h
+    io.vov.vitamio.widget.OutlineTextView access$9(io.vov.vitamio.widget.MediaController) -> i
+    long access$10(io.vov.vitamio.widget.MediaController) -> j
+    io.vov.vitamio.widget.MediaController$MediaPlayerControl access$11(io.vov.vitamio.widget.MediaController) -> k
+    android.widget.TextView access$12(io.vov.vitamio.widget.MediaController) -> l
+io.vov.vitamio.widget.MediaController$1 -> io.vov.vitamio.widget.b:
+    io.vov.vitamio.widget.MediaController this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+io.vov.vitamio.widget.MediaController$2 -> io.vov.vitamio.widget.c:
+    io.vov.vitamio.widget.MediaController this$0 -> a
+    void onClick(android.view.View) -> onClick
+io.vov.vitamio.widget.MediaController$3 -> io.vov.vitamio.widget.d:
+    io.vov.vitamio.widget.MediaController this$0 -> a
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+io.vov.vitamio.widget.MediaController$MediaPlayerControl -> io.vov.vitamio.widget.e:
+    void start() -> a
+    void pause() -> b
+    long getDuration() -> c
+    long getCurrentPosition() -> d
+    void seekTo(long) -> a
+    boolean isPlaying() -> e
+    int getBufferPercentage() -> f
+    boolean canPause() -> g
+io.vov.vitamio.widget.OutlineTextView -> io.vov.vitamio.widget.f:
+    android.text.TextPaint mTextPaint -> a
+    android.text.TextPaint mTextPaintOutline -> b
+    java.lang.String mText -> c
+    int mAscent -> d
+    float mBorderSize -> e
+    int mBorderColor -> f
+    int mColor -> g
+    void initPaint() -> a
+    void setText(java.lang.String) -> a
+    void setTextSize(float) -> setTextSize
+    void setTextColor(int) -> setTextColor
+    void setShadowLayer(float,float,float,int) -> setShadowLayer
+    void setTypeface(android.graphics.Typeface,int) -> setTypeface
+    void setTypeface(android.graphics.Typeface) -> setTypeface
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onMeasure(int,int) -> onMeasure
+    int measureWidth(int) -> a
+io.vov.vitamio.widget.VideoView -> io.vov.vitamio.widget.VideoView:
+    android.net.Uri mUri -> a
+    long mDuration -> b
+    int mCurrentState -> c
+    int mTargetState -> d
+    float mAspectRatio -> e
+    int mVideoLayout -> f
+    android.view.SurfaceHolder mSurfaceHolder -> g
+    io.vov.vitamio.MediaPlayer mMediaPlayer -> h
+    int mVideoWidth -> i
+    int mVideoHeight -> j
+    float mVideoAspectRatio -> k
+    int mSurfaceWidth -> l
+    int mSurfaceHeight -> m
+    io.vov.vitamio.widget.MediaController mMediaController -> n
+    io.vov.vitamio.MediaPlayer$OnCompletionListener mOnCompletionListener -> o
+    io.vov.vitamio.MediaPlayer$OnInfoListener mOnInfoListener -> p
+    int mCurrentBufferPercentage -> q
+    long mSeekWhenPrepared -> r
+    boolean mCanPause -> s
+    android.content.Context mContext -> t
+    io.vov.vitamio.MediaPlayer$OnVideoSizeChangedListener mSizeChangedListener -> u
+    io.vov.vitamio.MediaPlayer$OnPreparedListener mPreparedListener -> v
+    io.vov.vitamio.MediaPlayer$OnCompletionListener mCompletionListener -> w
+    io.vov.vitamio.MediaPlayer$OnErrorListener mErrorListener -> x
+    io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener mBufferingUpdateListener -> y
+    io.vov.vitamio.MediaPlayer$OnInfoListener mInfoListener -> z
+    io.vov.vitamio.MediaPlayer$OnSeekCompleteListener mSeekCompleteListener -> A
+    io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener mSubtitleUpdateListener -> B
+    android.view.SurfaceHolder$Callback mSHCallback -> C
+    void onMeasure(int,int) -> onMeasure
+    void setVideoLayout(int,float) -> a
+    void initVideoView(android.content.Context) -> a
+    void setVideoPath(java.lang.String) -> a
+    void setVideoURI(android.net.Uri) -> a
+    void stopPlayback() -> h
+    void openVideo() -> j
+    void setMediaController(io.vov.vitamio.widget.MediaController) -> a
+    void attachMediaController() -> k
+    void setOnCompletionListener(io.vov.vitamio.MediaPlayer$OnCompletionListener) -> a
+    void setOnInfoListener(io.vov.vitamio.MediaPlayer$OnInfoListener) -> a
+    void release(boolean) -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onTrackballEvent(android.view.MotionEvent) -> onTrackballEvent
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void toggleMediaControlsVisiblity() -> l
+    void start() -> a
+    void pause() -> b
+    void resume() -> i
+    long getDuration() -> c
+    long getCurrentPosition() -> d
+    void seekTo(long) -> a
+    boolean isPlaying() -> e
+    int getBufferPercentage() -> f
+    boolean isInPlaybackState() -> m
+    boolean canPause() -> g
+    void access$0(io.vov.vitamio.widget.VideoView,int) -> a
+    void access$1(io.vov.vitamio.widget.VideoView,int) -> b
+    void access$2(io.vov.vitamio.widget.VideoView,float) -> a
+    int access$3(io.vov.vitamio.widget.VideoView) -> a
+    int access$4(io.vov.vitamio.widget.VideoView) -> b
+    int access$5(io.vov.vitamio.widget.VideoView) -> c
+    float access$6(io.vov.vitamio.widget.VideoView) -> d
+    void access$7(io.vov.vitamio.widget.VideoView,int) -> c
+    void access$8(io.vov.vitamio.widget.VideoView,int) -> d
+    io.vov.vitamio.MediaPlayer$OnPreparedListener access$9(io.vov.vitamio.widget.VideoView) -> e
+    io.vov.vitamio.MediaPlayer access$10(io.vov.vitamio.widget.VideoView) -> f
+    io.vov.vitamio.widget.MediaController access$11(io.vov.vitamio.widget.VideoView) -> g
+    long access$12(io.vov.vitamio.widget.VideoView) -> h
+    int access$13(io.vov.vitamio.widget.VideoView) -> i
+    int access$14(io.vov.vitamio.widget.VideoView) -> j
+    int access$15(io.vov.vitamio.widget.VideoView) -> k
+    io.vov.vitamio.MediaPlayer$OnCompletionListener access$16(io.vov.vitamio.widget.VideoView) -> l
+    io.vov.vitamio.MediaPlayer$OnErrorListener access$17(io.vov.vitamio.widget.VideoView) -> m
+    android.content.Context access$18(io.vov.vitamio.widget.VideoView) -> n
+    void access$19(io.vov.vitamio.widget.VideoView,int) -> e
+    io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener access$20(io.vov.vitamio.widget.VideoView) -> o
+    io.vov.vitamio.MediaPlayer$OnInfoListener access$21(io.vov.vitamio.widget.VideoView) -> p
+    io.vov.vitamio.MediaPlayer$OnSeekCompleteListener access$22(io.vov.vitamio.widget.VideoView) -> q
+    io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener access$23(io.vov.vitamio.widget.VideoView) -> r
+    void access$24(io.vov.vitamio.widget.VideoView,int) -> f
+    void access$25(io.vov.vitamio.widget.VideoView,int) -> g
+    void access$26(io.vov.vitamio.widget.VideoView,android.view.SurfaceHolder) -> a
+    int access$27(io.vov.vitamio.widget.VideoView) -> s
+    android.view.SurfaceHolder access$28(io.vov.vitamio.widget.VideoView) -> t
+    void access$29(io.vov.vitamio.widget.VideoView) -> u
+    void access$30(io.vov.vitamio.widget.VideoView,boolean) -> a
+io.vov.vitamio.widget.VideoView$1 -> io.vov.vitamio.widget.g:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void onVideoSizeChanged(io.vov.vitamio.MediaPlayer,int,int) -> a
+io.vov.vitamio.widget.VideoView$2 -> io.vov.vitamio.widget.h:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void onPrepared(io.vov.vitamio.MediaPlayer) -> a
+io.vov.vitamio.widget.VideoView$3 -> io.vov.vitamio.widget.i:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void onCompletion$25bb49d6() -> a
+io.vov.vitamio.widget.VideoView$4 -> io.vov.vitamio.widget.j:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    boolean onError$5be17346(int,int) -> a
+io.vov.vitamio.widget.VideoView$4$1 -> io.vov.vitamio.widget.k:
+    io.vov.vitamio.widget.VideoView$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+io.vov.vitamio.widget.VideoView$5 -> io.vov.vitamio.widget.l:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void onBufferingUpdate(io.vov.vitamio.MediaPlayer,int) -> a
+io.vov.vitamio.widget.VideoView$6 -> io.vov.vitamio.widget.m:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    boolean onInfo(io.vov.vitamio.MediaPlayer,int,int) -> a
+io.vov.vitamio.widget.VideoView$7 -> io.vov.vitamio.widget.n:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void onSeekComplete(io.vov.vitamio.MediaPlayer) -> a
+io.vov.vitamio.widget.VideoView$8 -> io.vov.vitamio.widget.o:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void onSubtitleUpdate(byte[],int,int) -> a
+    void onSubtitleUpdate(java.lang.String) -> a
+io.vov.vitamio.widget.VideoView$9 -> io.vov.vitamio.widget.p:
+    io.vov.vitamio.widget.VideoView this$0 -> a
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+net.sourceforge.pinyin4j.ChineseToPinyinResource -> a.a.a.a:
+    java.util.Properties unicodeToHanyuPinyinTable -> a
+    java.lang.String[] toHanyuPinyinStringArray(char,net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat) -> a
+net.sourceforge.pinyin4j.ChineseToPinyinResource$ChineseToPinyinResourceHolder -> a.a.a.b:
+    net.sourceforge.pinyin4j.ChineseToPinyinResource theInstance -> a
+net.sourceforge.pinyin4j.ResourceHelper -> a.a.a.c:
+    java.io.BufferedInputStream getResourceInputStream(java.lang.String) -> a
+net.sourceforge.pinyin4j.format.HanyuPinyinCaseType -> a.a.a.a.a:
+    net.sourceforge.pinyin4j.format.HanyuPinyinCaseType UPPERCASE -> a
+    net.sourceforge.pinyin4j.format.HanyuPinyinCaseType LOWERCASE -> b
+net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat -> a.a.a.a.b:
+    net.sourceforge.pinyin4j.format.HanyuPinyinVCharType vCharType -> a
+    net.sourceforge.pinyin4j.format.HanyuPinyinCaseType caseType -> b
+    net.sourceforge.pinyin4j.format.HanyuPinyinToneType toneType -> c
+    net.sourceforge.pinyin4j.format.HanyuPinyinCaseType getCaseType() -> a
+    void setCaseType(net.sourceforge.pinyin4j.format.HanyuPinyinCaseType) -> a
+    net.sourceforge.pinyin4j.format.HanyuPinyinToneType getToneType() -> b
+    void setToneType(net.sourceforge.pinyin4j.format.HanyuPinyinToneType) -> a
+    net.sourceforge.pinyin4j.format.HanyuPinyinVCharType getVCharType() -> c
+net.sourceforge.pinyin4j.format.HanyuPinyinToneType -> a.a.a.a.c:
+    net.sourceforge.pinyin4j.format.HanyuPinyinToneType WITH_TONE_NUMBER -> a
+    net.sourceforge.pinyin4j.format.HanyuPinyinToneType WITHOUT_TONE -> b
+    net.sourceforge.pinyin4j.format.HanyuPinyinToneType WITH_TONE_MARK -> c
+net.sourceforge.pinyin4j.format.HanyuPinyinVCharType -> a.a.a.a.d:
+    net.sourceforge.pinyin4j.format.HanyuPinyinVCharType WITH_U_AND_COLON -> a
+    net.sourceforge.pinyin4j.format.HanyuPinyinVCharType WITH_V -> b
+    net.sourceforge.pinyin4j.format.HanyuPinyinVCharType WITH_U_UNICODE -> c
+net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination -> a.a.a.a.a.a:

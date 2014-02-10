@@ -162,6 +162,10 @@ public class ContentListView extends ListView implements AdapterView.OnItemClick
 
     @Override
     public void onItemClick(AdapterView<?> parent, View arg1, int position, long arg3) {
+//		Intent intent = new Intent(activity, VideoPlayerActivity.class);
+//      intent.putExtra("path", "mms://yayin.canlitv.com/showtv");
+//      intent.putExtra("title", "zhongwen");
+//      activity.startActivity(intent);
         final OnlineVideo item = (OnlineVideo)mAdapter.getItem(position);
         switch (level) {
         case 1:// level 1

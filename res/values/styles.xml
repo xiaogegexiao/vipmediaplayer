@@ -30,4 +30,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="MediaController_anim_style">
+        <item name="android:windowEnterAnimation">@anim/animation</item>
+    </style>
 </resources>

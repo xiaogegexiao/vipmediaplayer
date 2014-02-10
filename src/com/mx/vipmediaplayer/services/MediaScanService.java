@@ -1,7 +1,6 @@
 package com.mx.vipmediaplayer.services;
 
 import io.vov.vitamio.ThumbnailUtils;
-import io.vov.vitamio.provider.MediaStore;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,6 +24,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
+import android.provider.MediaStore;
 
 import com.mx.vipmediaplayer.Logger;
 import com.mx.vipmediaplayer.VIPMediaPlayerApplication;
@@ -280,8 +280,9 @@ public class MediaScanService extends Service implements Runnable {
     public static void extractThumbnail(VIPMedia media) {
         final Context ctx = VIPMediaPlayerApplication.getContext();
         // ThumbnailUtils.
-        Bitmap bitmap = ThumbnailUtils.createVideoThumbnail(ctx, media.path,
-                MediaStore.Video.Thumbnails.MINI_KIND);
+        Bitmap bitmap = null; 
+        /* ThumbnailUtils.createVideoThumbnail(ctx, media.path,
+                MediaStore.Video.Thumbnails.MINI_KIND); */
         try {
             if (bitmap == null) {
                 // 缩略图创建失败

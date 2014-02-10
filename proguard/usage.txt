@@ -1,0 +1,1374 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs
+android.support.v4.app.ActivityCompatHoneycomb
+android.support.v4.app.BackStackRecord
+android.support.v4.app.BackStackRecord$Op
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState$1
+android.support.v4.app.DialogFragment
+android.support.v4.app.Fragment
+android.support.v4.app.Fragment$InstantiationException
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState$1
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentActivity$1
+android.support.v4.app.FragmentActivity$FragmentTag
+android.support.v4.app.FragmentActivity$NonConfigurationInstances
+android.support.v4.app.FragmentManager
+android.support.v4.app.FragmentManager$BackStackEntry
+android.support.v4.app.FragmentManager$OnBackStackChangedListener
+android.support.v4.app.FragmentManagerImpl
+android.support.v4.app.FragmentManagerImpl$1
+android.support.v4.app.FragmentManagerImpl$2
+android.support.v4.app.FragmentManagerImpl$3
+android.support.v4.app.FragmentManagerImpl$4
+android.support.v4.app.FragmentManagerImpl$5
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState$1
+android.support.v4.app.FragmentPagerAdapter
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState$1
+android.support.v4.app.FragmentStatePagerAdapter
+android.support.v4.app.FragmentTransaction
+android.support.v4.app.HCSparseArray
+android.support.v4.app.ListFragment
+android.support.v4.app.ListFragment$1
+android.support.v4.app.ListFragment$2
+android.support.v4.app.LoaderManager
+android.support.v4.app.LoaderManager$LoaderCallbacks
+android.support.v4.app.LoaderManagerImpl
+android.support.v4.app.LoaderManagerImpl$LoaderInfo
+android.support.v4.app.NoSaveStateFrameLayout
+android.support.v4.app.ServiceCompat
+android.support.v4.app.SuperNotCalledException
+android.support.v4.content.AsyncTaskLoader
+android.support.v4.content.AsyncTaskLoader$LoadTask
+android.support.v4.content.CursorLoader
+android.support.v4.content.IntentCompat
+android.support.v4.content.Loader
+android.support.v4.content.Loader$ForceLoadContentObserver
+android.support.v4.content.Loader$OnLoadCompleteListener
+android.support.v4.content.LocalBroadcastManager
+android.support.v4.content.LocalBroadcastManager$1
+android.support.v4.content.LocalBroadcastManager$BroadcastRecord
+android.support.v4.content.LocalBroadcastManager$ReceiverRecord
+android.support.v4.content.ModernAsyncTask
+android.support.v4.content.ModernAsyncTask$1
+android.support.v4.content.ModernAsyncTask$2
+android.support.v4.content.ModernAsyncTask$3
+android.support.v4.content.ModernAsyncTask$4
+android.support.v4.content.ModernAsyncTask$AsyncTaskResult
+android.support.v4.content.ModernAsyncTask$InternalHandler
+android.support.v4.content.ModernAsyncTask$Status
+android.support.v4.content.ModernAsyncTask$WorkerRunnable
+android.support.v4.content.pm.ActivityInfoCompat
+android.support.v4.database.DatabaseUtilsCompat
+android.support.v4.os.ParcelableCompat
+android.support.v4.os.ParcelableCompat$CompatCreator
+android.support.v4.os.ParcelableCompatCreatorCallbacks
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub
+android.support.v4.util.DebugUtils
+android.support.v4.util.LogWriter
+android.support.v4.util.LruCache
+android.support.v4.util.TimeUtils
+android.support.v4.view.AccessibilityDelegateCompat
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl
+android.support.v4.view.AccessibilityDelegateCompatIcs
+android.support.v4.view.AccessibilityDelegateCompatIcs$1
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge
+android.support.v4.view.KeyEventCompat
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl
+android.support.v4.view.KeyEventCompatHoneycomb
+android.support.v4.view.MenuCompat
+android.support.v4.view.MenuCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompat
+android.support.v4.view.MenuItemCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuItemCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuItemCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompatHoneycomb
+android.support.v4.view.MotionEventCompat
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl
+android.support.v4.view.MotionEventCompatEclair
+android.support.v4.view.PagerAdapter
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip$1
+android.support.v4.view.PagerTitleStrip$PageListener
+android.support.v4.view.VelocityTrackerCompat
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl
+android.support.v4.view.VelocityTrackerCompatHoneycomb
+android.support.v4.view.ViewCompat
+android.support.v4.view.ViewCompat$BaseViewCompatImpl
+android.support.v4.view.ViewCompat$GBViewCompatImpl
+android.support.v4.view.ViewCompat$ICSViewCompatImpl
+android.support.v4.view.ViewCompat$ViewCompatImpl
+android.support.v4.view.ViewCompatGingerbread
+android.support.v4.view.ViewCompatICS
+android.support.v4.view.ViewConfigurationCompat
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompatFroyo
+android.support.v4.view.ViewGroupCompat
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatIcsImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatStubImpl
+android.support.v4.view.ViewGroupCompatIcs
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager$1
+android.support.v4.view.ViewPager$2
+android.support.v4.view.ViewPager$Decor
+android.support.v4.view.ViewPager$ItemInfo
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$OnAdapterChangeListener
+android.support.v4.view.ViewPager$OnPageChangeListener
+android.support.v4.view.ViewPager$PagerObserver
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState$1
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.accessibility.AccessibilityEventCompat
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventIcsImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventStubImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl$1
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerStubImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$1
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$AccessibilityStateChangeListenerBridge
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs
+android.support.v4.view.accessibility.AccessibilityRecordCompat
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs
+android.support.v4.widget.CursorAdapter
+android.support.v4.widget.CursorAdapter$1
+android.support.v4.widget.CursorAdapter$ChangeObserver
+android.support.v4.widget.CursorAdapter$MyDataSetObserver
+android.support.v4.widget.CursorFilter
+android.support.v4.widget.CursorFilter$CursorFilterClient
+android.support.v4.widget.EdgeEffectCompat
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl
+android.support.v4.widget.EdgeEffectCompatIcs
+android.support.v4.widget.ResourceCursorAdapter
+android.support.v4.widget.SearchViewCompat
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl$1
+android.support.v4.widget.SearchViewCompat$SearchViewCompatImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatStubImpl
+android.support.v4.widget.SearchViewCompatHoneycomb
+android.support.v4.widget.SearchViewCompatHoneycomb$1
+android.support.v4.widget.SearchViewCompatHoneycomb$OnQueryTextListenerCompatBridge
+android.support.v4.widget.SimpleCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
+android.support.v4.widget.SimpleCursorAdapter$ViewBinder
+com.hp.hpl.sparta.BuildDocument
+com.hp.hpl.sparta.CharCircBuffer
+com.hp.hpl.sparta.DOMException
+com.hp.hpl.sparta.DefaultLog
+com.hp.hpl.sparta.DefaultParseHandler
+com.hp.hpl.sparta.Document
+com.hp.hpl.sparta.Document$Index
+com.hp.hpl.sparta.Document$Observer
+com.hp.hpl.sparta.DocumentSource
+com.hp.hpl.sparta.Element
+com.hp.hpl.sparta.EmptyEnumeration
+com.hp.hpl.sparta.EncodingMismatchException
+com.hp.hpl.sparta.Node
+com.hp.hpl.sparta.Node$1
+com.hp.hpl.sparta.NodeListWithPosition
+com.hp.hpl.sparta.ParseByteStream
+com.hp.hpl.sparta.ParseCharStream
+com.hp.hpl.sparta.ParseException
+com.hp.hpl.sparta.ParseHandler
+com.hp.hpl.sparta.ParseLog
+com.hp.hpl.sparta.ParseSource
+com.hp.hpl.sparta.Parser
+com.hp.hpl.sparta.Sparta
+com.hp.hpl.sparta.Sparta$1
+com.hp.hpl.sparta.Sparta$2
+com.hp.hpl.sparta.Sparta$Cache
+com.hp.hpl.sparta.Sparta$CacheFactory
+com.hp.hpl.sparta.Sparta$HashtableCache
+com.hp.hpl.sparta.Sparta$Internment
+com.hp.hpl.sparta.Text
+com.hp.hpl.sparta.XPathVisitor
+com.hp.hpl.sparta.XPathVisitor$1
+com.hp.hpl.sparta.XPathVisitor$BooleanStack
+com.hp.hpl.sparta.XPathVisitor$BooleanStack$Item
+com.hp.hpl.sparta.xpath.AllElementTest
+com.hp.hpl.sparta.xpath.AttrCompareExpr
+com.hp.hpl.sparta.xpath.AttrEqualsExpr
+com.hp.hpl.sparta.xpath.AttrExistsExpr
+com.hp.hpl.sparta.xpath.AttrExpr
+com.hp.hpl.sparta.xpath.AttrGreaterExpr
+com.hp.hpl.sparta.xpath.AttrLessExpr
+com.hp.hpl.sparta.xpath.AttrNotEqualsExpr
+com.hp.hpl.sparta.xpath.AttrRelationalExpr
+com.hp.hpl.sparta.xpath.AttrTest
+com.hp.hpl.sparta.xpath.BooleanExpr
+com.hp.hpl.sparta.xpath.BooleanExprVisitor
+com.hp.hpl.sparta.xpath.ElementTest
+com.hp.hpl.sparta.xpath.ExprFactory
+com.hp.hpl.sparta.xpath.NodeTest
+com.hp.hpl.sparta.xpath.NodeTestVisitor
+com.hp.hpl.sparta.xpath.ParentNodeTest
+com.hp.hpl.sparta.xpath.PositionEqualsExpr
+com.hp.hpl.sparta.xpath.SimpleStreamTokenizer
+com.hp.hpl.sparta.xpath.Step
+com.hp.hpl.sparta.xpath.TextCompareExpr
+com.hp.hpl.sparta.xpath.TextEqualsExpr
+com.hp.hpl.sparta.xpath.TextExistsExpr
+com.hp.hpl.sparta.xpath.TextNotEqualsExpr
+com.hp.hpl.sparta.xpath.TextTest
+com.hp.hpl.sparta.xpath.ThisNodeTest
+com.hp.hpl.sparta.xpath.TrueExpr
+com.hp.hpl.sparta.xpath.Visitor
+com.hp.hpl.sparta.xpath.XPath
+com.hp.hpl.sparta.xpath.XPathException
+com.j256.ormlite.android.AndroidCompiledStatement:
+    45:45:public int getColumnCount()
+    49:49:public java.lang.String getColumnName(int)
+    61:70:public int runUpdate()
+    136:136:public void setQueryTimeout(long)
+com.j256.ormlite.android.AndroidConnectionSource:
+    39:42:public AndroidConnectionSource(android.database.sqlite.SQLiteDatabase)
+    100:100:public boolean isOpen()
+com.j256.ormlite.android.AndroidDatabaseConnection:
+    41:41:public boolean isAutoCommitSupported()
+    46:51:public boolean isAutoCommit()
+    60:70:public void setAutoCommit(boolean)
+    74:78:public java.sql.Savepoint setSavePoint(java.lang.String)
+    86:86:public boolean isReadWrite()
+    91:101:public void commit(java.sql.Savepoint)
+    106:115:public void rollback(java.sql.Savepoint)
+    156:156:public int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[])
+    207:223:public long queryForLong(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[])
+    230:235:public void close()
+    239:243:public boolean isClosed()
+    248:257:public boolean isTableExists(java.lang.String)
+com.j256.ormlite.android.AndroidDatabaseConnection$OurSavePoint
+com.j256.ormlite.android.AndroidDatabaseResults:
+    private static final int MIN_NUM_COLUMN_NAMES_MAP
+    56:57:public AndroidDatabaseResults(android.database.Cursor,boolean,com.j256.ormlite.dao.ObjectCache)
+    72:72:public boolean previous()
+    76:76:public boolean moveRelative(int)
+    158:158:public java.io.InputStream getBlobStream(int)
+    177:177:public android.database.Cursor getRawCursor()
+com.j256.ormlite.android.AndroidLog
+com.j256.ormlite.android.AndroidLog$1
+com.j256.ormlite.android.DatabaseTableConfigUtil:
+    private static final int COLUMN_NAME
+    private static final int DATA_TYPE
+    private static final int DEFAULT_VALUE
+    private static final int WIDTH
+    private static final int CAN_BE_NULL
+    private static final int ID
+    private static final int GENERATED_ID
+    private static final int GENERATED_ID_SEQUENCE
+    private static final int FOREIGN
+    private static final int USE_GET_SET
+    private static final int UNKNOWN_ENUM_NAME
+    private static final int THROW_IF_NULL
+    private static final int PERSISTED
+    private static final int FORMAT
+    private static final int UNIQUE
+    private static final int UNIQUE_COMBO
+    private static final int INDEX
+    private static final int UNIQUE_INDEX
+    private static final int INDEX_NAME
+    private static final int UNIQUE_INDEX_NAME
+    private static final int FOREIGN_AUTO_REFRESH
+    private static final int MAX_FOREIGN_AUTO_REFRESH_LEVEL
+    private static final int PERSISTER_CLASS
+    private static final int ALLOW_GENERATED_ID_INSERT
+    private static final int COLUMN_DEFINITON
+    private static final int FOREIGN_AUTO_CREATE
+    private static final int VERSION
+    private static final int FOREIGN_COLUMN_NAME
+    29:402:public DatabaseTableConfigUtil()
+    67:67:public static int getWorkedC()
+com.j256.ormlite.android.apptools.OpenHelperManager
+com.j256.ormlite.android.apptools.OrmLiteBaseActivity
+com.j256.ormlite.android.apptools.OrmLiteBaseActivityGroup
+com.j256.ormlite.android.apptools.OrmLiteBaseListActivity
+com.j256.ormlite.android.apptools.OrmLiteBaseService
+com.j256.ormlite.android.apptools.OrmLiteBaseTabActivity
+com.j256.ormlite.android.apptools.OrmLiteConfigUtil
+com.j256.ormlite.android.apptools.OrmLiteConfigUtil$1
+com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper:
+    54:55:public OrmLiteSqliteOpenHelper(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int,int)
+    65:66:public OrmLiteSqliteOpenHelper(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int,java.io.File)
+    77:96:public OrmLiteSqliteOpenHelper(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int,java.io.InputStream)
+    226:226:public boolean isOpen()
+    255:260:public com.j256.ormlite.dao.RuntimeExceptionDao getRuntimeExceptionDao(java.lang.Class)
+    270:274:private static java.io.InputStream openFileId(android.content.Context,int)
+    279:285:private static java.io.InputStream openFile(java.io.File)
+com.j256.ormlite.dao.BaseDaoImpl:
+    private static com.j256.ormlite.dao.ReferenceObjectCache defaultObjectCache
+    92:93:protected BaseDaoImpl(java.lang.Class)
+    218:223:public java.lang.Object queryForId(java.lang.Object)
+    228:233:public java.lang.Object queryForFirst(com.j256.ormlite.stmt.PreparedQuery)
+    238:239:public java.util.List queryForAll()
+    243:243:public java.util.List queryForEq(java.lang.String,java.lang.Object)
+    252:253:public com.j256.ormlite.stmt.UpdateBuilder updateBuilder()
+    257:258:public com.j256.ormlite.stmt.DeleteBuilder deleteBuilder()
+    267:267:public java.util.List queryForMatching(java.lang.Object)
+    271:271:public java.util.List queryForMatchingArgs(java.lang.Object)
+    279:279:public java.util.List queryForFieldValuesArgs(java.util.Map)
+    283:291:public java.lang.Object queryForSameId(java.lang.Object)
+    315:323:public java.lang.Object createIfNotExists(java.lang.Object)
+    328:338:public com.j256.ormlite.dao.Dao$CreateOrUpdateStatus createOrUpdate(java.lang.Object)
+    343:352:public int update(java.lang.Object)
+    358:367:public int updateId(java.lang.Object,java.lang.Object)
+    373:378:public int update(com.j256.ormlite.stmt.PreparedUpdate)
+    383:397:public int refresh(java.lang.Object)
+    418:427:public int deleteById(java.lang.Object)
+    433:442:public int delete(java.util.Collection)
+    448:457:public int deleteIds(java.util.Collection)
+    463:468:public int delete(com.j256.ormlite.stmt.PreparedDelete)
+    487:488:public com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable()
+    503:504:public com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable(com.j256.ormlite.stmt.PreparedQuery)
+    519:523:public void closeLastIterator()
+    536:540:public varargs com.j256.ormlite.dao.GenericRawResults queryRaw(java.lang.String,java.lang.String[])
+    546:550:public varargs com.j256.ormlite.dao.GenericRawResults queryRaw(java.lang.String,com.j256.ormlite.dao.RawRowMapper,java.lang.String[])
+    556:560:public varargs com.j256.ormlite.dao.GenericRawResults queryRaw(java.lang.String,com.j256.ormlite.field.DataType[],java.lang.String[])
+    565:572:public varargs int executeRaw(java.lang.String,java.lang.String[])
+    577:584:public varargs int updateRaw(java.lang.String,java.lang.String[])
+    589:600:public java.lang.Object callBatchTasks(java.util.concurrent.Callable)
+    605:606:public java.lang.String objectToString(java.lang.Object)
+    610:619:public boolean objectsEqual(java.lang.Object,java.lang.Object)
+    623:630:public java.lang.Object extractId(java.lang.Object)
+    638:644:public com.j256.ormlite.field.FieldType findForeignFieldType(java.lang.Class)
+    648:648:public boolean isUpdatable()
+    652:657:public boolean isTableExists()
+    662:667:public long countOf()
+    672:681:public long countOf(com.j256.ormlite.stmt.PreparedQuery)
+    686:692:public com.j256.ormlite.dao.ForeignCollection getEmptyForeignCollection(java.lang.String)
+    696:716:public void setObjectCache(boolean)
+    719:736:public void setObjectCache(com.j256.ormlite.dao.ObjectCache)
+    739:739:public com.j256.ormlite.dao.ObjectCache getObjectCache()
+    743:746:public void clearObjectCache()
+    752:756:public static synchronized void clearAllInternalObjectCaches()
+    759:759:public java.lang.Object mapSelectStarRow(com.j256.ormlite.support.DatabaseResults)
+    763:763:public com.j256.ormlite.stmt.GenericRowMapper getSelectStarRowMapper()
+    767:767:public com.j256.ormlite.dao.RawRowMapper getRawRowMapper()
+    771:775:public boolean idExists(java.lang.Object)
+    780:782:public com.j256.ormlite.support.DatabaseConnection startThreadConnection()
+    786:788:public void endThreadConnection(com.j256.ormlite.support.DatabaseConnection)
+    791:797:public void setAutoCommit(boolean)
+    800:801:public void setAutoCommit(com.j256.ormlite.support.DatabaseConnection,boolean)
+    804:808:public boolean isAutoCommit()
+    813:813:public boolean isAutoCommit(com.j256.ormlite.support.DatabaseConnection)
+    817:818:public void commit(com.j256.ormlite.support.DatabaseConnection)
+    821:822:public void rollBack(com.j256.ormlite.support.DatabaseConnection)
+    829:831:public void setObjectFactory(com.j256.ormlite.table.ObjectFactory)
+    837:837:public com.j256.ormlite.table.DatabaseTableConfig getTableConfig()
+    848:849:public void setConnectionSource(com.j256.ormlite.support.ConnectionSource)
+    856:857:public void setTableConfig(com.j256.ormlite.table.DatabaseTableConfig)
+    914:932:private java.util.List queryForMatching(java.lang.Object,boolean)
+    56:56:static synthetic com.j256.ormlite.dao.CloseableIterator access$100(com.j256.ormlite.dao.BaseDaoImpl,int)
+    56:56:static synthetic com.j256.ormlite.dao.CloseableIterator access$200(com.j256.ormlite.dao.BaseDaoImpl,com.j256.ormlite.stmt.PreparedQuery,int)
+com.j256.ormlite.dao.BaseDaoImpl$2
+com.j256.ormlite.dao.BaseDaoImpl$3
+com.j256.ormlite.dao.BaseForeignCollection:
+    private static final long serialVersionUID
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean removeAll(java.util.Collection)
+    155:158:public int update(java.lang.Object)
+    163:166:public int refresh(java.lang.Object)
+com.j256.ormlite.dao.CloseableIterator:
+    public abstract com.j256.ormlite.support.DatabaseResults getRawResults()
+    public abstract java.lang.Object first()
+    public abstract java.lang.Object previous()
+    public abstract java.lang.Object current()
+    public abstract java.lang.Object nextThrow()
+    public abstract java.lang.Object moveRelative(int)
+com.j256.ormlite.dao.CloseableWrappedIterable:
+    public abstract void close()
+com.j256.ormlite.dao.CloseableWrappedIterableImpl
+com.j256.ormlite.dao.Dao:
+    public abstract java.lang.Object queryForId(java.lang.Object)
+    public abstract java.lang.Object queryForFirst(com.j256.ormlite.stmt.PreparedQuery)
+    public abstract java.util.List queryForAll()
+    public abstract java.util.List queryForEq(java.lang.String,java.lang.Object)
+    public abstract java.util.List queryForMatching(java.lang.Object)
+    public abstract java.util.List queryForMatchingArgs(java.lang.Object)
+    public abstract java.util.List queryForFieldValuesArgs(java.util.Map)
+    public abstract java.lang.Object queryForSameId(java.lang.Object)
+    public abstract com.j256.ormlite.stmt.UpdateBuilder updateBuilder()
+    public abstract com.j256.ormlite.stmt.DeleteBuilder deleteBuilder()
+    public abstract java.lang.Object createIfNotExists(java.lang.Object)
+    public abstract com.j256.ormlite.dao.Dao$CreateOrUpdateStatus createOrUpdate(java.lang.Object)
+    public abstract int update(java.lang.Object)
+    public abstract int updateId(java.lang.Object,java.lang.Object)
+    public abstract int update(com.j256.ormlite.stmt.PreparedUpdate)
+    public abstract int refresh(java.lang.Object)
+    public abstract int deleteById(java.lang.Object)
+    public abstract int delete(java.util.Collection)
+    public abstract int deleteIds(java.util.Collection)
+    public abstract int delete(com.j256.ormlite.stmt.PreparedDelete)
+    public abstract com.j256.ormlite.dao.CloseableIterator iterator()
+    public abstract com.j256.ormlite.dao.CloseableIterator iterator(int)
+    public abstract com.j256.ormlite.dao.CloseableIterator iterator(com.j256.ormlite.stmt.PreparedQuery,int)
+    public abstract com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable()
+    public abstract com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable(com.j256.ormlite.stmt.PreparedQuery)
+    public abstract void closeLastIterator()
+    public varargs abstract com.j256.ormlite.dao.GenericRawResults queryRaw(java.lang.String,java.lang.String[])
+    public varargs abstract com.j256.ormlite.dao.GenericRawResults queryRaw(java.lang.String,com.j256.ormlite.dao.RawRowMapper,java.lang.String[])
+    public varargs abstract com.j256.ormlite.dao.GenericRawResults queryRaw(java.lang.String,com.j256.ormlite.field.DataType[],java.lang.String[])
+    public varargs abstract int executeRaw(java.lang.String,java.lang.String[])
+    public varargs abstract int updateRaw(java.lang.String,java.lang.String[])
+    public abstract java.lang.Object callBatchTasks(java.util.concurrent.Callable)
+    public abstract java.lang.String objectToString(java.lang.Object)
+    public abstract boolean objectsEqual(java.lang.Object,java.lang.Object)
+    public abstract java.lang.Object extractId(java.lang.Object)
+    public abstract com.j256.ormlite.field.FieldType findForeignFieldType(java.lang.Class)
+    public abstract boolean isUpdatable()
+    public abstract boolean isTableExists()
+    public abstract long countOf()
+    public abstract long countOf(com.j256.ormlite.stmt.PreparedQuery)
+    public abstract com.j256.ormlite.dao.ForeignCollection getEmptyForeignCollection(java.lang.String)
+    public abstract void setObjectCache(boolean)
+    public abstract void setObjectCache(com.j256.ormlite.dao.ObjectCache)
+    public abstract com.j256.ormlite.dao.ObjectCache getObjectCache()
+    public abstract void clearObjectCache()
+    public abstract java.lang.Object mapSelectStarRow(com.j256.ormlite.support.DatabaseResults)
+    public abstract com.j256.ormlite.stmt.GenericRowMapper getSelectStarRowMapper()
+    public abstract com.j256.ormlite.dao.RawRowMapper getRawRowMapper()
+    public abstract boolean idExists(java.lang.Object)
+    public abstract com.j256.ormlite.support.DatabaseConnection startThreadConnection()
+    public abstract void endThreadConnection(com.j256.ormlite.support.DatabaseConnection)
+    public abstract void setAutoCommit(boolean)
+    public abstract void setAutoCommit(com.j256.ormlite.support.DatabaseConnection,boolean)
+    public abstract boolean isAutoCommit()
+    public abstract boolean isAutoCommit(com.j256.ormlite.support.DatabaseConnection)
+    public abstract void commit(com.j256.ormlite.support.DatabaseConnection)
+    public abstract void rollBack(com.j256.ormlite.support.DatabaseConnection)
+    public abstract void setObjectFactory(com.j256.ormlite.table.ObjectFactory)
+com.j256.ormlite.dao.Dao$CreateOrUpdateStatus
+com.j256.ormlite.dao.DaoManager:
+    109:116:public static synchronized com.j256.ormlite.dao.Dao lookupDao(com.j256.ormlite.support.ConnectionSource,java.lang.Class)
+    138:148:public static synchronized com.j256.ormlite.dao.Dao lookupDao(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig)
+    190:201:public static synchronized void registerDaoWithTableConfig(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.dao.Dao)
+    207:212:public static synchronized void clearCache()
+    218:226:public static synchronized void clearDaoCache()
+    234:244:public static synchronized void addCachedDatabaseConfigs(java.util.Collection)
+com.j256.ormlite.dao.EagerForeignCollection:
+    private static final long serialVersionUID
+    134:134:public com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable()
+    139:139:public void close()
+    143:143:public void closeLastIterator()
+    146:146:public boolean isEager()
+    230:234:public int updateAll()
+    238:242:public int refreshAll()
+    246:247:public int refreshCollection()
+com.j256.ormlite.dao.EagerForeignCollection$1:
+    56:60:public java.lang.Object first()
+    69:73:public java.lang.Object nextThrow()
+    77:83:public java.lang.Object current()
+    87:91:public java.lang.Object previous()
+    95:99:public java.lang.Object moveRelative(int)
+    124:124:public com.j256.ormlite.support.DatabaseResults getRawResults()
+com.j256.ormlite.dao.ForeignCollection:
+    public abstract com.j256.ormlite.dao.CloseableIterator iteratorThrow()
+    public abstract com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable()
+    public abstract void closeLastIterator()
+    public abstract boolean isEager()
+    public abstract int update(java.lang.Object)
+    public abstract int updateAll()
+    public abstract int refresh(java.lang.Object)
+    public abstract int refreshAll()
+    public abstract int refreshCollection()
+com.j256.ormlite.dao.GenericRawResults
+com.j256.ormlite.dao.LazyForeignCollection:
+    private static final long serialVersionUID
+    78:78:public com.j256.ormlite.dao.CloseableWrappedIterable getWrappedIterable()
+    93:97:public void closeLastIterator()
+    100:100:public boolean isEager()
+    267:267:public int updateAll()
+    271:271:public int refreshAll()
+    276:276:public int refreshCollection()
+com.j256.ormlite.dao.LazyForeignCollection$1
+com.j256.ormlite.dao.LruObjectCache
+com.j256.ormlite.dao.LruObjectCache$LimitedLinkedHashMap
+com.j256.ormlite.dao.ObjectCache:
+    public abstract void registerClass(java.lang.Class)
+    public abstract java.lang.Object updateId(java.lang.Class,java.lang.Object,java.lang.Object)
+    public abstract void clear(java.lang.Class)
+    public abstract void clearAll()
+    public abstract int size(java.lang.Class)
+    public abstract int sizeAll()
+com.j256.ormlite.dao.RawRowMapper
+com.j256.ormlite.dao.ReferenceObjectCache
+com.j256.ormlite.dao.RuntimeExceptionDao
+com.j256.ormlite.db.BaseDatabaseType:
+    protected java.sql.Driver driver
+    protected abstract java.lang.String getDriverClassName()
+    39:49:public void loadDriver()
+    52:53:public void setDriver(java.sql.Driver)
+    383:383:public java.lang.String getCommentLinePrefix()
+    404:404:public boolean isOffsetSqlSupported()
+    444:444:public boolean isNestedSavePointsSupported()
+    448:448:public java.lang.String getPingStatement()
+    452:452:public boolean isBatchUseTransaction()
+    456:456:public boolean isTruncateSupported()
+    472:472:public boolean isAllowGeneratedIdInsertSupported()
+com.j256.ormlite.db.BaseDatabaseType$BooleanNumberFieldConverter:
+    531:531:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.db.DatabaseType:
+    public abstract boolean isDatabaseUrlThisType(java.lang.String,java.lang.String)
+    public abstract void loadDriver()
+    public abstract void setDriver(java.sql.Driver)
+    public abstract java.lang.String getCommentLinePrefix()
+    public abstract boolean isVarcharFieldWidthSupported()
+    public abstract boolean isOffsetSqlSupported()
+    public abstract boolean isNestedSavePointsSupported()
+    public abstract java.lang.String getPingStatement()
+    public abstract boolean isBatchUseTransaction()
+    public abstract boolean isTruncateSupported()
+    public abstract boolean isAllowGeneratedIdInsertSupported()
+com.j256.ormlite.db.SqliteAndroidDatabaseType:
+    28:28:public void loadDriver()
+    32:32:public boolean isDatabaseUrlThisType(java.lang.String,java.lang.String)
+    38:38:protected java.lang.String getDriverClassName()
+    70:70:public boolean isNestedSavePointsSupported()
+    75:75:public boolean isBatchUseTransaction()
+com.j256.ormlite.field.DataPersister:
+    public abstract boolean dataIsEqual(java.lang.Object,java.lang.Object)
+com.j256.ormlite.field.DataPersisterManager:
+    18:18:public DataPersisterManager()
+    49:57:public static varargs void registerDataPersisters(com.j256.ormlite.field.DataPersister[])
+    63:64:public static void clear()
+com.j256.ormlite.field.DataType:
+    45:45:public static com.j256.ormlite.field.DataType valueOf(java.lang.String)
+com.j256.ormlite.field.DatabaseField:
+    public static final java.lang.String DEFAULT_STRING
+    public static final int NO_MAX_FOREIGN_AUTO_REFRESH_LEVEL_SPECIFIED
+    public static final int DEFAULT_MAX_FOREIGN_AUTO_REFRESH_LEVEL
+com.j256.ormlite.field.DatabaseFieldConfig:
+    private static final int DEFAULT_MAX_EAGER_FOREIGN_COLLECTION_LEVEL
+    private static final boolean DEFAULT_CAN_BE_NULL
+    76:98:public DatabaseFieldConfig(java.lang.String,java.lang.String,com.j256.ormlite.field.DataType,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean,com.j256.ormlite.table.DatabaseTableConfig,boolean,java.lang.Enum,boolean,java.lang.String,boolean,java.lang.String,java.lang.String,boolean,int,int)
+    126:126:public com.j256.ormlite.field.DataType getDataType()
+    237:238:public void setForeignTableConfig(com.j256.ormlite.table.DatabaseTableConfig)
+    256:256:public java.lang.Enum getUnknownEnumvalue()
+    308:308:public boolean isIndex()
+    327:327:public boolean isUniqueIndex()
+    386:387:public void setForeignCollectionMaxEagerLevel(int)
+    394:395:public void setMaxEagerForeignCollectionLevel(int)
+    402:403:public void setForeignCollectionMaxEagerForeignCollectionLevel(int)
+    406:406:public java.lang.String getForeignCollectionColumnName()
+    422:423:public void setForeignCollectionOrderColumn(java.lang.String)
+    426:427:public void setForeignCollectionOrderColumnName(java.lang.String)
+    438:439:public void setForeignCollectionForeignColumnName(java.lang.String)
+    442:443:public void setForeignCollectionForeignFieldName(java.lang.String)
+com.j256.ormlite.field.DatabaseFieldConfigLoader
+com.j256.ormlite.field.FieldConverter:
+    public abstract java.lang.Object sqlArgToJava(com.j256.ormlite.field.FieldType,java.lang.Object,int)
+    public abstract java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.FieldType:
+    public static final java.lang.String FOREIGN_ID_FIELD_SUFFIX
+    407:407:public java.lang.String getTableName()
+    643:646:public java.lang.Object convertStringToJavaField(java.lang.String,int)
+com.j256.ormlite.field.ForeignCollectionField:
+    public static final int MAX_EAGER_LEVEL
+com.j256.ormlite.field.SqlType:
+    13:13:public static com.j256.ormlite.field.SqlType valueOf(java.lang.String)
+com.j256.ormlite.field.types.BaseDataType:
+    public abstract java.lang.Object parseDefaultString(com.j256.ormlite.field.FieldType,java.lang.String)
+    public abstract java.lang.Object resultToSqlArg(com.j256.ormlite.field.FieldType,com.j256.ormlite.support.DatabaseResults,int)
+    135:140:public boolean dataIsEqual(java.lang.Object,java.lang.Object)
+    153:153:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.BigDecimalNumericType:
+    31:32:protected BigDecimalNumericType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.BigDecimalStringType:
+    32:33:protected BigDecimalStringType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.BigIntegerType:
+    31:32:protected BigIntegerType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.BooleanType:
+    23:24:protected BooleanType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.ByteArrayType:
+    28:29:protected ByteArrayType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    53:58:public boolean dataIsEqual(java.lang.Object,java.lang.Object)
+    64:64:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.ByteType:
+    23:24:protected ByteType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.CharType:
+    24:25:protected CharType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.DateLongType:
+    33:34:protected DateLongType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    69:69:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.DateStringType:
+    35:36:protected DateStringType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    90:90:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.DateTimeType:
+    37:38:protected DateTimeType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.DoubleType:
+    23:24:protected DoubleType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.EnumIntegerType:
+    30:31:protected EnumIntegerType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    85:85:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.EnumStringType:
+    31:32:protected EnumStringType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    85:85:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.FloatType:
+    23:24:protected FloatType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.IntType:
+    23:24:protected IntType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.LongStringType:
+    23:24:protected LongStringType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.LongType:
+    23:24:protected LongType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.SerializableType:
+    40:41:protected SerializableType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    127:127:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.ShortType:
+    23:24:protected ShortType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.SqlDateType:
+    33:34:protected SqlDateType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    55:55:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.StringBytesType:
+    private static final java.lang.String DEFAULT_STRING_BYTES_CHARSET_NAME
+    31:32:protected StringBytesType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+    80:80:public java.lang.Object resultStringToJava(com.j256.ormlite.field.FieldType,java.lang.String,int)
+com.j256.ormlite.field.types.TimeStampType:
+    26:27:protected TimeStampType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.field.types.UuidType:
+    31:32:protected UuidType(com.j256.ormlite.field.SqlType,java.lang.Class[])
+com.j256.ormlite.logger.LocalLog:
+    public static final java.lang.String LOCAL_LOG_LEVEL_PROPERTY
+    public static final java.lang.String LOCAL_LOG_FILE_PROPERTY
+    public static final java.lang.String LOCAL_LOG_PROPERTIES_FILE
+    152:153:void flush()
+com.j256.ormlite.logger.Log$Level:
+    28:28:public static com.j256.ormlite.logger.Log$Level[] values()
+com.j256.ormlite.logger.Logger:
+    private static final java.lang.String ARG_STRING
+    43:44:public void trace(java.lang.String)
+    75:76:public void trace(java.lang.String,java.lang.Object[])
+    82:83:public void trace(java.lang.Throwable,java.lang.String)
+    89:90:public void trace(java.lang.Throwable,java.lang.String,java.lang.Object)
+    96:97:public void trace(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    103:104:public void trace(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    114:115:public void trace(java.lang.Throwable,java.lang.String,java.lang.Object[])
+    121:122:public void debug(java.lang.String)
+    160:161:public void debug(java.lang.Throwable,java.lang.String)
+    167:168:public void debug(java.lang.Throwable,java.lang.String,java.lang.Object)
+    174:175:public void debug(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    181:182:public void debug(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    192:193:public void debug(java.lang.Throwable,java.lang.String,java.lang.Object[])
+    199:200:public void info(java.lang.String)
+    227:228:public void info(java.lang.String,java.lang.Object[])
+    234:235:public void info(java.lang.Throwable,java.lang.String)
+    241:242:public void info(java.lang.Throwable,java.lang.String,java.lang.Object)
+    248:249:public void info(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    255:256:public void info(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    262:263:public void info(java.lang.Throwable,java.lang.String,java.lang.Object[])
+    269:270:public void warn(java.lang.String)
+    276:277:public void warn(java.lang.String,java.lang.Object)
+    283:284:public void warn(java.lang.String,java.lang.Object,java.lang.Object)
+    290:291:public void warn(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    297:298:public void warn(java.lang.String,java.lang.Object[])
+    311:312:public void warn(java.lang.Throwable,java.lang.String,java.lang.Object)
+    318:319:public void warn(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    325:326:public void warn(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    332:333:public void warn(java.lang.Throwable,java.lang.String,java.lang.Object[])
+    374:375:public void error(java.lang.Throwable,java.lang.String)
+    388:389:public void error(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    395:396:public void error(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    402:403:public void error(java.lang.Throwable,java.lang.String,java.lang.Object[])
+    409:410:public void fatal(java.lang.String)
+    416:417:public void fatal(java.lang.String,java.lang.Object)
+    423:424:public void fatal(java.lang.String,java.lang.Object,java.lang.Object)
+    430:431:public void fatal(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    437:438:public void fatal(java.lang.String,java.lang.Object[])
+    444:445:public void fatal(java.lang.Throwable,java.lang.String)
+    451:452:public void fatal(java.lang.Throwable,java.lang.String,java.lang.Object)
+    458:459:public void fatal(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    465:466:public void fatal(java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    472:473:public void fatal(java.lang.Throwable,java.lang.String,java.lang.Object[])
+    479:480:public void log(com.j256.ormlite.logger.Log$Level,java.lang.String)
+    486:487:public void log(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Object)
+    493:494:public void log(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Object,java.lang.Object)
+    500:501:public void log(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    507:508:public void log(com.j256.ormlite.logger.Log$Level,java.lang.String,java.lang.Object[])
+    514:515:public void log(com.j256.ormlite.logger.Log$Level,java.lang.Throwable,java.lang.String)
+    521:522:public void log(com.j256.ormlite.logger.Log$Level,java.lang.Throwable,java.lang.String,java.lang.Object)
+    528:529:public void log(com.j256.ormlite.logger.Log$Level,java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object)
+    535:536:public void log(com.j256.ormlite.logger.Log$Level,java.lang.Throwable,java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object)
+    542:543:public void log(com.j256.ormlite.logger.Log$Level,java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.j256.ormlite.logger.LoggerFactory:
+    17:18:private LoggerFactory()
+com.j256.ormlite.logger.LoggerFactory$LogType:
+    63:63:public static com.j256.ormlite.logger.LoggerFactory$LogType valueOf(java.lang.String)
+com.j256.ormlite.misc.BaseDaoEnabled:
+    34:37:public int create()
+    44:47:public int refresh()
+    54:57:public int update()
+    64:67:public int updateId(java.lang.Object)
+    74:77:public int delete()
+    85:91:public java.lang.String objectToString()
+    98:101:public java.lang.Object extractId()
+    108:111:public boolean objectsEqual(java.lang.Object)
+    128:128:public com.j256.ormlite.dao.Dao getDao()
+    132:135:private void checkForDao()
+com.j256.ormlite.misc.JavaxPersistence:
+    21:21:public JavaxPersistence()
+com.j256.ormlite.misc.SqlExceptionUtil:
+    15:16:private SqlExceptionUtil()
+com.j256.ormlite.misc.TransactionManager
+com.j256.ormlite.misc.VersionUtils:
+    private static final java.lang.String CORE_VERSION_FILE
+    private static final java.lang.String JDBC_VERSION_FILE
+    private static final java.lang.String ANDROID_VERSION_FILE
+    32:35:public static final void checkCoreVersusJdbcVersions()
+    75:75:private static java.lang.String readJdbcVersion()
+com.j256.ormlite.stmt.ArgumentHolder:
+    public abstract java.lang.String getColumnName()
+    public abstract void setMetaInfo(java.lang.String)
+    public abstract void setMetaInfo(com.j256.ormlite.field.FieldType)
+com.j256.ormlite.stmt.BaseArgumentHolder:
+    23:25:public BaseArgumentHolder(java.lang.String)
+    27:29:public BaseArgumentHolder(com.j256.ormlite.field.SqlType)
+    public abstract void setValue(java.lang.Object)
+    44:44:public java.lang.String getColumnName()
+com.j256.ormlite.stmt.DeleteBuilder
+com.j256.ormlite.stmt.NullArgHolder
+com.j256.ormlite.stmt.PreparedStmt:
+    public abstract com.j256.ormlite.support.CompiledStatement compile(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.StatementBuilder$StatementType)
+    public abstract com.j256.ormlite.stmt.StatementBuilder$StatementType getType()
+    public abstract void setArgumentHolderValue(int,java.lang.Object)
+com.j256.ormlite.stmt.QueryBuilder:
+    64:65:void enableInnerQuery()
+    71:74:int getSelectColumnCount()
+    82:85:java.util.List getSelectColumns()
+    108:114:public varargs com.j256.ormlite.stmt.QueryBuilder selectColumns(java.lang.String[])
+    122:128:public com.j256.ormlite.stmt.QueryBuilder selectColumns(java.lang.Iterable)
+    136:142:public varargs com.j256.ormlite.stmt.QueryBuilder selectRaw(java.lang.String[])
+    154:163:public com.j256.ormlite.stmt.QueryBuilder groupBy(java.lang.String)
+    170:171:public com.j256.ormlite.stmt.QueryBuilder groupByRaw(java.lang.String)
+    193:194:public com.j256.ormlite.stmt.QueryBuilder orderByRaw(java.lang.String)
+    206:208:public com.j256.ormlite.stmt.QueryBuilder distinct()
+    216:216:public com.j256.ormlite.stmt.QueryBuilder limit(int)
+    223:224:public com.j256.ormlite.stmt.QueryBuilder limit(java.lang.Long)
+    232:232:public com.j256.ormlite.stmt.QueryBuilder offset(int)
+    246:250:public com.j256.ormlite.stmt.QueryBuilder offset(java.lang.Long)
+    258:259:public com.j256.ormlite.stmt.QueryBuilder setCountOf(boolean)
+    266:267:public com.j256.ormlite.stmt.QueryBuilder having(java.lang.String)
+    281:281:public java.lang.Object queryForFirst()
+    288:288:public java.lang.String[] queryRawFirst()
+    295:295:public com.j256.ormlite.dao.CloseableIterator iterator()
+    300:314:public void clear()
+    358:360:private void addSelectColumnToList(java.lang.String)
+    32:32:static synthetic com.j256.ormlite.field.FieldType[] access$000(com.j256.ormlite.stmt.QueryBuilder)
+com.j256.ormlite.stmt.QueryBuilder$InternalQueryBuilderWrapper
+com.j256.ormlite.stmt.RawResultsImpl
+com.j256.ormlite.stmt.RawRowMapperImpl
+com.j256.ormlite.stmt.SelectArg:
+    31:33:public SelectArg(java.lang.String,java.lang.Object)
+    36:38:public SelectArg(com.j256.ormlite.field.SqlType,java.lang.Object)
+com.j256.ormlite.stmt.SelectIterator:
+    108:115:public java.lang.Object first()
+    120:127:public java.lang.Object previous()
+    132:138:public java.lang.Object current()
+    187:194:public java.lang.Object moveRelative(int)
+    252:252:public com.j256.ormlite.support.DatabaseResults getRawResults()
+com.j256.ormlite.stmt.StatementBuilder:
+    60:61:public void setWhere(com.j256.ormlite.stmt.Where)
+    90:91:public java.lang.String prepareStatementString()
+    98:99:public void clear()
+    159:159:com.j256.ormlite.stmt.StatementBuilder$StatementType getType()
+com.j256.ormlite.stmt.StatementBuilder$StatementType:
+    165:165:public static com.j256.ormlite.stmt.StatementBuilder$StatementType[] values()
+    165:165:public static com.j256.ormlite.stmt.StatementBuilder$StatementType valueOf(java.lang.String)
+    203:203:public boolean isOkForUpdate()
+com.j256.ormlite.stmt.StatementExecutor:
+    private com.j256.ormlite.stmt.mapped.MappedQueryForId mappedQueryForId
+    private com.j256.ormlite.stmt.mapped.MappedUpdate mappedUpdate
+    private com.j256.ormlite.stmt.mapped.MappedUpdateId mappedUpdateId
+    private com.j256.ormlite.stmt.mapped.MappedRefresh mappedRefresh
+    private java.lang.String countStarQuery
+    private java.lang.String ifExistsQuery
+    private com.j256.ormlite.field.FieldType[] ifExistsFieldTypes
+    private com.j256.ormlite.dao.RawRowMapper rawRowMapper
+    81:84:public java.lang.Object queryForId(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache)
+    92:103:public java.lang.Object queryForFirst(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.PreparedStmt,com.j256.ormlite.dao.ObjectCache)
+    112:113:public java.util.List queryForAll(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.dao.ObjectCache)
+    120:128:public long queryForCountStar(com.j256.ormlite.support.DatabaseConnection)
+    136:145:public long queryForCountStar(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.PreparedStmt)
+    183:184:public com.j256.ormlite.stmt.GenericRowMapper getSelectStarRowMapper()
+    191:194:public com.j256.ormlite.dao.RawRowMapper getRawRowMapper()
+    227:249:public com.j256.ormlite.dao.GenericRawResults queryRaw(com.j256.ormlite.support.ConnectionSource,java.lang.String,java.lang.String[],com.j256.ormlite.dao.ObjectCache)
+    259:281:public com.j256.ormlite.dao.GenericRawResults queryRaw(com.j256.ormlite.support.ConnectionSource,java.lang.String,com.j256.ormlite.dao.RawRowMapper,java.lang.String[],com.j256.ormlite.dao.ObjectCache)
+    291:313:public com.j256.ormlite.dao.GenericRawResults queryRaw(com.j256.ormlite.support.ConnectionSource,java.lang.String,com.j256.ormlite.field.DataType[],java.lang.String[],com.j256.ormlite.dao.ObjectCache)
+    322:333:public int updateRaw(com.j256.ormlite.support.DatabaseConnection,java.lang.String,java.lang.String[])
+    341:352:public int executeRaw(com.j256.ormlite.support.DatabaseConnection,java.lang.String,java.lang.String[])
+    370:373:public int update(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache)
+    381:384:public int updateId(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,java.lang.Object,com.j256.ormlite.dao.ObjectCache)
+    391:395:public int update(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.PreparedUpdate)
+    404:407:public int refresh(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache)
+    424:427:public int deleteById(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache)
+    436:436:public int deleteObjects(com.j256.ormlite.support.DatabaseConnection,java.util.Collection,com.j256.ormlite.dao.ObjectCache)
+    445:445:public int deleteIds(com.j256.ormlite.support.DatabaseConnection,java.util.Collection,com.j256.ormlite.dao.ObjectCache)
+    452:456:public int delete(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.PreparedDelete)
+    465:494:public java.lang.Object callBatchTasks(com.j256.ormlite.support.DatabaseConnection,boolean,java.util.concurrent.Callable)
+    509:518:public boolean ifExists(com.j256.ormlite.support.DatabaseConnection,java.lang.Object)
+    522:525:private void assignStatementArguments(com.j256.ormlite.support.CompiledStatement,java.lang.String[])
+    528:533:private java.lang.String[] extractColumnNames(com.j256.ormlite.support.CompiledStatement)
+com.j256.ormlite.stmt.StatementExecutor$ObjectArrayRowMapper
+com.j256.ormlite.stmt.StatementExecutor$UserObjectRowMapper
+com.j256.ormlite.stmt.ThreadLocalSelectArg
+com.j256.ormlite.stmt.ThreadLocalSelectArg$ValueWrapper
+com.j256.ormlite.stmt.UpdateBuilder
+com.j256.ormlite.stmt.Where:
+    private static final int START_CLAUSE_SIZE
+    152:153:public com.j256.ormlite.stmt.Where and()
+    168:172:public varargs com.j256.ormlite.stmt.Where and(com.j256.ormlite.stmt.Where,com.j256.ormlite.stmt.Where,com.j256.ormlite.stmt.Where[])
+    200:201:public com.j256.ormlite.stmt.Where between(java.lang.String,java.lang.Object,java.lang.Object)
+    217:219:public com.j256.ormlite.stmt.Where ge(java.lang.String,java.lang.Object)
+    226:228:public com.j256.ormlite.stmt.Where gt(java.lang.String,java.lang.Object)
+    235:236:public com.j256.ormlite.stmt.Where in(java.lang.String,java.lang.Iterable)
+    243:244:public com.j256.ormlite.stmt.Where notIn(java.lang.String,java.lang.Iterable)
+    251:251:public varargs com.j256.ormlite.stmt.Where in(java.lang.String,java.lang.Object[])
+    258:258:public varargs com.j256.ormlite.stmt.Where notIn(java.lang.String,java.lang.Object[])
+    272:272:public com.j256.ormlite.stmt.Where in(java.lang.String,com.j256.ormlite.stmt.QueryBuilder)
+    279:279:public com.j256.ormlite.stmt.Where notIn(java.lang.String,com.j256.ormlite.stmt.QueryBuilder)
+    291:293:public com.j256.ormlite.stmt.Where exists(com.j256.ormlite.stmt.QueryBuilder)
+    300:301:public com.j256.ormlite.stmt.Where isNull(java.lang.String)
+    308:309:public com.j256.ormlite.stmt.Where isNotNull(java.lang.String)
+    316:318:public com.j256.ormlite.stmt.Where le(java.lang.String,java.lang.Object)
+    325:327:public com.j256.ormlite.stmt.Where lt(java.lang.String,java.lang.Object)
+    334:336:public com.j256.ormlite.stmt.Where like(java.lang.String,java.lang.Object)
+    343:345:public com.j256.ormlite.stmt.Where ne(java.lang.String,java.lang.Object)
+    352:353:public com.j256.ormlite.stmt.Where not()
+    360:361:public com.j256.ormlite.stmt.Where not(com.j256.ormlite.stmt.Where)
+    368:369:public com.j256.ormlite.stmt.Where or()
+    384:388:public varargs com.j256.ormlite.stmt.Where or(com.j256.ormlite.stmt.Where,com.j256.ormlite.stmt.Where,com.j256.ormlite.stmt.Where[])
+    401:409:public com.j256.ormlite.stmt.Where or(int)
+    416:420:public com.j256.ormlite.stmt.Where idEq(java.lang.Object)
+    427:432:public com.j256.ormlite.stmt.Where idEq(com.j256.ormlite.dao.Dao,java.lang.Object)
+    448:459:public varargs com.j256.ormlite.stmt.Where raw(java.lang.String,com.j256.ormlite.stmt.ArgumentHolder[])
+    467:468:public com.j256.ormlite.stmt.Where rawComparison(java.lang.String,java.lang.String,java.lang.Object)
+    482:485:public java.util.List query()
+    493:496:public com.j256.ormlite.dao.CloseableIterator iterator()
+    504:509:public com.j256.ormlite.stmt.Where clear()
+    516:518:public java.lang.String getStatement()
+    548:558:private varargs com.j256.ormlite.stmt.Where in(boolean,java.lang.String,java.lang.Object[])
+    562:571:private com.j256.ormlite.stmt.Where in(boolean,java.lang.String,com.j256.ormlite.stmt.QueryBuilder)
+    576:585:private com.j256.ormlite.stmt.query.Clause[] buildClauseArray(com.j256.ormlite.stmt.Where[],java.lang.String)
+    589:595:private void addNeedsFuture(com.j256.ormlite.stmt.query.NeedsFutureClause)
+com.j256.ormlite.stmt.mapped.MappedDelete:
+    63:75:public int deleteById(com.j256.ormlite.support.DatabaseConnection,java.lang.Object,com.j256.ormlite.dao.ObjectCache)
+com.j256.ormlite.stmt.mapped.MappedDeleteCollection
+com.j256.ormlite.stmt.mapped.MappedPreparedStmt:
+    40:40:public com.j256.ormlite.support.CompiledStatement compile(com.j256.ormlite.support.DatabaseConnection,com.j256.ormlite.stmt.StatementBuilder$StatementType)
+    59:59:public com.j256.ormlite.stmt.StatementBuilder$StatementType getType()
+    63:71:public void setArgumentHolderValue(int,java.lang.Object)
+com.j256.ormlite.stmt.mapped.MappedRefresh
+com.j256.ormlite.stmt.mapped.MappedUpdate
+com.j256.ormlite.stmt.mapped.MappedUpdateId
+com.j256.ormlite.stmt.query.BaseComparison:
+    private static final java.lang.String NUMBER_CHARACTERS
+    46:46:public java.lang.String getColumnName()
+com.j256.ormlite.stmt.query.Between
+com.j256.ormlite.stmt.query.Comparison:
+    public abstract java.lang.String getColumnName()
+    public abstract void appendOperation(java.lang.StringBuilder)
+    public abstract void appendValue(com.j256.ormlite.db.DatabaseType,java.lang.StringBuilder,java.util.List)
+com.j256.ormlite.stmt.query.Exists
+com.j256.ormlite.stmt.query.In
+com.j256.ormlite.stmt.query.InSubQuery
+com.j256.ormlite.stmt.query.IsNotNull
+com.j256.ormlite.stmt.query.IsNull
+com.j256.ormlite.stmt.query.ManyClause:
+    public static final java.lang.String AND_OPERATION
+    public static final java.lang.String OR_OPERATION
+    25:32:public ManyClause(com.j256.ormlite.stmt.query.Clause,java.lang.String)
+    34:40:public ManyClause(com.j256.ormlite.stmt.query.Clause,com.j256.ormlite.stmt.query.Clause,com.j256.ormlite.stmt.query.Clause[],java.lang.String)
+com.j256.ormlite.stmt.query.Not
+com.j256.ormlite.stmt.query.Raw
+com.j256.ormlite.stmt.query.SetExpression
+com.j256.ormlite.stmt.query.SetValue
+com.j256.ormlite.stmt.query.SimpleComparison:
+    public static final java.lang.String EQUAL_TO_OPERATION
+    public static final java.lang.String GREATER_THAN_OPERATION
+    public static final java.lang.String GREATER_THAN_EQUAL_TO_OPERATION
+    public static final java.lang.String LESS_THAN_OPERATION
+    public static final java.lang.String LESS_THAN_EQUAL_TO_OPERATION
+    public static final java.lang.String LIKE_OPERATION
+    public static final java.lang.String NOT_EQUAL_TO_OPERATION
+    12:12:public bridge synthetic java.lang.String getColumnName()
+com.j256.ormlite.support.BaseConnectionSource:
+    41:48:protected boolean isSavedConnection(com.j256.ormlite.support.DatabaseConnection)
+com.j256.ormlite.support.CompiledStatement:
+    public abstract int getColumnCount()
+    public abstract java.lang.String getColumnName(int)
+    public abstract int runUpdate()
+    public abstract void setQueryTimeout(long)
+com.j256.ormlite.support.ConnectionSource:
+    public abstract void close()
+    public abstract boolean isOpen()
+com.j256.ormlite.support.DatabaseConnection:
+    public static final int DEFAULT_RESULT_FLAGS
+    public abstract boolean isAutoCommitSupported()
+    public abstract boolean isAutoCommit()
+    public abstract void setAutoCommit(boolean)
+    public abstract java.sql.Savepoint setSavePoint(java.lang.String)
+    public abstract void commit(java.sql.Savepoint)
+    public abstract void rollback(java.sql.Savepoint)
+    public abstract int update(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[])
+    public abstract long queryForLong(java.lang.String,java.lang.Object[],com.j256.ormlite.field.FieldType[])
+    public abstract void close()
+    public abstract boolean isClosed()
+    public abstract boolean isTableExists(java.lang.String)
+com.j256.ormlite.support.DatabaseResults:
+    public abstract boolean previous()
+    public abstract boolean moveRelative(int)
+    public abstract java.io.InputStream getBlobStream(int)
+com.j256.ormlite.table.DatabaseTableConfig:
+    39:40:public DatabaseTableConfig(java.lang.Class,java.util.List)
+    61:67:public void initialize()
+    75:76:public void setDataClass(java.lang.Class)
+    86:87:public void setTableName(java.lang.String)
+    90:91:public void setFieldConfigs(java.util.List)
+    117:117:public java.util.List getFieldConfigs()
+    133:134:public void setConstructor(java.lang.reflect.Constructor)
+com.j256.ormlite.table.DatabaseTableConfigLoader
+com.j256.ormlite.table.TableInfo:
+    166:176:public java.lang.String objectToString(java.lang.Object)
+    216:216:public boolean isUpdatable()
+    238:243:public boolean hasColumnName(java.lang.String)
+com.j256.ormlite.table.TableUtils:
+    61:61:public static int createTableIfNotExists(com.j256.ormlite.support.ConnectionSource,java.lang.Class)
+    76:76:public static int createTable(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig)
+    84:84:public static int createTableIfNotExists(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig)
+    99:104:public static java.util.List getCreateTableStatements(com.j256.ormlite.support.ConnectionSource,java.lang.Class)
+    121:127:public static java.util.List getCreateTableStatements(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig)
+    176:183:public static int dropTable(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig,boolean)
+    196:200:public static int clearTable(com.j256.ormlite.support.ConnectionSource,java.lang.Class)
+    213:213:public static int clearTable(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig)
+    229:235:private static int createTable(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.DatabaseTableConfig,boolean)
+    240:259:private static int clearTable(com.j256.ormlite.support.ConnectionSource,java.lang.String)
+    517:520:private static java.util.List addCreateTableStatements(com.j256.ormlite.support.ConnectionSource,com.j256.ormlite.table.TableInfo,boolean)
+com.mx.vipmediaplayer.BuildConfig
+com.mx.vipmediaplayer.Logger:
+    private static final java.lang.String TAG
+    13:13:public Logger()
+    19:20:public static void setLog(boolean)
+    23:23:public static boolean getIsLog()
+    27:30:public static void d(java.lang.String,java.lang.String)
+    45:48:public static void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    63:66:public static void i(java.lang.String,java.lang.String)
+    77:81:public static void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    91:94:public static void e(java.lang.String,java.lang.String)
+    111:114:public static void e(java.lang.String,java.lang.String,java.lang.Throwable)
+    118:124:public static void systemErr(java.lang.String)
+com.mx.vipmediaplayer.R
+com.mx.vipmediaplayer.R$anim
+com.mx.vipmediaplayer.R$attr
+com.mx.vipmediaplayer.R$color
+com.mx.vipmediaplayer.R$drawable
+com.mx.vipmediaplayer.R$id
+com.mx.vipmediaplayer.R$layout
+com.mx.vipmediaplayer.R$menu
+com.mx.vipmediaplayer.R$raw
+com.mx.vipmediaplayer.R$string
+com.mx.vipmediaplayer.R$style
+com.mx.vipmediaplayer.VIPMediaPlayerApplication:
+    public static final java.lang.String PREF_KEY_FIRST
+    45:45:public static com.mx.vipmediaplayer.VIPMediaPlayerApplication getApplication()
+    54:55:public void destory()
+com.mx.vipmediaplayer.VIPPlayerActivity:
+    public static final int MSG_SHOW_CONTENT
+    public static final int SNAP_VELOCITY
+    341:343:private int getScrollVelocity()
+com.mx.vipmediaplayer.VipPreference:
+    private static final java.lang.String PREFERENCE_NAME
+    30:30:public boolean putStringAndCommit(java.lang.String,java.lang.String)
+    34:34:public boolean putIntAndCommit(java.lang.String,int)
+    42:46:public boolean putIntAndCommit(android.content.ContentValues)
+    50:50:public java.lang.String getString(java.lang.String)
+    54:54:public java.lang.String getString(java.lang.String,java.lang.String)
+    58:58:public int getInt(java.lang.String)
+    62:62:public int getInt(java.lang.String,int)
+    66:66:public boolean getBoolean(java.lang.String)
+com.mx.vipmediaplayer.database.DatabaseHelper:
+    58:70:public int createIfNotExists(java.lang.Object,java.util.Map)
+    75:85:public java.util.List queryForEq(java.lang.Class,java.lang.String,java.lang.Object)
+    90:100:public int remove(java.lang.Object)
+    113:128:public int update(java.lang.Class,android.content.ContentValues,java.lang.String,java.lang.Object)
+    133:144:public int update(java.lang.Object)
+    149:159:public java.util.List queryForAll(java.lang.Class)
+com.mx.vipmediaplayer.database.SqliteHelperOrm:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    29:30:public SqliteHelperOrm(android.content.Context)
+com.mx.vipmediaplayer.model.OnlineVideo:
+    public java.lang.String desc
+com.mx.vipmediaplayer.model.VIPMedia:
+    public long _id
+    public int duration
+    public int position
+com.mx.vipmediaplayer.model.VIPMediaBitmap:
+    27:28:public void setImg(android.graphics.Bitmap)
+    35:36:public void setVipmedia(com.mx.vipmediaplayer.model.VIPMedia)
+com.mx.vipmediaplayer.services.MediaScanService:
+    private static final java.lang.String SERVICE_NAME
+    public static final java.lang.String EXTRA_DIRECTORY
+    public static final java.lang.String EXTRA_FILE_PATH
+    public static final java.lang.String EXTRA_MIME_TYPE
+    public static final java.lang.String EXTRA_FILE_TYPE
+    public static final int SCAN_INVALID_FILE_TYPE
+    public static final int SCAN_VIDEO_FILE_TYPE
+    public static final int SCAN_AUDIO_FILE_TYPE
+    public static final int SCAN_STATUS_NORMAL
+    public static final int SCAN_STATUS_START
+    public static final int SCAN_STATUS_RUNNING
+    public static final int SCAN_STATUS_END
+    95:101:public static boolean isRunning()
+    350:351:public synchronized void deleteObservers()
+com.mx.vipmediaplayer.ui.AddOnlineActivity
+com.mx.vipmediaplayer.ui.ContentGridView:
+    72:73:public void setFileType(int)
+com.mx.vipmediaplayer.ui.MenuListView:
+    public static final int POSITION_PLAYLIST
+    public static final int POSITION_LOCALVIDEO
+    public static final int POSITION_LOCALAUDIO
+com.mx.vipmediaplayer.ui.helper.XmlReaderHelper:
+    31:31:public XmlReaderHelper()
+com.mx.vipmediaplayer.util.ConvertUtils:
+    private static final float UNIT
+    13:13:public ConvertUtils()
+    24:24:public static float ms2s(long)
+    34:34:public static float us2s(long)
+    44:44:public static float ns2s(long)
+    54:54:public static boolean toBoolean(java.lang.String)
+    65:72:public static boolean toBoolean(java.lang.String,boolean)
+    82:82:public static float toFloat(java.lang.String)
+    93:98:public static float toFloat(java.lang.String,float)
+    109:109:public static long toLong(java.lang.String)
+    120:125:public static long toLong(java.lang.String,long)
+    136:136:public static short toShort(java.lang.String)
+    147:152:public static short toShort(java.lang.String,short)
+    163:163:public static int toInt(java.lang.String)
+    174:179:public static int toInt(java.lang.String,int)
+    184:184:public static java.lang.String toString(java.lang.Object)
+    188:191:public static java.lang.String toString(java.lang.Object,java.lang.String)
+com.mx.vipmediaplayer.util.FileUtils:
+    private static final double KB
+    private static final double MB
+    private static final double GB
+    30:30:public FileUtils()
+    122:123:public static boolean isVideoOrAudio(java.io.File)
+    127:128:public static boolean isVideoOrAudio(java.lang.String)
+    164:172:public static java.lang.String getUrlFileName(java.lang.String)
+    186:192:public static java.lang.String getFileNameNoEx(java.lang.String)
+    197:206:public static java.lang.String showFileSize(long)
+    211:222:public static java.lang.String showFileAvailable()
+    287:297:public static java.lang.String getExternalStorageDirectory()
+com.mx.vipmediaplayer.util.ImageBuffer:
+    public static final int MaxBufferSize
+    public static final int MaxMemorySize
+    private static final int MaxSingleFileSize
+    private static final int MaxSingleGIFFileSize
+    30:30:public ImageBuffer()
+    73:77:private static void addFile(java.io.File)
+    93:99:private static void deleteFileByTime()
+    195:199:public static void deleteBitmap(java.lang.String)
+    202:210:private static void deleteFileFromMemory(java.lang.String)
+com.mx.vipmediaplayer.util.ImageLoadUtils:
+    22:22:public ImageLoadUtils()
+com.mx.vipmediaplayer.util.PinyinUtils:
+    17:17:public PinyinUtils()
+com.mx.vipmediaplayer.util.StringUtils:
+    private static final java.lang.String DEFAULT_DATE_PATTERN
+    private static final java.lang.String DEFAULT_DATETIME_PATTERN
+    public static final java.lang.String EMPTY
+    15:15:public StringUtils()
+    28:29:public static java.lang.String formatDate(java.util.Date,java.lang.String)
+    39:39:public static java.lang.String formatDate(java.util.Date)
+    48:48:public static java.lang.String getDate()
+    57:57:public static java.lang.String getDateTime()
+    67:67:public static java.lang.String formatDateTime(java.util.Date)
+    71:79:public static java.lang.String join(java.util.ArrayList,java.lang.String)
+io.vov.utils.AndroidContextUtils:
+    22:22:public AndroidContextUtils()
+io.vov.utils.CPU:
+    public static final int FEATURE_ARM_V5TE
+    public static final int FEATURE_ARM_V6
+    public static final int FEATURE_ARM_VFP
+    public static final int FEATURE_ARM_V7A
+    public static final int FEATURE_ARM_VFPV3
+    public static final int FEATURE_ARM_NEON
+    28:28:public CPU()
+    40:41:public static java.lang.String getFeatureString()
+    151:151:public static boolean isDroidXDroid2()
+io.vov.utils.FileUtils:
+    24:24:public FileUtils()
+    26:32:public static java.lang.String getCanonical(java.io.File)
+    52:55:public static java.lang.String getName(java.lang.String)
+    59:67:public static void deleteDir(java.io.File)
+io.vov.utils.IOUtils:
+    21:21:public IOUtils()
+io.vov.utils.Log:
+    public static final java.lang.String TAG
+    19:19:public Log()
+io.vov.utils.StringUtils:
+    19:19:public StringUtils()
+io.vov.vitamio.LibsChecker:
+    public static final java.lang.String FROM_ME
+    36:36:public LibsChecker()
+io.vov.vitamio.MediaMetadataRetriever:
+    63:83:public void setDataSource(android.content.Context,android.net.Uri)
+    public native void setDataSource(java.io.FileDescriptor)
+    public native java.lang.String extractMetadata(int)
+io.vov.vitamio.MediaPlayer:
+    private io.vov.vitamio.MediaPlayer$OnHWRenderFailedListener mOnHWRenderFailedListener
+    private static final int MEDIA_NOP
+    private static final int MEDIA_PREPARED
+    private static final int MEDIA_PLAYBACK_COMPLETE
+    private static final int MEDIA_BUFFERING_UPDATE
+    private static final int MEDIA_SEEK_COMPLETE
+    private static final int MEDIA_SET_VIDEO_SIZE
+    private static final int MEDIA_ERROR
+    private static final int MEDIA_INFO
+    private static final int MEDIA_SUBTITLE_UPDATE
+    public static final int MEDIA_ERROR_UNKNOWN
+    public static final int MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+    public static final int MEDIA_INFO_VIDEO_TRACK_LAGGING
+    public static final int MEDIA_INFO_BUFFERING_START
+    public static final int MEDIA_INFO_BUFFERING_END
+    public static final int MEDIA_INFO_NOT_SEEKABLE
+    public static final int MEDIA_INFO_DOWNLOAD_RATE_CHANGED
+    private static final java.lang.String MEDIA_SUBTITLE_STRING
+    private static final java.lang.String MEDIA_SUBTITLE_BYTES
+    private static final java.lang.String MEDIA_SUBTITLE_TYPE
+    public static final int VIDEOQUALITY_LOW
+    public static final int VIDEOQUALITY_MEDIUM
+    public static final int VIDEOQUALITY_HIGH
+    private static final int CPU_FEATURE_LOW
+    private static final int CPU_FEATURE_VFPv3
+    private static final int CPU_FEATURE_ARMv7
+    private static final int CPU_FEATURE_NEON
+    private static final int SUBTITLE_TEXT
+    private static final int SUBTITLE_BITMAP
+    public static final int SUBTITLE_INTERNAL
+    public static final int SUBTITLE_EXTERNAL
+    private android.media.AudioTrack mAudioTrack
+    private int mAudioTrackBufferSize
+    private android.view.Surface mLocalSurface
+    private android.graphics.Bitmap mBitmap
+    private java.nio.ByteBuffer mByteBuffer
+    152:152:public static final boolean isLibraryLoaded()
+    208:210:private void onHWRenderFailed()
+    219:220:public void setOnHWRenderFailedListener(io.vov.vitamio.MediaPlayer$OnHWRenderFailedListener)
+    public native void prepare()
+    331:346:public void setWakeMode(android.content.Context,int)
+    private native int getVideoWidth_a()
+    private native int getVideoHeight_a()
+    public native android.graphics.Bitmap getCurrentFrame()
+    public native void setVolume(float,float)
+    586:594:private static void postEventFromNative(java.lang.Object,int,int,int,java.lang.Object)
+    866:887:private void updateSub(int,byte[],java.lang.String,int,int)
+    protected native void _releaseVideoSurface()
+    895:898:public void releaseDisplay()
+    public native void setVideoQuality(int)
+    public native void setDeinterlace(boolean)
+    public native void setBufferSize(int)
+    public native boolean isBuffering()
+    public native int getBufferProgress()
+    public native void setMetaEncoding(java.lang.String)
+    public native java.lang.String getMetaEncoding()
+    private native byte[] getAudioTracks()
+    976:976:public java.util.HashMap getAudioTrackMap(java.lang.String)
+    public native int getAudioTrack()
+    public native void setAudioTrack(int)
+    996:996:public void setInitialAudioTrack(int)
+    999:999:public void setInitialSubTrack(int)
+    public native void setSubShown(boolean)
+    public native void setSubEncoding(java.lang.String)
+    public native int getSubLocation()
+    public native void setSubPath(java.lang.String)
+    public native java.lang.String getSubPath()
+    public native void setSubTrack(int)
+    public native int getSubTrack()
+    private native byte[] getSubTracks()
+    1066:1066:public java.util.HashMap getSubTrackMap(java.lang.String)
+    1070:1090:private java.util.HashMap getTrackMap(byte[],java.lang.String)
+    private static native int getCPUFeature()
+    protected static native boolean postMessage(java.lang.String)
+    1141:1150:private int audioTrackInit(int,int)
+    1154:1156:private void audioTrackSetVolume(float,float)
+    1159:1169:private void audioTrackWrite(byte[],int,int)
+    1172:1174:private void audioTrackStart()
+    1177:1179:private void audioTrackPause()
+    1182:1188:private void audioTrackRelease()
+    1195:1195:private java.nio.ByteBuffer surfaceInit()
+    1211:1224:private void surfaceRender()
+    1227:1232:private void surfaceRelease()
+io.vov.vitamio.MediaPlayer$OnHWRenderFailedListener
+io.vov.vitamio.Metadata
+io.vov.vitamio.Metadata$TimedText
+io.vov.vitamio.NativeReceiver
+io.vov.vitamio.R:
+    3:3:public R()
+io.vov.vitamio.R$raw:
+    public static final int pub
+    4:4:public R$raw()
+io.vov.vitamio.ThumbnailUtils:
+    private static final int OPTIONS_NONE
+    private static final int OPTIONS_SCALE_UP
+    public static final int OPTIONS_RECYCLE_INPUT
+    public static final int TARGET_SIZE_MINI_THUMBNAIL_WIDTH
+    public static final int TARGET_SIZE_MINI_THUMBNAIL_HEIGHT
+    public static final int TARGET_SIZE_MICRO_THUMBNAIL_WIDTH
+    public static final int TARGET_SIZE_MICRO_THUMBNAIL_HEIGHT
+    public static final int MINI_KIND
+    public static final int MICRO_KIND
+    34:34:public ThumbnailUtils()
+    72:72:public static android.graphics.Bitmap extractThumbnail(android.graphics.Bitmap,int,int)
+io.vov.vitamio.Vitamio:
+    private static final java.lang.String LIBS_LOCK
+    private static final int VITAMIO_NOT_SUPPORTED
+    private static final int VITAMIO_ARMV6
+    private static final int VITAMIO_ARMV6_VFP
+    private static final int VITAMIO_ARMV7_VFPV3
+    private static final int VITAMIO_ARMV7_NEON
+    private static final java.lang.String VITAMIO_VERSION_NAME
+    private static final int VITAMIO_VERSION_CODE
+    45:45:public Vitamio()
+io.vov.vitamio.Vitamio$VitamioNotCompatibleException
+io.vov.vitamio.VitamioLicense
+io.vov.vitamio.activity.InitActivity:
+    public static final java.lang.String FROM_ME
+    public static final java.lang.String EXTRA_MSG
+    public static final java.lang.String EXTRA_FILE
+io.vov.vitamio.widget.CenterLayout
+io.vov.vitamio.widget.CenterLayout$LayoutParams
+io.vov.vitamio.widget.MediaController:
+    private static final int sDefaultTimeout
+    private static final int FADE_OUT
+    private static final int SHOW_PROGRESS
+    85:89:public MediaController(android.content.Context,android.util.AttributeSet)
+    181:182:public void setInstantSeeking(boolean)
+    206:207:public void setInfoView(io.vov.vitamio.widget.OutlineTextView)
+    233:234:public void setAnimationStyle(int)
+    304:305:public void setOnShownListener(io.vov.vitamio.widget.MediaController$OnShownListener)
+    314:315:public void setOnHiddenListener(io.vov.vitamio.widget.MediaController$OnHiddenListener)
+io.vov.vitamio.widget.MediaController$MediaPlayerControl:
+    public abstract boolean canSeekBackward()
+    public abstract boolean canSeekForward()
+io.vov.vitamio.widget.OutlineTextView:
+    36:38:public OutlineTextView(android.content.Context)
+    41:43:public OutlineTextView(android.content.Context,android.util.AttributeSet)
+    46:48:public OutlineTextView(android.content.Context,android.util.AttributeSet,int)
+io.vov.vitamio.widget.VideoView:
+    private static final int STATE_ERROR
+    private static final int STATE_IDLE
+    private static final int STATE_PREPARING
+    private static final int STATE_PREPARED
+    private static final int STATE_PLAYING
+    private static final int STATE_PAUSED
+    private static final int STATE_PLAYBACK_COMPLETED
+    private static final int STATE_SUSPEND
+    private static final int STATE_RESUME
+    private static final int STATE_SUSPEND_UNSUPPORTED
+    public static final int VIDEO_LAYOUT_ORIGIN
+    public static final int VIDEO_LAYOUT_SCALE
+    public static final int VIDEO_LAYOUT_STRETCH
+    public static final int VIDEO_LAYOUT_ZOOM
+    172:172:public boolean isValid()
+    404:405:public void setOnPreparedListener(io.vov.vitamio.MediaPlayer$OnPreparedListener)
+    412:413:public void setOnErrorListener(io.vov.vitamio.MediaPlayer$OnErrorListener)
+    416:417:public void setOnBufferingUpdateListener(io.vov.vitamio.MediaPlayer$OnBufferingUpdateListener)
+    420:421:public void setOnSeekCompleteListener(io.vov.vitamio.MediaPlayer$OnSeekCompleteListener)
+    424:425:public void setOnSubtitleUpdateListener(io.vov.vitamio.MediaPlayer$OnSubtitleUpdateListener)
+    549:554:public void suspend()
+    606:608:public void setVolume(float,float)
+    611:611:public int getVideoWidth()
+    615:615:public int getVideoHeight()
+    619:619:public float getVideoAspectRatio()
+    623:625:public void setVideoQuality(int)
+    628:630:public void setBufferSize(int)
+    633:635:public boolean isBuffering()
+    639:641:public void setMetaEncoding(java.lang.String)
+    644:646:public java.lang.String getMetaEncoding()
+    650:652:public java.util.HashMap getAudioTrackMap(java.lang.String)
+    656:658:public int getAudioTrack()
+    662:664:public void setAudioTrack(int)
+    667:669:public void setSubShown(boolean)
+    672:674:public void setSubEncoding(java.lang.String)
+    677:679:public int getSubLocation()
+    683:685:public void setSubPath(java.lang.String)
+    688:690:public java.lang.String getSubPath()
+    694:696:public void setSubTrack(int)
+    699:701:public int getSubTrack()
+    705:707:public java.util.HashMap getSubTrackMap(java.lang.String)
+    721:721:public boolean canSeekBackward()
+    726:726:public boolean canSeekForward()
+net.sourceforge.pinyin4j.ChineseToPinyinResource$ChineseToPinyinResourceHolder:
+    private ChineseToPinyinResource$ChineseToPinyinResourceHolder()
+net.sourceforge.pinyin4j.ChineseToPinyinResource$Field
+net.sourceforge.pinyin4j.GwoyeuRomatzyhResource
+net.sourceforge.pinyin4j.GwoyeuRomatzyhResource$1
+net.sourceforge.pinyin4j.GwoyeuRomatzyhResource$GwoyeuRomatzyhSystemResourceHolder
+net.sourceforge.pinyin4j.GwoyeuRomatzyhTranslator
+net.sourceforge.pinyin4j.PinyinFormatter:
+    PinyinFormatter()
+net.sourceforge.pinyin4j.PinyinHelper:
+    public static java.lang.String[] toHanyuPinyinStringArray(char)
+    public static java.lang.String[] toTongyongPinyinStringArray(char)
+    public static java.lang.String[] toWadeGilesPinyinStringArray(char)
+    public static java.lang.String[] toMPS2PinyinStringArray(char)
+    public static java.lang.String[] toYalePinyinStringArray(char)
+    private static java.lang.String[] convertToTargetPinyinStringArray(char,net.sourceforge.pinyin4j.PinyinRomanizationType)
+    public static java.lang.String[] toGwoyeuRomatzyhStringArray(char)
+    private static java.lang.String[] convertToGwoyeuRomatzyhStringArray(char)
+    public static java.lang.String toHanyuPinyinString(java.lang.String,net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat,java.lang.String)
+    private static java.lang.String getFirstHanyuPinyinString(char,net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat)
+    private PinyinHelper()
+net.sourceforge.pinyin4j.PinyinRomanizationResource
+net.sourceforge.pinyin4j.PinyinRomanizationResource$1
+net.sourceforge.pinyin4j.PinyinRomanizationResource$PinyinRomanizationSystemResourceHolder
+net.sourceforge.pinyin4j.PinyinRomanizationTranslator
+net.sourceforge.pinyin4j.PinyinRomanizationType
+net.sourceforge.pinyin4j.TextHelper
+net.sourceforge.pinyin4j.format.HanyuPinyinCaseType:
+    public java.lang.String getName()
+net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat:
+    public void setVCharType(net.sourceforge.pinyin4j.format.HanyuPinyinVCharType)
+net.sourceforge.pinyin4j.format.HanyuPinyinToneType:
+    public java.lang.String getName()
+net.sourceforge.pinyin4j.format.HanyuPinyinVCharType:
+    public java.lang.String getName()
+net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination:
+    private static final long serialVersionUID
